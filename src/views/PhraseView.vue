@@ -69,11 +69,11 @@ function finish() {
 }
 
 function onTouchStart(e: TouchEvent) {
-  touchStartX.value = e.touches[0].clientX;
+  touchStartX.value = e.touches[0]!.clientX;
 }
 
 function onTouchEnd(e: TouchEvent) {
-  const dx = e.changedTouches[0].clientX - touchStartX.value;
+  const dx = e.changedTouches[0]!.clientX - touchStartX.value;
   if (Math.abs(dx) > 50) {
     if (dx > 0) prev();
     else next();

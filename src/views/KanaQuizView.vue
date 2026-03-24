@@ -25,7 +25,7 @@ function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
+    [a[i], a[j]] = [a[j]!, a[i]!];
   }
   return a;
 }
@@ -41,7 +41,7 @@ function startQuiz() {
 }
 
 function generateOptions() {
-  const correct = questions.value[currentIdx.value].romaji;
+  const correct = questions.value[currentIdx.value]!.romaji;
   const others = shuffle(
     allKana.value.filter((k) => k.romaji !== correct).map((k) => k.romaji),
   )
@@ -66,8 +66,8 @@ const wrongKana = computed(() =>
 function selectAnswer(romaji: string) {
   if (selected.value) return;
   selected.value = romaji;
-  const correct = romaji === current.value.romaji;
-  results.value.push({ kana: current.value.kana, correct });
+  const correct = romaji === current.value!.romaji;
+  results.value.push({ kana: current.value!.kana, correct });
 
   setTimeout(() => {
     if (currentIdx.value < TOTAL_QUESTIONS - 1) {
@@ -83,7 +83,7 @@ function selectAnswer(romaji: string) {
 function optionClass(romaji: string): string {
   if (!selected.value)
     return "bg-(--color-card) border border-(--color-border)";
-  if (romaji === current.value.romaji)
+  if (romaji === current.value!.romaji)
     return "bg-(--color-success)/10 border border-(--color-success) text-(--color-success)";
   if (romaji === selected.value)
     return "bg-red-50 border border-red-300 text-red-600";

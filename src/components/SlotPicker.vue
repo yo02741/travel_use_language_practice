@@ -38,7 +38,7 @@ function pick(label: string, index: number) {
       >
         <span class="font-medium">{{ slot.label }}</span>
         <span class="font-(--font-jp)">
-          {{ slot.options[props.selections[slot.label] ?? 0].japanese }}
+          {{ slot.options[props.selections[slot.label] ?? 0]?.japanese }}
         </span>
         <span class="text-[10px]">{{
           expandedSlot === slot.label ? "▲" : "▼"

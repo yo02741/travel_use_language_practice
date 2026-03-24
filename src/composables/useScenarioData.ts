@@ -17,10 +17,22 @@ export function useScenarioData() {
       ScenarioId,
       () => Promise<{ default: Conversation[] }>
     > = {
-      dining: () => import("@/data/scenarios/dining.json"),
-      accommodation: () => import("@/data/scenarios/accommodation.json"),
-      shopping: () => import("@/data/scenarios/shopping.json"),
-      transportation: () => import("@/data/scenarios/transportation.json"),
+      dining: () =>
+        import("@/data/scenarios/dining.json") as Promise<{
+          default: Conversation[];
+        }>,
+      accommodation: () =>
+        import("@/data/scenarios/accommodation.json") as Promise<{
+          default: Conversation[];
+        }>,
+      shopping: () =>
+        import("@/data/scenarios/shopping.json") as Promise<{
+          default: Conversation[];
+        }>,
+      transportation: () =>
+        import("@/data/scenarios/transportation.json") as Promise<{
+          default: Conversation[];
+        }>,
     };
     const mod = await modules[scenarioId]();
     cache.set(scenarioId, mod.default);

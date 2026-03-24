@@ -28,7 +28,7 @@ export function useSlotReplace(getPhrase: () => Phrase | undefined) {
       const selectedIdx = selections[slot.label] ?? 0;
       const selectedOpt = slot.options[selectedIdx];
 
-      if (selectedIdx !== 0) {
+      if (selectedIdx !== 0 && defaultOpt && selectedOpt) {
         jpText = jpText.replace(defaultOpt.japanese, selectedOpt.japanese);
         jpReading = jpReading.replace(defaultOpt.reading, selectedOpt.reading);
         jpRomaji = jpRomaji.replace(defaultOpt.romaji, selectedOpt.romaji);
