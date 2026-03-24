@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Rounded square background -->
+  <rect width="512" height="512" rx="102" ry="102" fill="#6B7B8D"/>
+
+  <!-- Speech bubble -->
+  <path d="M106 120 h300 a42 42 0 0 1 42 42 v160 a42 42 0 0 1 -42 42 h-160 l-54 58 v-58 h-86 a42 42 0 0 1 -42 -42 v-160 a42 42 0 0 1 42 -42 z" fill="white" opacity="0.95"/>
+
+  <!-- Torii gate inside speech bubble -->
+  <g fill="none" stroke="#6B7B8D" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Top beam (kasagi) - slightly curved -->
+    <path d="M180 180 Q256 164 332 180"/>
+    <!-- Second beam (nuki) -->
+    <line x1="188" y1="207" x2="324" y2="207"/>
+    <!-- Left pillar -->
+    <line x1="208" y1="207" x2="208" y2="314"/>
+    <!-- Right pillar -->
+    <line x1="304" y1="207" x2="304" y2="314"/>
+  </g>
+</svg>

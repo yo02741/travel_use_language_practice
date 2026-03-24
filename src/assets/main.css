@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif;
+  --font-jp: "Noto Sans JP", "Noto Sans TC", sans-serif;
+
+  --color-bg: #FAFAF8;
+  --color-text: #2C2C2C;
+  --color-text-secondary: #6B6B6B;
+  --color-border: #E8E8E4;
+  --color-card: #FFFFFF;
+
+  /* 場景主題色 */
+  --color-dining: #E87461;
+  --color-accommodation: #6B8FA3;
+  --color-shopping: #C084B6;
+  --color-transportation: #5BA37E;
+
+  /* 狀態色 */
+  --color-success: #5BA37E;
+  --color-warning: #E8A961;
+  --color-kana: #8B7EC8;
+}
+
+/* Dark mode overrides */
+.dark {
+  --color-bg: #2A2A2E;
+  --color-text: #EDEDEE;
+  --color-text-secondary: #A0A0A6;
+  --color-border: #3E3E44;
+  --color-card: #35353A;
+
+  --color-dining: #F08979;
+  --color-accommodation: #82A8BA;
+  --color-shopping: #D09BC8;
+  --color-transportation: #72B894;
+
+  --color-success: #72B894;
+  --color-warning: #F0BC78;
+  --color-kana: #A397D8;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Safe area for iPhone notch/dynamic island */
+.min-h-dvh {
+  min-height: 100dvh;
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Smooth page transitions */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.page-enter-from {
+  opacity: 0;
+  transform: translateX(12px);
+}
+
+.page-leave-to {
+  opacity: 0;
+  transform: translateX(-12px);
+}
