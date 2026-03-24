@@ -13,7 +13,9 @@ const { conversations, load } = useScenarioData();
 
 const scenarioId = computed(() => route.params.id as ScenarioId);
 const convIndex = computed(() => Number(route.params.n));
-const scenario = computed(() => SCENARIOS.find((s) => s.id === scenarioId.value));
+const scenario = computed(() =>
+  SCENARIOS.find((s) => s.id === scenarioId.value),
+);
 
 const revealedPhrases = ref<Set<number>>(new Set());
 const completed = ref(false);
@@ -31,7 +33,10 @@ function reveal(index: number) {
     );
     if (allRevealed) {
       completed.value = true;
-      progress.markConversationCompleted(scenarioId.value, conversation.value.id);
+      progress.markConversationCompleted(
+        scenarioId.value,
+        conversation.value.id,
+      );
     }
   }
 }
@@ -54,7 +59,9 @@ function goNext() {
 <template>
   <div v-if="conversation">
     <div class="flex items-center gap-2 mb-4">
-      <button class="text-(--color-text-secondary)" @click="goBack">← 返回</button>
+      <button class="text-(--color-text-secondary)" @click="goBack">
+        ← 返回
+      </button>
       <span class="text-sm text-(--color-text-secondary)">
         {{ scenario?.icon }} {{ conversation.title }}
       </span>
@@ -69,9 +76,11 @@ function goNext() {
       >
         <div
           class="max-w-[85%] rounded-2xl px-4 py-3"
-          :class="phrase.speaker === 'you'
-            ? 'bg-blue-50 dark:bg-blue-950 rounded-br-md'
-            : 'bg-orange-50 dark:bg-orange-950 rounded-bl-md'"
+          :class="
+            phrase.speaker === 'you'
+              ? 'bg-blue-50 dark:bg-blue-950 rounded-br-md'
+              : 'bg-orange-50 dark:bg-orange-950 rounded-bl-md'
+          "
         >
           <!-- Speaker label -->
           <div class="text-xs mb-1 opacity-60">
@@ -87,7 +96,9 @@ function goNext() {
               {{ phrase.japanese.romaji }}
             </div>
             <div class="text-sm mt-1">{{ phrase.english }}</div>
-            <div class="text-xs text-(--color-text-secondary) mt-0.5">{{ phrase.chinese }}</div>
+            <div class="text-xs text-(--color-text-secondary) mt-0.5">
+              {{ phrase.chinese }}
+            </div>
           </template>
 
           <!-- User phrases: hidden until tapped -->
@@ -100,7 +111,9 @@ function goNext() {
                 {{ phrase.japanese.romaji }}
               </div>
               <div class="text-sm mt-1">{{ phrase.english }}</div>
-              <div class="text-xs text-(--color-text-secondary) mt-0.5">{{ phrase.chinese }}</div>
+              <div class="text-xs text-(--color-text-secondary) mt-0.5">
+                {{ phrase.chinese }}
+              </div>
             </div>
             <button
               v-else
@@ -121,17 +134,23 @@ function goNext() {
     >
       <div class="text-2xl mb-2">🎉</div>
       <div class="font-bold text-lg mb-1">完成！</div>
-      <p class="text-sm text-(--color-text-secondary) mb-4">這組對話已標記為完成</p>
+      <p class="text-sm text-(--color-text-secondary) mb-4">
+        這組對話已標記為完成
+      </p>
       <div class="flex gap-3 justify-center">
         <button
           class="px-4 py-2 rounded-lg text-sm border border-(--color-border)"
           @click="goBack"
-        >回到列表</button>
+        >
+          回到列表
+        </button>
         <button
           v-if="convIndex < conversations.length - 1"
           class="px-4 py-2 rounded-lg text-sm bg-(--color-success) text-white"
           @click="goNext"
-        >下一組 →</button>
+        >
+          下一組 →
+        </button>
       </div>
     </div>
   </div>

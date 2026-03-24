@@ -15,7 +15,10 @@ function goHome() {
     <header
       class="sticky top-0 z-10 bg-(--color-bg)/80 backdrop-blur-sm border-b border-(--color-border) px-4 py-3 flex items-center justify-between"
     >
-      <button class="flex items-center gap-2 text-lg font-bold tracking-wide" @click="goHome">
+      <button
+        class="flex items-center gap-2 text-lg font-bold tracking-wide"
+        @click="goHome"
+      >
         <img src="/icons/icon-192.svg" alt="" class="w-7 h-7 rounded-lg" />
         旅語練習
       </button>
@@ -24,7 +27,7 @@ function goHome() {
         :title="theme.isDark ? '切換亮色模式' : '切換深色模式'"
         @click="theme.toggle()"
       >
-        {{ theme.isDark ? '☀️' : '🌙' }}
+        {{ theme.isDark ? "☀️" : "🌙" }}
       </button>
     </header>
 

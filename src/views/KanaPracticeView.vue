@@ -54,7 +54,12 @@ function markAndNext(level: "mastered" | "needs_work") {
 <template>
   <div>
     <div class="flex items-center gap-2 mb-4">
-      <button class="text-(--color-text-secondary)" @click="router.push('/kana')">← 返回</button>
+      <button
+        class="text-(--color-text-secondary)"
+        @click="router.push('/kana')"
+      >
+        ← 返回
+      </button>
       <span class="text-sm text-(--color-text-secondary)">
         {{ kanaType === "hiragana" ? "平假名" : "片假名" }}字卡
       </span>
@@ -78,8 +83,12 @@ function markAndNext(level: "mastered" | "needs_work") {
         <!-- Back -->
         <div v-else class="text-center">
           <div class="text-5xl font-(--font-jp) mb-2">{{ current.kana }}</div>
-          <div class="text-3xl font-bold text-(--color-kana) mb-2">{{ current.romaji }}</div>
-          <div class="text-sm text-(--color-text-secondary)">{{ current.row }}</div>
+          <div class="text-3xl font-bold text-(--color-kana) mb-2">
+            {{ current.romaji }}
+          </div>
+          <div class="text-sm text-(--color-text-secondary)">
+            {{ current.row }}
+          </div>
         </div>
       </button>
     </div>
@@ -89,11 +98,15 @@ function markAndNext(level: "mastered" | "needs_work") {
       <button
         class="flex-1 py-3 rounded-xl text-sm font-medium bg-(--color-warning)/10 text-(--color-warning) border border-(--color-warning)/20 active:scale-95 transition-transform"
         @click="markAndNext('needs_work')"
-      >😅 需加強</button>
+      >
+        😅 需加強
+      </button>
       <button
         class="flex-1 py-3 rounded-xl text-sm font-medium bg-(--color-success)/10 text-(--color-success) border border-(--color-success)/20 active:scale-95 transition-transform"
         @click="markAndNext('mastered')"
-      >✓ 已熟悉</button>
+      >
+        ✓ 已熟悉
+      </button>
     </div>
   </div>
 </template>

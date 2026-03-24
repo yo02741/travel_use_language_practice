@@ -29,16 +29,20 @@ function pick(label: string, index: number) {
       <!-- Slot label + current selection -->
       <button
         class="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full border transition-colors"
-        :class="expandedSlot === slot.label
-          ? 'border-blue-300 bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300 dark:border-blue-700'
-          : 'border-(--color-border) bg-(--color-card) text-(--color-text-secondary)'"
+        :class="
+          expandedSlot === slot.label
+            ? 'border-blue-300 bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300 dark:border-blue-700'
+            : 'border-(--color-border) bg-(--color-card) text-(--color-text-secondary)'
+        "
         @click="toggle(slot.label)"
       >
         <span class="font-medium">{{ slot.label }}</span>
         <span class="font-(--font-jp)">
           {{ slot.options[props.selections[slot.label] ?? 0].japanese }}
         </span>
-        <span class="text-[10px]">{{ expandedSlot === slot.label ? '▲' : '▼' }}</span>
+        <span class="text-[10px]">{{
+          expandedSlot === slot.label ? "▲" : "▼"
+        }}</span>
       </button>
 
       <!-- Options dropdown (absolute overlay) -->
@@ -50,20 +54,28 @@ function pick(label: string, index: number) {
           v-for="(opt, idx) in slot.options"
           :key="idx"
           class="w-full text-left px-3 py-2.5 border-b border-(--color-border) last:border-b-0 transition-colors"
-          :class="(props.selections[slot.label] ?? 0) === idx
-            ? 'bg-blue-50 dark:bg-blue-900/30'
-            : 'hover:bg-gray-50 active:bg-gray-100 dark:hover:bg-gray-700/30 dark:active:bg-gray-700/50'"
+          :class="
+            (props.selections[slot.label] ?? 0) === idx
+              ? 'bg-blue-50 dark:bg-blue-900/30'
+              : 'hover:bg-gray-50 active:bg-gray-100 dark:hover:bg-gray-700/30 dark:active:bg-gray-700/50'
+          "
           @click="pick(slot.label, idx)"
         >
           <div class="flex items-center gap-2">
             <span
               v-if="(props.selections[slot.label] ?? 0) === idx"
               class="text-blue-500 dark:text-blue-400 text-xs"
-            >✓</span>
+              >✓</span
+            >
             <div class="flex-1">
               <div class="flex items-baseline gap-2">
-                <span class="font-(--font-jp) font-medium text-(--color-text)">{{ opt.japanese }}</span>
-                <span class="text-[11px] text-(--color-text-secondary)">{{ opt.romaji }}</span>
+                <span
+                  class="font-(--font-jp) font-medium text-(--color-text)"
+                  >{{ opt.japanese }}</span
+                >
+                <span class="text-[11px] text-(--color-text-secondary)">{{
+                  opt.romaji
+                }}</span>
               </div>
               <div class="text-xs text-(--color-text-secondary)">
                 {{ opt.english }} · {{ opt.chinese }}

@@ -59,11 +59,18 @@ export const useProgressStore = defineStore("progress", () => {
 
   function scenarioProgress(scenarioId: ScenarioId, total: number) {
     const completed = completedConversations(scenarioId).length;
-    return { completed, total, percent: total > 0 ? Math.round((completed / total) * 100) : 0 };
+    return {
+      completed,
+      total,
+      percent: total > 0 ? Math.round((completed / total) * 100) : 0,
+    };
   }
 
   // Phrase familiarity
-  function isPhraseFamiliar(scenarioId: ScenarioId, phraseKey: string): boolean {
+  function isPhraseFamiliar(
+    scenarioId: ScenarioId,
+    phraseKey: string,
+  ): boolean {
     return (data.value.phraseFamiliarity[scenarioId] ?? []).includes(phraseKey);
   }
 

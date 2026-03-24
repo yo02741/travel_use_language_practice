@@ -9,11 +9,15 @@ const progress = useProgressStore();
 <template>
   <div>
     <div class="flex items-center gap-2 mb-4">
-      <button class="text-(--color-text-secondary)" @click="router.push('/')">← 返回</button>
+      <button class="text-(--color-text-secondary)" @click="router.push('/')">
+        ← 返回
+      </button>
     </div>
 
     <h2 class="text-xl font-bold mb-1">五十音練習</h2>
-    <p class="text-sm text-(--color-text-secondary) mb-5">字卡記憶、總覽表、隨機測驗</p>
+    <p class="text-sm text-(--color-text-secondary) mb-5">
+      字卡記憶、總覽表、隨機測驗
+    </p>
 
     <div class="space-y-3">
       <!-- Flashcard practice -->
@@ -40,7 +44,9 @@ const progress = useProgressStore();
           <span class="text-2xl">ア</span>
           <div>
             <div class="font-bold">片假名字卡</div>
-            <div class="text-xs text-(--color-text-secondary)">翻轉記憶練習</div>
+            <div class="text-xs text-(--color-text-secondary)">
+              翻轉記憶練習
+            </div>
           </div>
         </div>
       </button>
@@ -54,7 +60,9 @@ const progress = useProgressStore();
           <span class="text-2xl">📊</span>
           <div>
             <div class="font-bold">五十音總覽表</div>
-            <div class="text-xs text-(--color-text-secondary)">傳統行段排列，查看熟練度</div>
+            <div class="text-xs text-(--color-text-secondary)">
+              傳統行段排列，查看熟練度
+            </div>
           </div>
         </div>
       </button>
@@ -68,7 +76,9 @@ const progress = useProgressStore();
           <span class="text-2xl">🎯</span>
           <div>
             <div class="font-bold">隨機測驗</div>
-            <div class="text-xs text-(--color-text-secondary)">20 題隨機出題，即時回饋</div>
+            <div class="text-xs text-(--color-text-secondary)">
+              20 題隨機出題，即時回饋
+            </div>
           </div>
         </div>
       </button>

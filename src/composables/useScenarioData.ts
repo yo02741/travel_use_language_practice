@@ -13,7 +13,10 @@ export function useScenarioData() {
       return;
     }
     loading.value = true;
-    const modules: Record<ScenarioId, () => Promise<{ default: Conversation[] }>> = {
+    const modules: Record<
+      ScenarioId,
+      () => Promise<{ default: Conversation[] }>
+    > = {
       dining: () => import("@/data/scenarios/dining.json"),
       accommodation: () => import("@/data/scenarios/accommodation.json"),
       shopping: () => import("@/data/scenarios/shopping.json"),

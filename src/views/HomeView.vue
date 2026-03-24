@@ -41,7 +41,9 @@ function resetAll() {
           <div class="text-xs text-(--color-text-secondary)">
             {{ progress.scenarioProgress(s.id, 30).completed }}/30 完成
           </div>
-          <div class="mt-2 h-1.5 rounded-full bg-(--color-border) overflow-hidden">
+          <div
+            class="mt-2 h-1.5 rounded-full bg-(--color-border) overflow-hidden"
+          >
             <div
               class="h-full rounded-full transition-all duration-300"
               :style="{
@@ -75,7 +77,9 @@ function resetAll() {
       <button
         class="text-xs text-(--color-text-secondary) underline"
         @click="resetAll"
-      >重置全部進度</button>
+      >
+        重置全部進度
+      </button>
     </section>
   </div>
 </template>

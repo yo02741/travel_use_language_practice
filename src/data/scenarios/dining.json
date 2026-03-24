@@ -6,55 +6,135 @@
     "phrases": [
       {
         "speaker": "staff",
-        "japanese": { "text": "いらっしゃいませ！何名様ですか？", "reading": "いらっしゃいませ！なんめいさまですか？", "romaji": "irasshaimase! nanmeisama desu ka?" },
+        "japanese": {
+          "text": "いらっしゃいませ！何名様ですか？",
+          "reading": "いらっしゃいませ！なんめいさまですか？",
+          "romaji": "irasshaimase! nanmeisama desu ka?"
+        },
         "english": "Welcome! How many in your party?",
         "chinese": "歡迎光臨！請問幾位？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "一人です。", "reading": "ひとりです。", "romaji": "hitori desu." },
+        "japanese": {
+          "text": "一人です。",
+          "reading": "ひとりです。",
+          "romaji": "hitori desu."
+        },
         "english": "Just one.",
         "chinese": "一個人。",
         "slots": [
           {
             "label": "人數",
             "options": [
-              { "japanese": "一人", "reading": "ひとり", "romaji": "hitori", "english": "one", "chinese": "一個人" },
-              { "japanese": "二人", "reading": "ふたり", "romaji": "futari", "english": "two", "chinese": "兩個人" },
-              { "japanese": "三人", "reading": "さんにん", "romaji": "sannin", "english": "three", "chinese": "三個人" },
-              { "japanese": "四人", "reading": "よにん", "romaji": "yonin", "english": "four", "chinese": "四個人" },
-              { "japanese": "五人", "reading": "ごにん", "romaji": "gonin", "english": "five", "chinese": "五個人" }
+              {
+                "japanese": "一人",
+                "reading": "ひとり",
+                "romaji": "hitori",
+                "english": "one",
+                "chinese": "一個人"
+              },
+              {
+                "japanese": "二人",
+                "reading": "ふたり",
+                "romaji": "futari",
+                "english": "two",
+                "chinese": "兩個人"
+              },
+              {
+                "japanese": "三人",
+                "reading": "さんにん",
+                "romaji": "sannin",
+                "english": "three",
+                "chinese": "三個人"
+              },
+              {
+                "japanese": "四人",
+                "reading": "よにん",
+                "romaji": "yonin",
+                "english": "four",
+                "chinese": "四個人"
+              },
+              {
+                "japanese": "五人",
+                "reading": "ごにん",
+                "romaji": "gonin",
+                "english": "five",
+                "chinese": "五個人"
+              }
             ]
           }
         ]
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "カウンター席へどうぞ。", "reading": "かうんたーせきへどうぞ。", "romaji": "kauntaa seki e douzo." },
+        "japanese": {
+          "text": "カウンター席へどうぞ。",
+          "reading": "かうんたーせきへどうぞ。",
+          "romaji": "kauntaa seki e douzo."
+        },
         "english": "Please have a seat at the counter.",
         "chinese": "請坐吧台座位。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "味噌ラーメンをください。", "reading": "みそらーめんをください。", "romaji": "miso raamen o kudasai." },
+        "japanese": {
+          "text": "味噌ラーメンをください。",
+          "reading": "みそらーめんをください。",
+          "romaji": "miso raamen o kudasai."
+        },
         "english": "I'll have the miso ramen, please.",
         "chinese": "請給我味噌拉麵。",
         "slots": [
           {
             "label": "拉麵種類",
             "options": [
-              { "japanese": "味噌ラーメン", "reading": "みそらーめん", "romaji": "miso raamen", "english": "miso ramen", "chinese": "味噌拉麵" },
-              { "japanese": "豚骨ラーメン", "reading": "とんこつらーめん", "romaji": "tonkotsu raamen", "english": "pork bone ramen", "chinese": "豚骨拉麵" },
-              { "japanese": "醤油ラーメン", "reading": "しょうゆらーめん", "romaji": "shouyu raamen", "english": "soy sauce ramen", "chinese": "醬油拉麵" },
-              { "japanese": "塩ラーメン", "reading": "しおらーめん", "romaji": "shio raamen", "english": "salt ramen", "chinese": "鹽味拉麵" },
-              { "japanese": "つけ麺", "reading": "つけめん", "romaji": "tsukemen", "english": "dipping noodles", "chinese": "沾麵" }
+              {
+                "japanese": "味噌ラーメン",
+                "reading": "みそらーめん",
+                "romaji": "miso raamen",
+                "english": "miso ramen",
+                "chinese": "味噌拉麵"
+              },
+              {
+                "japanese": "豚骨ラーメン",
+                "reading": "とんこつらーめん",
+                "romaji": "tonkotsu raamen",
+                "english": "pork bone ramen",
+                "chinese": "豚骨拉麵"
+              },
+              {
+                "japanese": "醤油ラーメン",
+                "reading": "しょうゆらーめん",
+                "romaji": "shouyu raamen",
+                "english": "soy sauce ramen",
+                "chinese": "醬油拉麵"
+              },
+              {
+                "japanese": "塩ラーメン",
+                "reading": "しおらーめん",
+                "romaji": "shio raamen",
+                "english": "salt ramen",
+                "chinese": "鹽味拉麵"
+              },
+              {
+                "japanese": "つけ麺",
+                "reading": "つけめん",
+                "romaji": "tsukemen",
+                "english": "dipping noodles",
+                "chinese": "沾麵"
+              }
             ]
           }
         ]
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "かしこまりました。少々お待ちください。", "reading": "かしこまりました。しょうしょうおまちください。", "romaji": "kashikomarimashita. shoushou omachi kudasai." },
+        "japanese": {
+          "text": "かしこまりました。少々お待ちください。",
+          "reading": "かしこまりました。しょうしょうおまちください。",
+          "romaji": "kashikomarimashita. shoushou omachi kudasai."
+        },
         "english": "Certainly. Please wait a moment.",
         "chinese": "好的，請稍等。"
       }
@@ -67,41 +147,85 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、これは何ですか？", "reading": "すみません、これはなんですか？", "romaji": "sumimasen, kore wa nan desu ka?" },
+        "japanese": {
+          "text": "すみません、これは何ですか？",
+          "reading": "すみません、これはなんですか？",
+          "romaji": "sumimasen, kore wa nan desu ka?"
+        },
         "english": "Excuse me, what is this?",
         "chinese": "不好意思，這是什麼？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "こちらは豚の生姜焼き定食です。", "reading": "こちらはぶたのしょうがやきていしょくです。", "romaji": "kochira wa buta no shougayaki teishoku desu." },
+        "japanese": {
+          "text": "こちらは豚の生姜焼き定食です。",
+          "reading": "こちらはぶたのしょうがやきていしょくです。",
+          "romaji": "kochira wa buta no shougayaki teishoku desu."
+        },
         "english": "This is the ginger pork set meal.",
         "chinese": "這是薑燒豬肉定食。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "じゃあ、これをください。", "reading": "じゃあ、これをください。", "romaji": "jaa, kore o kudasai." },
+        "japanese": {
+          "text": "じゃあ、これをください。",
+          "reading": "じゃあ、これをください。",
+          "romaji": "jaa, kore o kudasai."
+        },
         "english": "Then I'll have this one, please.",
         "chinese": "那請給我這個。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "お飲み物はいかがですか？", "reading": "おのみものはいかがですか？", "romaji": "onomimono wa ikaga desu ka?" },
+        "japanese": {
+          "text": "お飲み物はいかがですか？",
+          "reading": "おのみものはいかがですか？",
+          "romaji": "onomimono wa ikaga desu ka?"
+        },
         "english": "Would you like something to drink?",
         "chinese": "請問要飲料嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "お水をお願いします。", "reading": "おみずをおねがいします。", "romaji": "omizu o onegaishimasu." },
+        "japanese": {
+          "text": "お水をお願いします。",
+          "reading": "おみずをおねがいします。",
+          "romaji": "omizu o onegaishimasu."
+        },
         "english": "Water, please.",
         "chinese": "請給我水。",
         "slots": [
           {
             "label": "飲料",
             "options": [
-              { "japanese": "お水", "reading": "おみず", "romaji": "omizu", "english": "Water", "chinese": "水" },
-              { "japanese": "お茶", "reading": "おちゃ", "romaji": "ocha", "english": "Tea", "chinese": "茶" },
-              { "japanese": "ビール", "reading": "びーる", "romaji": "biiru", "english": "Beer", "chinese": "啤酒" },
-              { "japanese": "コーラ", "reading": "こーら", "romaji": "koora", "english": "Cola", "chinese": "可樂" }
+              {
+                "japanese": "お水",
+                "reading": "おみず",
+                "romaji": "omizu",
+                "english": "Water",
+                "chinese": "水"
+              },
+              {
+                "japanese": "お茶",
+                "reading": "おちゃ",
+                "romaji": "ocha",
+                "english": "Tea",
+                "chinese": "茶"
+              },
+              {
+                "japanese": "ビール",
+                "reading": "びーる",
+                "romaji": "biiru",
+                "english": "Beer",
+                "chinese": "啤酒"
+              },
+              {
+                "japanese": "コーラ",
+                "reading": "こーら",
+                "romaji": "koora",
+                "english": "Cola",
+                "chinese": "可樂"
+              }
             ]
           }
         ]
@@ -115,37 +239,61 @@
     "phrases": [
       {
         "speaker": "staff",
-        "japanese": { "text": "ご注文はお決まりですか？", "reading": "ごちゅうもんはおきまりですか？", "romaji": "gochuumon wa okimari desu ka?" },
+        "japanese": {
+          "text": "ご注文はお決まりですか？",
+          "reading": "ごちゅうもんはおきまりですか？",
+          "romaji": "gochuumon wa okimari desu ka?"
+        },
         "english": "Are you ready to order?",
         "chinese": "請問要點餐了嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "チーズバーガーのセットをください。", "reading": "ちーずばーがーのせっとをください。", "romaji": "chiizubaagaa no setto o kudasai." },
+        "japanese": {
+          "text": "チーズバーガーのセットをください。",
+          "reading": "ちーずばーがーのせっとをください。",
+          "romaji": "chiizubaagaa no setto o kudasai."
+        },
         "english": "I'll have the cheeseburger combo, please.",
         "chinese": "請給我起司漢堡套餐。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "サイズはいかがなさいますか？", "reading": "さいずはいかがなさいますか？", "romaji": "saizu wa ikaga nasaimasu ka?" },
+        "japanese": {
+          "text": "サイズはいかがなさいますか？",
+          "reading": "さいずはいかがなさいますか？",
+          "romaji": "saizu wa ikaga nasaimasu ka?"
+        },
         "english": "What size would you like?",
         "chinese": "請問要什麼尺寸？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "Mサイズでお願いします。", "reading": "えむさいずでおねがいします。", "romaji": "emu saizu de onegaishimasu." },
+        "japanese": {
+          "text": "Mサイズでお願いします。",
+          "reading": "えむさいずでおねがいします。",
+          "romaji": "emu saizu de onegaishimasu."
+        },
         "english": "Medium, please.",
         "chinese": "M號，麻煩你。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "店内でお召し上がりですか？お持ち帰りですか？", "reading": "てんないでおめしあがりですか？おもちかえりですか？", "romaji": "tennai de omeshiagari desu ka? omochikaeri desu ka?" },
+        "japanese": {
+          "text": "店内でお召し上がりですか？お持ち帰りですか？",
+          "reading": "てんないでおめしあがりですか？おもちかえりですか？",
+          "romaji": "tennai de omeshiagari desu ka? omochikaeri desu ka?"
+        },
         "english": "For here or to go?",
         "chinese": "內用還是外帶？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "持ち帰りで。", "reading": "もちかえりで。", "romaji": "mochikaeri de." },
+        "japanese": {
+          "text": "持ち帰りで。",
+          "reading": "もちかえりで。",
+          "romaji": "mochikaeri de."
+        },
         "english": "To go, please.",
         "chinese": "外帶。"
       }
@@ -158,25 +306,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "アイスコーヒーを一つお願いします。", "reading": "あいすこーひーをひとつおねがいします。", "romaji": "aisu koohii o hitotsu onegaishimasu." },
+        "japanese": {
+          "text": "アイスコーヒーを一つお願いします。",
+          "reading": "あいすこーひーをひとつおねがいします。",
+          "romaji": "aisu koohii o hitotsu onegaishimasu."
+        },
         "english": "One iced coffee, please.",
         "chinese": "請給我一杯冰咖啡。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "サイズはSとMがございますが。", "reading": "さいずはえすとえむがございますが。", "romaji": "saizu wa esu to emu ga gozaimasu ga." },
+        "japanese": {
+          "text": "サイズはSとMがございますが。",
+          "reading": "さいずはえすとえむがございますが。",
+          "romaji": "saizu wa esu to emu ga gozaimasu ga."
+        },
         "english": "We have small and medium sizes.",
         "chinese": "我們有S和M兩種尺寸。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "Sでいいです。あと、このケーキもください。", "reading": "えすでいいです。あと、このけーきもください。", "romaji": "esu de ii desu. ato, kono keeki mo kudasai." },
+        "japanese": {
+          "text": "Sでいいです。あと、このケーキもください。",
+          "reading": "えすでいいです。あと、このけーきもください。",
+          "romaji": "esu de ii desu. ato, kono keeki mo kudasai."
+        },
         "english": "Small is fine. Also, I'd like this cake too.",
         "chinese": "S就好。另外，也請給我這個蛋糕。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "かしこまりました。お席でお待ちください。", "reading": "かしこまりました。おせきでおまちください。", "romaji": "kashikomarimashita. oseki de omachi kudasai." },
+        "japanese": {
+          "text": "かしこまりました。お席でお待ちください。",
+          "reading": "かしこまりました。おせきでおまちください。",
+          "romaji": "kashikomarimashita. oseki de omachi kudasai."
+        },
         "english": "Certainly. Please wait at your seat.",
         "chinese": "好的，請在座位上稍候。"
       }
@@ -189,31 +353,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "このお弁当、温めてもらえますか？", "reading": "このおべんとう、あたためてもらえますか？", "romaji": "kono obentou, atatamete moraemasu ka?" },
+        "japanese": {
+          "text": "このお弁当、温めてもらえますか？",
+          "reading": "このおべんとう、あたためてもらえますか？",
+          "romaji": "kono obentou, atatamete moraemasu ka?"
+        },
         "english": "Could you heat up this bento for me?",
         "chinese": "這個便當可以幫我加熱嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、温めますね。お箸はお付けしますか？", "reading": "はい、あたためますね。おはしはおつけしますか？", "romaji": "hai, atatamemasu ne. ohashi wa otsuke shimasu ka?" },
+        "japanese": {
+          "text": "はい、温めますね。お箸はお付けしますか？",
+          "reading": "はい、あたためますね。おはしはおつけしますか？",
+          "romaji": "hai, atatamemasu ne. ohashi wa otsuke shimasu ka?"
+        },
         "english": "Sure, I'll heat it up. Would you like chopsticks?",
         "chinese": "好的，幫您加熱。需要附筷子嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "はい、お願いします。", "reading": "はい、おねがいします。", "romaji": "hai, onegaishimasu." },
+        "japanese": {
+          "text": "はい、お願いします。",
+          "reading": "はい、おねがいします。",
+          "romaji": "hai, onegaishimasu."
+        },
         "english": "Yes, please.",
         "chinese": "好的，麻煩你。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "袋はご利用ですか？", "reading": "ふくろはごりようですか？", "romaji": "fukuro wa goriyou desu ka?" },
+        "japanese": {
+          "text": "袋はご利用ですか？",
+          "reading": "ふくろはごりようですか？",
+          "romaji": "fukuro wa goriyou desu ka?"
+        },
         "english": "Would you like a bag?",
         "chinese": "需要袋子嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "大丈夫です。ありがとうございます。", "reading": "だいじょうぶです。ありがとうございます。", "romaji": "daijoubu desu. arigatou gozaimasu." },
+        "japanese": {
+          "text": "大丈夫です。ありがとうございます。",
+          "reading": "だいじょうぶです。ありがとうございます。",
+          "romaji": "daijoubu desu. arigatou gozaimasu."
+        },
         "english": "No, that's fine. Thank you.",
         "chinese": "不用了，謝謝。"
       }
@@ -226,31 +410,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、メニューをお願いします。", "reading": "すみません、めにゅーをおねがいします。", "romaji": "sumimasen, menyuu o onegaishimasu." },
+        "japanese": {
+          "text": "すみません、メニューをお願いします。",
+          "reading": "すみません、めにゅーをおねがいします。",
+          "romaji": "sumimasen, menyuu o onegaishimasu."
+        },
         "english": "Excuse me, could I see the menu, please?",
         "chinese": "不好意思，請給我菜單。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、どうぞ。本日のおすすめはハンバーグです。", "reading": "はい、どうぞ。ほんじつのおすすめははんばーぐです。", "romaji": "hai, douzo. honjitsu no osusume wa hanbaagu desu." },
+        "japanese": {
+          "text": "はい、どうぞ。本日のおすすめはハンバーグです。",
+          "reading": "はい、どうぞ。ほんじつのおすすめははんばーぐです。",
+          "romaji": "hai, douzo. honjitsu no osusume wa hanbaagu desu."
+        },
         "english": "Here you go. Today's special is the hamburger steak.",
         "chinese": "好的，請。今天的推薦是漢堡排。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "じゃあ、それをお願いします。", "reading": "じゃあ、それをおねがいします。", "romaji": "jaa, sore o onegaishimasu." },
+        "japanese": {
+          "text": "じゃあ、それをお願いします。",
+          "reading": "じゃあ、それをおねがいします。",
+          "romaji": "jaa, sore o onegaishimasu."
+        },
         "english": "I'll go with that then.",
         "chinese": "那我要那個。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "ライスとパン、どちらになさいますか？", "reading": "らいすとぱん、どちらになさいますか？", "romaji": "raisu to pan, dochira ni nasaimasu ka?" },
+        "japanese": {
+          "text": "ライスとパン、どちらになさいますか？",
+          "reading": "らいすとぱん、どちらになさいますか？",
+          "romaji": "raisu to pan, dochira ni nasaimasu ka?"
+        },
         "english": "Would you like rice or bread?",
         "chinese": "要飯還是麵包？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "ライスでお願いします。", "reading": "らいすでおねがいします。", "romaji": "raisu de onegaishimasu." },
+        "japanese": {
+          "text": "ライスでお願いします。",
+          "reading": "らいすでおねがいします。",
+          "romaji": "raisu de onegaishimasu."
+        },
         "english": "Rice, please.",
         "chinese": "白飯，麻煩你。"
       }
@@ -263,25 +467,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "たこ焼き、八個入りをください。", "reading": "たこやき、はちこいりをください。", "romaji": "takoyaki, hachiko iri o kudasai." },
+        "japanese": {
+          "text": "たこ焼き、八個入りをください。",
+          "reading": "たこやき、はちこいりをください。",
+          "romaji": "takoyaki, hachiko iri o kudasai."
+        },
         "english": "I'd like an eight-piece takoyaki, please.",
         "chinese": "請給我八顆裝的章魚燒。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "ソースとマヨネーズはかけますか？", "reading": "そーすとまよねーずはかけますか？", "romaji": "soosu to mayoneezu wa kakemasu ka?" },
+        "japanese": {
+          "text": "ソースとマヨネーズはかけますか？",
+          "reading": "そーすとまよねーずはかけますか？",
+          "romaji": "soosu to mayoneezu wa kakemasu ka?"
+        },
         "english": "Would you like sauce and mayo on top?",
         "chinese": "要淋醬料和美乃滋嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "両方お願いします。", "reading": "りょうほうおねがいします。", "romaji": "ryouhou onegaishimasu." },
+        "japanese": {
+          "text": "両方お願いします。",
+          "reading": "りょうほうおねがいします。",
+          "romaji": "ryouhou onegaishimasu."
+        },
         "english": "Both, please.",
         "chinese": "兩個都要。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "五百円になります。", "reading": "ごひゃくえんになります。", "romaji": "gohyaku en ni narimasu." },
+        "japanese": {
+          "text": "五百円になります。",
+          "reading": "ごひゃくえんになります。",
+          "romaji": "gohyaku en ni narimasu."
+        },
         "english": "That'll be 500 yen.",
         "chinese": "總共五百日圓。"
       }
@@ -294,25 +514,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、食券機の使い方がわかりません。", "reading": "すみません、しょっけんきのつかいかたがわかりません。", "romaji": "sumimasen, shokkennki no tsukaikata ga wakarimasen." },
+        "japanese": {
+          "text": "すみません、食券機の使い方がわかりません。",
+          "reading": "すみません、しょっけんきのつかいかたがわかりません。",
+          "romaji": "sumimasen, shokkennki no tsukaikata ga wakarimasen."
+        },
         "english": "Excuse me, I don't know how to use the ticket machine.",
         "chinese": "不好意思，我不會用食券機。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "お金を先に入れて、ボタンを押してください。", "reading": "おかねをさきにいれて、ぼたんをおしてください。", "romaji": "okane o saki ni irete, botan o oshite kudasai." },
+        "japanese": {
+          "text": "お金を先に入れて、ボタンを押してください。",
+          "reading": "おかねをさきにいれて、ぼたんをおしてください。",
+          "romaji": "okane o saki ni irete, botan o oshite kudasai."
+        },
         "english": "Put in money first, then press the button.",
         "chinese": "先投錢，再按按鈕。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "この一番人気はどれですか？", "reading": "このいちばんにんきはどれですか？", "romaji": "kono ichiban ninki wa dore desu ka?" },
+        "japanese": {
+          "text": "この一番人気はどれですか？",
+          "reading": "このいちばんにんきはどれですか？",
+          "romaji": "kono ichiban ninki wa dore desu ka?"
+        },
         "english": "Which one is the most popular?",
         "chinese": "最受歡迎的是哪一個？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "こちらの特製ラーメンが一番人気です。", "reading": "こちらのとくせいらーめんがいちばんにんきです。", "romaji": "kochira no tokusei raamen ga ichiban ninki desu." },
+        "japanese": {
+          "text": "こちらの特製ラーメンが一番人気です。",
+          "reading": "こちらのとくせいらーめんがいちばんにんきです。",
+          "romaji": "kochira no tokusei raamen ga ichiban ninki desu."
+        },
         "english": "This special ramen is the most popular.",
         "chinese": "這個特製拉麵最受歡迎。"
       }
@@ -325,25 +561,41 @@
     "phrases": [
       {
         "speaker": "staff",
-        "japanese": { "text": "お飲み物のご注文はいかがですか？", "reading": "おのみもののごちゅうもんはいかがですか？", "romaji": "onomimono no gochuumon wa ikaga desu ka?" },
+        "japanese": {
+          "text": "お飲み物のご注文はいかがですか？",
+          "reading": "おのみもののごちゅうもんはいかがですか？",
+          "romaji": "onomimono no gochuumon wa ikaga desu ka?"
+        },
         "english": "Would you like to order any drinks?",
         "chinese": "請問要點飲料嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "生ビールを一つください。", "reading": "なまびーるをひとつください。", "romaji": "nama biiru o hitotsu kudasai." },
+        "japanese": {
+          "text": "生ビールを一つください。",
+          "reading": "なまびーるをひとつください。",
+          "romaji": "nama biiru o hitotsu kudasai."
+        },
         "english": "One draft beer, please.",
         "chinese": "請給我一杯生啤酒。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "かしこまりました。お食事のご注文もよろしいですか？", "reading": "かしこまりました。おしょくじのごちゅうもんもよろしいですか？", "romaji": "kashikomarimashita. oshokuji no gochuumon mo yoroshii desu ka?" },
+        "japanese": {
+          "text": "かしこまりました。お食事のご注文もよろしいですか？",
+          "reading": "かしこまりました。おしょくじのごちゅうもんもよろしいですか？",
+          "romaji": "kashikomarimashita. oshokuji no gochuumon mo yoroshii desu ka?"
+        },
         "english": "Certainly. Would you like to order food as well?",
         "chinese": "好的。餐點也要一起點嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "もう少し待ってください。", "reading": "もうすこしまってください。", "romaji": "mou sukoshi matte kudasai." },
+        "japanese": {
+          "text": "もう少し待ってください。",
+          "reading": "もうすこしまってください。",
+          "romaji": "mou sukoshi matte kudasai."
+        },
         "english": "Give me a little more time, please.",
         "chinese": "請再等一下。"
       }
@@ -356,25 +608,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "サーモンとマグロを一皿ずつください。", "reading": "さーもんとまぐろをひとさらずつください。", "romaji": "saamon to maguro o hitosara zutsu kudasai." },
+        "japanese": {
+          "text": "サーモンとマグロを一皿ずつください。",
+          "reading": "さーもんとまぐろをひとさらずつください。",
+          "romaji": "saamon to maguro o hitosara zutsu kudasai."
+        },
         "english": "One plate each of salmon and tuna, please.",
         "chinese": "鮭魚和鮪魚請各給我一盤。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい。わさびはお付けしますか？", "reading": "はい。わさびはおつけしますか？", "romaji": "hai. wasabi wa otsuke shimasu ka?" },
+        "japanese": {
+          "text": "はい。わさびはお付けしますか？",
+          "reading": "はい。わさびはおつけしますか？",
+          "romaji": "hai. wasabi wa otsuke shimasu ka?"
+        },
         "english": "Sure. Would you like wasabi?",
         "chinese": "好的。要加芥末嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "わさび抜きでお願いします。", "reading": "わさびぬきでおねがいします。", "romaji": "wasabi nuki de onegaishimasu." },
+        "japanese": {
+          "text": "わさび抜きでお願いします。",
+          "reading": "わさびぬきでおねがいします。",
+          "romaji": "wasabi nuki de onegaishimasu."
+        },
         "english": "Without wasabi, please.",
         "chinese": "不要芥末，麻煩你。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "かしこまりました。", "reading": "かしこまりました。", "romaji": "kashikomarimashita." },
+        "japanese": {
+          "text": "かしこまりました。",
+          "reading": "かしこまりました。",
+          "romaji": "kashikomarimashita."
+        },
         "english": "Understood.",
         "chinese": "好的。"
       }
@@ -387,25 +655,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、お会計お願いします。", "reading": "すみません、おかいけいおねがいします。", "romaji": "sumimasen, okaikei onegaishimasu." },
+        "japanese": {
+          "text": "すみません、お会計お願いします。",
+          "reading": "すみません、おかいけいおねがいします。",
+          "romaji": "sumimasen, okaikei onegaishimasu."
+        },
         "english": "Excuse me, the check please.",
         "chinese": "不好意思，請結帳。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "合計で千五百円になります。", "reading": "ごうけいでせんごひゃくえんになります。", "romaji": "goukei de sengohyaku en ni narimasu." },
+        "japanese": {
+          "text": "合計で千五百円になります。",
+          "reading": "ごうけいでせんごひゃくえんになります。",
+          "romaji": "goukei de sengohyaku en ni narimasu."
+        },
         "english": "The total is 1,500 yen.",
         "chinese": "總共一千五百日圓。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "カードで払えますか？", "reading": "かーどではらえますか？", "romaji": "kaado de haraemasu ka?" },
+        "japanese": {
+          "text": "カードで払えますか？",
+          "reading": "かーどではらえますか？",
+          "romaji": "kaado de haraemasu ka?"
+        },
         "english": "Can I pay by card?",
         "chinese": "可以刷卡嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、大丈夫です。こちらにどうぞ。", "reading": "はい、だいじょうぶです。こちらにどうぞ。", "romaji": "hai, daijoubu desu. kochira ni douzo." },
+        "japanese": {
+          "text": "はい、大丈夫です。こちらにどうぞ。",
+          "reading": "はい、だいじょうぶです。こちらにどうぞ。",
+          "romaji": "hai, daijoubu desu. kochira ni douzo."
+        },
         "english": "Yes, that's fine. Please go ahead here.",
         "chinese": "可以的，請這邊。"
       }
@@ -418,25 +702,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "焼き鳥を三本ください。塩で。", "reading": "やきとりをさんぼんください。しおで。", "romaji": "yakitori o sanbon kudasai. shio de." },
+        "japanese": {
+          "text": "焼き鳥を三本ください。塩で。",
+          "reading": "やきとりをさんぼんください。しおで。",
+          "romaji": "yakitori o sanbon kudasai. shio de."
+        },
         "english": "Three yakitori skewers, please. With salt.",
         "chinese": "請給我三串烤雞串。要鹽味的。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "もも、ねぎま、つくね、どれにしますか？", "reading": "もも、ねぎま、つくね、どれにしますか？", "romaji": "momo, negima, tsukune, dore ni shimasu ka?" },
+        "japanese": {
+          "text": "もも、ねぎま、つくね、どれにしますか？",
+          "reading": "もも、ねぎま、つくね、どれにしますか？",
+          "romaji": "momo, negima, tsukune, dore ni shimasu ka?"
+        },
         "english": "Thigh, chicken with leek, or meatball - which ones?",
         "chinese": "雞腿肉、蔥間串、雞肉丸，要哪種？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "ももを二本と、つくねを一本ください。", "reading": "ももをにほんと、つくねをいっぽんください。", "romaji": "momo o nihon to, tsukune o ippon kudasai." },
+        "japanese": {
+          "text": "ももを二本と、つくねを一本ください。",
+          "reading": "ももをにほんと、つくねをいっぽんください。",
+          "romaji": "momo o nihon to, tsukune o ippon kudasai."
+        },
         "english": "Two thigh and one meatball, please.",
         "chinese": "雞腿肉兩串，雞肉丸一串。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、少々お待ちくださいね。", "reading": "はい、しょうしょうおまちくださいね。", "romaji": "hai, shoushou omachi kudasai ne." },
+        "japanese": {
+          "text": "はい、少々お待ちくださいね。",
+          "reading": "はい、しょうしょうおまちくださいね。",
+          "romaji": "hai, shoushou omachi kudasai ne."
+        },
         "english": "Sure, just a moment please.",
         "chinese": "好的，請稍等。"
       }
@@ -449,31 +749,51 @@
     "phrases": [
       {
         "speaker": "staff",
-        "japanese": { "text": "飲み放題にされますか？", "reading": "のみほうだいにされますか？", "romaji": "nomihoudai ni saremasu ka?" },
+        "japanese": {
+          "text": "飲み放題にされますか？",
+          "reading": "のみほうだいにされますか？",
+          "romaji": "nomihoudai ni saremasu ka?"
+        },
         "english": "Would you like the all-you-can-drink plan?",
         "chinese": "要選喝到飽方案嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "はい、二時間の飲み放題でお願いします。", "reading": "はい、にじかんののみほうだいでおねがいします。", "romaji": "hai, nijikan no nomihoudai de onegaishimasu." },
+        "japanese": {
+          "text": "はい、二時間の飲み放題でお願いします。",
+          "reading": "はい、にじかんののみほうだいでおねがいします。",
+          "romaji": "hai, nijikan no nomihoudai de onegaishimasu."
+        },
         "english": "Yes, the two-hour all-you-can-drink plan, please.",
         "chinese": "好的，請給我兩小時的喝到飽方案。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "最初のお飲み物は何にされますか？", "reading": "さいしょのおのみものはなんにされますか？", "romaji": "saisho no onomimono wa nan ni saremasu ka?" },
+        "japanese": {
+          "text": "最初のお飲み物は何にされますか？",
+          "reading": "さいしょのおのみものはなんにされますか？",
+          "romaji": "saisho no onomimono wa nan ni saremasu ka?"
+        },
         "english": "What would you like for your first drink?",
         "chinese": "第一杯要喝什麼？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "とりあえず生ビールで。あと、枝豆と唐揚げをお願いします。", "reading": "とりあえずなまびーるで。あと、えだまめとからあげをおねがいします。", "romaji": "toriaezu nama biiru de. ato, edamame to karaage o onegaishimasu." },
+        "japanese": {
+          "text": "とりあえず生ビールで。あと、枝豆と唐揚げをお願いします。",
+          "reading": "とりあえずなまびーるで。あと、えだまめとからあげをおねがいします。",
+          "romaji": "toriaezu nama biiru de. ato, edamame to karaage o onegaishimasu."
+        },
         "english": "Draft beer to start. Also, edamame and fried chicken, please.",
         "chinese": "先來杯生啤酒。另外要毛豆和炸雞塊。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "かしこまりました。お通しは三百円になります。", "reading": "かしこまりました。おとおしはさんびゃくえんになります。", "romaji": "kashikomarimashita. otooshi wa sanbyaku en ni narimasu." },
+        "japanese": {
+          "text": "かしこまりました。お通しは三百円になります。",
+          "reading": "かしこまりました。おとおしはさんびゃくえんになります。",
+          "romaji": "kashikomarimashita. otooshi wa sanbyaku en ni narimasu."
+        },
         "english": "Certainly. The appetizer charge is 300 yen.",
         "chinese": "好的。小菜費是三百日圓。"
       }
@@ -486,37 +806,61 @@
     "phrases": [
       {
         "speaker": "staff",
-        "japanese": { "text": "麺の硬さはいかがなさいますか？", "reading": "めんのかたさはいかがなさいますか？", "romaji": "men no katasa wa ikaga nasaimasu ka?" },
+        "japanese": {
+          "text": "麺の硬さはいかがなさいますか？",
+          "reading": "めんのかたさはいかがなさいますか？",
+          "romaji": "men no katasa wa ikaga nasaimasu ka?"
+        },
         "english": "How firm would you like your noodles?",
         "chinese": "麵的硬度要怎麼樣？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "硬めでお願いします。あと、味は濃いめで。", "reading": "かためでおねがいします。あと、あじはこいめで。", "romaji": "katame de onegaishimasu. ato, aji wa koime de." },
+        "japanese": {
+          "text": "硬めでお願いします。あと、味は濃いめで。",
+          "reading": "かためでおねがいします。あと、あじはこいめで。",
+          "romaji": "katame de onegaishimasu. ato, aji wa koime de."
+        },
         "english": "Firm noodles, please. And a stronger flavor.",
         "chinese": "偏硬的，麻煩你。另外，味道要濃一點。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "油の量はどうされますか？", "reading": "あぶらのりょうはどうされますか？", "romaji": "abura no ryou wa dou saremasu ka?" },
+        "japanese": {
+          "text": "油の量はどうされますか？",
+          "reading": "あぶらのりょうはどうされますか？",
+          "romaji": "abura no ryou wa dou saremasu ka?"
+        },
         "english": "How about the amount of oil?",
         "chinese": "油量要多少？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "普通でいいです。", "reading": "ふつうでいいです。", "romaji": "futsuu de ii desu." },
+        "japanese": {
+          "text": "普通でいいです。",
+          "reading": "ふつうでいいです。",
+          "romaji": "futsuu de ii desu."
+        },
         "english": "Normal is fine.",
         "chinese": "普通就好。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "トッピングはいかがですか？煮卵やチャーシューなど。", "reading": "とっぴんぐはいかがですか？にたまごやちゃーしゅーなど。", "romaji": "toppingu wa ikaga desu ka? nitamago ya chaashuu nado." },
+        "japanese": {
+          "text": "トッピングはいかがですか？煮卵やチャーシューなど。",
+          "reading": "とっぴんぐはいかがですか？にたまごやちゃーしゅーなど。",
+          "romaji": "toppingu wa ikaga desu ka? nitamago ya chaashuu nado."
+        },
         "english": "Any toppings? Such as soft-boiled egg or sliced pork?",
         "chinese": "要加配料嗎？像是溏心蛋或叉燒之類的。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "煮卵をお願いします。", "reading": "にたまごをおねがいします。", "romaji": "nitamago o onegaishimasu." },
+        "japanese": {
+          "text": "煮卵をお願いします。",
+          "reading": "にたまごをおねがいします。",
+          "romaji": "nitamago o onegaishimasu."
+        },
         "english": "A soft-boiled egg, please.",
         "chinese": "請加溏心蛋。"
       }
@@ -529,25 +873,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "大将、今日のおすすめは何ですか？", "reading": "たいしょう、きょうのおすすめはなんですか？", "romaji": "taishou, kyou no osusume wa nan desu ka?" },
+        "japanese": {
+          "text": "大将、今日のおすすめは何ですか？",
+          "reading": "たいしょう、きょうのおすすめはなんですか？",
+          "romaji": "taishou, kyou no osusume wa nan desu ka?"
+        },
         "english": "Chef, what do you recommend today?",
         "chinese": "師傅，今天推薦什麼？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "今日は中トロがいい感じですよ。あとヒラメも新鮮です。", "reading": "きょうはちゅうとろがいいかんじですよ。あとひらめもしんせんです。", "romaji": "kyou wa chuutoro ga ii kanji desu yo. ato hirame mo shinsen desu." },
+        "japanese": {
+          "text": "今日は中トロがいい感じですよ。あとヒラメも新鮮です。",
+          "reading": "きょうはちゅうとろがいいかんじですよ。あとひらめもしんせんです。",
+          "romaji": "kyou wa chuutoro ga ii kanji desu yo. ato hirame mo shinsen desu."
+        },
         "english": "The medium fatty tuna is great today. The flounder is also very fresh.",
         "chinese": "今天的中腹鮪魚很不錯。比目魚也很新鮮。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "じゃあ、中トロを二貫と、ヒラメを二貫お願いします。", "reading": "じゃあ、ちゅうとろをにかんと、ひらめをにかんおねがいします。", "romaji": "jaa, chuutoro o nikan to, hirame o nikan onegaishimasu." },
+        "japanese": {
+          "text": "じゃあ、中トロを二貫と、ヒラメを二貫お願いします。",
+          "reading": "じゃあ、ちゅうとろをにかんと、ひらめをにかんおねがいします。",
+          "romaji": "jaa, chuutoro o nikan to, hirame o nikan onegaishimasu."
+        },
         "english": "Then two pieces of medium fatty tuna and two of flounder, please.",
         "chinese": "那請給我中腹鮪魚兩貫和比目魚兩貫。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、お待ちどうさま。醤油はこちらです。", "reading": "はい、おまちどうさま。しょうゆはこちらです。", "romaji": "hai, omachidousama. shouyu wa kochira desu." },
+        "japanese": {
+          "text": "はい、お待ちどうさま。醤油はこちらです。",
+          "reading": "はい、おまちどうさま。しょうゆはこちらです。",
+          "romaji": "hai, omachidousama. shouyu wa kochira desu."
+        },
         "english": "Here you go. The soy sauce is right here.",
         "chinese": "好的，久等了。醬油在這裡。"
       }
@@ -560,31 +920,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、このケーキにナッツは入っていますか？", "reading": "すみません、このけーきになっつははいっていますか？", "romaji": "sumimasen, kono keeki ni nattsu wa haitte imasu ka?" },
+        "japanese": {
+          "text": "すみません、このケーキにナッツは入っていますか？",
+          "reading": "すみません、このけーきになっつははいっていますか？",
+          "romaji": "sumimasen, kono keeki ni nattsu wa haitte imasu ka?"
+        },
         "english": "Excuse me, does this cake contain nuts?",
         "chinese": "不好意思，這個蛋糕有堅果嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、アーモンドが入っております。アレルギーですか？", "reading": "はい、あーもんどがはいっております。あれるぎーですか？", "romaji": "hai, aamondo ga haitte orimasu. arerugii desu ka?" },
+        "japanese": {
+          "text": "はい、アーモンドが入っております。アレルギーですか？",
+          "reading": "はい、あーもんどがはいっております。あれるぎーですか？",
+          "romaji": "hai, aamondo ga haitte orimasu. arerugii desu ka?"
+        },
         "english": "Yes, it contains almonds. Do you have an allergy?",
         "chinese": "有的，裡面有杏仁。您是過敏嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "はい、ナッツアレルギーがあります。ナッツなしのケーキはありますか？", "reading": "はい、なっつあれるぎーがあります。なっつなしのけーきはありますか？", "romaji": "hai, nattsu arerugii ga arimasu. nattsu nashi no keeki wa arimasu ka?" },
+        "japanese": {
+          "text": "はい、ナッツアレルギーがあります。ナッツなしのケーキはありますか？",
+          "reading": "はい、なっつあれるぎーがあります。なっつなしのけーきはありますか？",
+          "romaji": "hai, nattsu arerugii ga arimasu. nattsu nashi no keeki wa arimasu ka?"
+        },
         "english": "Yes, I have a nut allergy. Do you have any cakes without nuts?",
         "chinese": "是的，我對堅果過敏。有沒有不含堅果的蛋糕？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "チーズケーキとシフォンケーキはナッツ不使用です。", "reading": "ちーずけーきとしふぉんけーきはなっつふしようです。", "romaji": "chiizukeeki to shifon keeki wa nattsu fushiyou desu." },
+        "japanese": {
+          "text": "チーズケーキとシフォンケーキはナッツ不使用です。",
+          "reading": "ちーずけーきとしふぉんけーきはなっつふしようです。",
+          "romaji": "chiizukeeki to shifon keeki wa nattsu fushiyou desu."
+        },
         "english": "The cheesecake and chiffon cake are nut-free.",
         "chinese": "起司蛋糕和戚風蛋糕不含堅果。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "チーズケーキをお願いします。ありがとうございます。", "reading": "ちーずけーきをおねがいします。ありがとうございます。", "romaji": "chiizukeeki o onegaishimasu. arigatou gozaimasu." },
+        "japanese": {
+          "text": "チーズケーキをお願いします。ありがとうございます。",
+          "reading": "ちーずけーきをおねがいします。ありがとうございます。",
+          "romaji": "chiizukeeki o onegaishimasu. arigatou gozaimasu."
+        },
         "english": "I'll have the cheesecake, please. Thank you.",
         "chinese": "請給我起司蛋糕。謝謝。"
       }
@@ -597,31 +977,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、追加で注文いいですか？", "reading": "すみません、ついかでちゅうもんいいですか？", "romaji": "sumimasen, tsuika de chuumon ii desu ka?" },
+        "japanese": {
+          "text": "すみません、追加で注文いいですか？",
+          "reading": "すみません、ついかでちゅうもんいいですか？",
+          "romaji": "sumimasen, tsuika de chuumon ii desu ka?"
+        },
         "english": "Excuse me, can I order something extra?",
         "chinese": "不好意思，可以加點嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、もちろんです。何になさいますか？", "reading": "はい、もちろんです。なんになさいますか？", "romaji": "hai, mochiron desu. nan ni nasaimasu ka?" },
+        "japanese": {
+          "text": "はい、もちろんです。何になさいますか？",
+          "reading": "はい、もちろんです。なんになさいますか？",
+          "romaji": "hai, mochiron desu. nan ni nasaimasu ka?"
+        },
         "english": "Yes, of course. What would you like?",
         "chinese": "當然可以。要點什麼？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "デザートメニューはありますか？", "reading": "でざーとめにゅーはありますか？", "romaji": "dezaato menyuu wa arimasu ka?" },
+        "japanese": {
+          "text": "デザートメニューはありますか？",
+          "reading": "でざーとめにゅーはありますか？",
+          "romaji": "dezaato menyuu wa arimasu ka?"
+        },
         "english": "Do you have a dessert menu?",
         "chinese": "有甜點菜單嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "こちらになります。パフェが人気ですよ。", "reading": "こちらになります。ぱふぇがにんきですよ。", "romaji": "kochira ni narimasu. pafe ga ninki desu yo." },
+        "japanese": {
+          "text": "こちらになります。パフェが人気ですよ。",
+          "reading": "こちらになります。ぱふぇがにんきですよ。",
+          "romaji": "kochira ni narimasu. pafe ga ninki desu yo."
+        },
         "english": "Here it is. The parfait is popular.",
         "chinese": "在這裡。百匯很受歡迎喔。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "チョコレートパフェと、コーヒーをお願いします。", "reading": "ちょこれーとぱふぇと、こーひーをおねがいします。", "romaji": "chokoreeto pafe to, koohii o onegaishimasu." },
+        "japanese": {
+          "text": "チョコレートパフェと、コーヒーをお願いします。",
+          "reading": "ちょこれーとぱふぇと、こーひーをおねがいします。",
+          "romaji": "chokoreeto pafe to, koohii o onegaishimasu."
+        },
         "english": "A chocolate parfait and a coffee, please.",
         "chinese": "巧克力百匯和一杯咖啡，麻煩你。"
       }
@@ -634,31 +1034,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、焼き鳥の盛り合わせと、ポテトフライをお願いします。", "reading": "すみません、やきとりのもりあわせと、ぽてとふらいをおねがいします。", "romaji": "sumimasen, yakitori no moriawase to, poteto furai o onegaishimasu." },
+        "japanese": {
+          "text": "すみません、焼き鳥の盛り合わせと、ポテトフライをお願いします。",
+          "reading": "すみません、やきとりのもりあわせと、ぽてとふらいをおねがいします。",
+          "romaji": "sumimasen, yakitori no moriawase to, poteto furai o onegaishimasu."
+        },
         "english": "Excuse me, a yakitori assortment and french fries, please.",
         "chinese": "不好意思，請給我烤雞串拼盤和薯條。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "焼き鳥は塩とタレ、どちらにされますか？", "reading": "やきとりはしおとたれ、どちらにされますか？", "romaji": "yakitori wa shio to tare, dochira ni saremasu ka?" },
+        "japanese": {
+          "text": "焼き鳥は塩とタレ、どちらにされますか？",
+          "reading": "やきとりはしおとたれ、どちらにされますか？",
+          "romaji": "yakitori wa shio to tare, dochira ni saremasu ka?"
+        },
         "english": "Salt or sauce for the yakitori?",
         "chinese": "烤雞串要鹽味還是醬汁？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "半分ずつできますか？", "reading": "はんぶんずつできますか？", "romaji": "hanbun zutsu dekimasu ka?" },
+        "japanese": {
+          "text": "半分ずつできますか？",
+          "reading": "はんぶんずつできますか？",
+          "romaji": "hanbun zutsu dekimasu ka?"
+        },
         "english": "Can I get half and half?",
         "chinese": "可以各一半嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、大丈夫ですよ。お飲み物はいかがですか？", "reading": "はい、だいじょうぶですよ。おのみものはいかがですか？", "romaji": "hai, daijoubu desu yo. onomimono wa ikaga desu ka?" },
+        "japanese": {
+          "text": "はい、大丈夫ですよ。お飲み物はいかがですか？",
+          "reading": "はい、だいじょうぶですよ。おのみものはいかがですか？",
+          "romaji": "hai, daijoubu desu yo. onomimono wa ikaga desu ka?"
+        },
         "english": "Sure, no problem. Anything to drink?",
         "chinese": "可以的。要喝什麼嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "ハイボールを二つお願いします。", "reading": "はいぼーるをふたつおねがいします。", "romaji": "haibooru o futatsu onegaishimasu." },
+        "japanese": {
+          "text": "ハイボールを二つお願いします。",
+          "reading": "はいぼーるをふたつおねがいします。",
+          "romaji": "haibooru o futatsu onegaishimasu."
+        },
         "english": "Two highballs, please.",
         "chinese": "請給我兩杯威士忌蘇打。"
       }
@@ -671,25 +1091,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、English menu はありますか？", "reading": "すみません、いんぐりっしゅめにゅーはありますか？", "romaji": "sumimasen, ingurisshu menyuu wa arimasu ka?" },
+        "japanese": {
+          "text": "すみません、English menu はありますか？",
+          "reading": "すみません、いんぐりっしゅめにゅーはありますか？",
+          "romaji": "sumimasen, ingurisshu menyuu wa arimasu ka?"
+        },
         "english": "Excuse me, do you have an English menu?",
         "chinese": "不好意思，有英文菜單嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、英語のメニューございます。こちらどうぞ。", "reading": "はい、えいごのめにゅーございます。こちらどうぞ。", "romaji": "hai, eigo no menyuu gozaimasu. kochira douzo." },
+        "japanese": {
+          "text": "はい、英語のメニューございます。こちらどうぞ。",
+          "reading": "はい、えいごのめにゅーございます。こちらどうぞ。",
+          "romaji": "hai, eigo no menyuu gozaimasu. kochira douzo."
+        },
         "english": "Yes, we have an English menu. Here you go.",
         "chinese": "有的，有英文菜單。請看這個。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "This one, please. えーと、あとこれも。", "reading": "でぃすわん、ぷりーず。えーと、あとこれも。", "romaji": "disu wan, puriizu. eeto, ato kore mo." },
+        "japanese": {
+          "text": "This one, please. えーと、あとこれも。",
+          "reading": "でぃすわん、ぷりーず。えーと、あとこれも。",
+          "romaji": "disu wan, puriizu. eeto, ato kore mo."
+        },
         "english": "This one, please. Um, and this one too.",
         "chinese": "這個，麻煩你。嗯，還有這個。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "こちらとこちらですね。少々お待ちください。", "reading": "こちらとこちらですね。しょうしょうおまちください。", "romaji": "kochira to kochira desu ne. shoushou omachi kudasai." },
+        "japanese": {
+          "text": "こちらとこちらですね。少々お待ちください。",
+          "reading": "こちらとこちらですね。しょうしょうおまちください。",
+          "romaji": "kochira to kochira desu ne. shoushou omachi kudasai."
+        },
         "english": "This one and this one, right? Please wait a moment.",
         "chinese": "這個和這個對吧。請稍等。"
       }
@@ -702,25 +1138,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、お皿の色で値段が違うんですか？", "reading": "すみません、おさらのいろでねだんがちがうんですか？", "romaji": "sumimasen, osara no iro de nedan ga chigau n desu ka?" },
+        "japanese": {
+          "text": "すみません、お皿の色で値段が違うんですか？",
+          "reading": "すみません、おさらのいろでねだんがちがうんですか？",
+          "romaji": "sumimasen, osara no iro de nedan ga chigau n desu ka?"
+        },
         "english": "Excuse me, are the prices different depending on the plate color?",
         "chinese": "不好意思，盤子顏色不同價格也不一樣嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、赤いお皿は百円で、金のお皿は三百円です。", "reading": "はい、あかいおさらはひゃくえんで、きんのおさらはさんびゃくえんです。", "romaji": "hai, akai osara wa hyaku en de, kin no osara wa sanbyaku en desu." },
+        "japanese": {
+          "text": "はい、赤いお皿は百円で、金のお皿は三百円です。",
+          "reading": "はい、あかいおさらはひゃくえんで、きんのおさらはさんびゃくえんです。",
+          "romaji": "hai, akai osara wa hyaku en de, kin no osara wa sanbyaku en desu."
+        },
         "english": "Yes, red plates are 100 yen and gold plates are 300 yen.",
         "chinese": "是的，紅色盤子一百日圓，金色盤子三百日圓。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "タッチパネルで注文もできますか？", "reading": "たっちぱねるでちゅうもんもできますか？", "romaji": "tacchi paneru de chuumon mo dekimasu ka?" },
+        "japanese": {
+          "text": "タッチパネルで注文もできますか？",
+          "reading": "たっちぱねるでちゅうもんもできますか？",
+          "romaji": "tacchi paneru de chuumon mo dekimasu ka?"
+        },
         "english": "Can I also order from the touch panel?",
         "chinese": "也可以用觸控面板點餐嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、こちらのタブレットからご注文いただけます。英語にも切り替えられますよ。", "reading": "はい、こちらのたぶれっとからごちゅうもんいただけます。えいごにもきりかえられますよ。", "romaji": "hai, kochira no taburetto kara gochuumon itadakemasu. eigo ni mo kirikaeraremasu yo." },
+        "japanese": {
+          "text": "はい、こちらのタブレットからご注文いただけます。英語にも切り替えられますよ。",
+          "reading": "はい、こちらのたぶれっとからごちゅうもんいただけます。えいごにもきりかえられますよ。",
+          "romaji": "hai, kochira no taburetto kara gochuumon itadakemasu. eigo ni mo kirikaeraremasu yo."
+        },
         "english": "Yes, you can order from this tablet. You can also switch it to English.",
         "chinese": "可以的，可以用這個平板點餐。也可以切換成英文喔。"
       }
@@ -733,31 +1185,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "私はベジタリアンなんですが、食べられるものはありますか？", "reading": "わたしはべじたりあんなんですが、たべられるものはありますか？", "romaji": "watashi wa bejitarian nan desu ga, taberareru mono wa arimasu ka?" },
+        "japanese": {
+          "text": "私はベジタリアンなんですが、食べられるものはありますか？",
+          "reading": "わたしはべじたりあんなんですが、たべられるものはありますか？",
+          "romaji": "watashi wa bejitarian nan desu ga, taberareru mono wa arimasu ka?"
+        },
         "english": "I'm a vegetarian. Is there anything I can eat?",
         "chinese": "我是素食者，有什麼我可以吃的嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "お魚は大丈夫ですか？それとも完全菜食ですか？", "reading": "おさかなはだいじょうぶですか？それともかんぜんさいしょくですか？", "romaji": "osakana wa daijoubu desu ka? soretomo kanzen saishoku desu ka?" },
+        "japanese": {
+          "text": "お魚は大丈夫ですか？それとも完全菜食ですか？",
+          "reading": "おさかなはだいじょうぶですか？それともかんぜんさいしょくですか？",
+          "romaji": "osakana wa daijoubu desu ka? soretomo kanzen saishoku desu ka?"
+        },
         "english": "Is fish okay? Or are you fully vegan?",
         "chinese": "魚可以嗎？還是完全素食？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "魚は大丈夫です。肉だけダメなんです。", "reading": "さかなはだいじょうぶです。にくだけだめなんです。", "romaji": "sakana wa daijoubu desu. niku dake dame nan desu." },
+        "japanese": {
+          "text": "魚は大丈夫です。肉だけダメなんです。",
+          "reading": "さかなはだいじょうぶです。にくだけだめなんです。",
+          "romaji": "sakana wa daijoubu desu. niku dake dame nan desu."
+        },
         "english": "Fish is fine. I just can't have meat.",
         "chinese": "魚可以。只是不能吃肉。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "でしたら、お刺身定食か野菜天ぷら定食はいかがでしょうか？", "reading": "でしたら、おさしみていしょくかやさいてんぷらていしょくはいかがでしょうか？", "romaji": "deshitara, osashimi teishoku ka yasai tenpura teishoku wa ikaga deshou ka?" },
+        "japanese": {
+          "text": "でしたら、お刺身定食か野菜天ぷら定食はいかがでしょうか？",
+          "reading": "でしたら、おさしみていしょくかやさいてんぷらていしょくはいかがでしょうか？",
+          "romaji": "deshitara, osashimi teishoku ka yasai tenpura teishoku wa ikaga deshou ka?"
+        },
         "english": "In that case, how about the sashimi set or the vegetable tempura set?",
         "chinese": "那生魚片定食或蔬菜天婦羅定食如何？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "野菜天ぷら定食をお願いします。", "reading": "やさいてんぷらていしょくをおねがいします。", "romaji": "yasai tenpura teishoku o onegaishimasu." },
+        "japanese": {
+          "text": "野菜天ぷら定食をお願いします。",
+          "reading": "やさいてんぷらていしょくをおねがいします。",
+          "romaji": "yasai tenpura teishoku o onegaishimasu."
+        },
         "english": "The vegetable tempura set, please.",
         "chinese": "請給我蔬菜天婦羅定食。"
       }
@@ -770,25 +1242,41 @@
     "phrases": [
       {
         "speaker": "staff",
-        "japanese": { "text": "ラストオーダーになりますが、追加のご注文はございますか？", "reading": "らすとおーだーになりますが、ついかのごちゅうもんはございますか？", "romaji": "rasuto oodaa ni narimasu ga, tsuika no gochuumon wa gozaimasu ka?" },
+        "japanese": {
+          "text": "ラストオーダーになりますが、追加のご注文はございますか？",
+          "reading": "らすとおーだーになりますが、ついかのごちゅうもんはございますか？",
+          "romaji": "rasuto oodaa ni narimasu ga, tsuika no gochuumon wa gozaimasu ka?"
+        },
         "english": "It's last call. Would you like to order anything else?",
         "chinese": "現在是最後點餐時間，還要追加什麼嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "じゃあ、お茶漬けと焼きおにぎりをお願いします。", "reading": "じゃあ、おちゃづけとやきおにぎりをおねがいします。", "romaji": "jaa, ochazuke to yaki onigiri o onegaishimasu." },
+        "japanese": {
+          "text": "じゃあ、お茶漬けと焼きおにぎりをお願いします。",
+          "reading": "じゃあ、おちゃづけとやきおにぎりをおねがいします。",
+          "romaji": "jaa, ochazuke to yaki onigiri o onegaishimasu."
+        },
         "english": "Then I'll have the rice in tea and a grilled rice ball, please.",
         "chinese": "那請給我茶泡飯和烤飯糰。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "お飲み物は大丈夫ですか？", "reading": "おのみものはだいじょうぶですか？", "romaji": "onomimono wa daijoubu desu ka?" },
+        "japanese": {
+          "text": "お飲み物は大丈夫ですか？",
+          "reading": "おのみものはだいじょうぶですか？",
+          "romaji": "onomimono wa daijoubu desu ka?"
+        },
         "english": "Are you all set on drinks?",
         "chinese": "飲料不用了嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "あ、ウーロン茶を一つください。", "reading": "あ、うーろんちゃをひとつください。", "romaji": "a, uuroncha o hitotsu kudasai." },
+        "japanese": {
+          "text": "あ、ウーロン茶を一つください。",
+          "reading": "あ、うーろんちゃをひとつください。",
+          "romaji": "a, uuroncha o hitotsu kudasai."
+        },
         "english": "Oh, one oolong tea, please.",
         "chinese": "啊，請給我一杯烏龍茶。"
       }
@@ -801,31 +1289,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "ホットのカフェラテをテイクアウトでお願いします。", "reading": "ほっとのかふぇらてをていくあうとでおねがいします。", "romaji": "hotto no kafe rate o teikuauto de onegaishimasu." },
+        "japanese": {
+          "text": "ホットのカフェラテをテイクアウトでお願いします。",
+          "reading": "ほっとのかふぇらてをていくあうとでおねがいします。",
+          "romaji": "hotto no kafe rate o teikuauto de onegaishimasu."
+        },
         "english": "A hot cafe latte to go, please.",
         "chinese": "熱拿鐵外帶，麻煩你。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "サイズはいかがなさいますか？", "reading": "さいずはいかがなさいますか？", "romaji": "saizu wa ikaga nasaimasu ka?" },
+        "japanese": {
+          "text": "サイズはいかがなさいますか？",
+          "reading": "さいずはいかがなさいますか？",
+          "romaji": "saizu wa ikaga nasaimasu ka?"
+        },
         "english": "What size would you like?",
         "chinese": "請問要什麼尺寸？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "トールサイズで。あ、やっぱり店内で飲みます。Wi-Fiはありますか？", "reading": "とーるさいずで。あ、やっぱりてんないでのみます。わいふぁいはありますか？", "romaji": "tooru saizu de. a, yappari tennai de nomimasu. waifai wa arimasu ka?" },
+        "japanese": {
+          "text": "トールサイズで。あ、やっぱり店内で飲みます。Wi-Fiはありますか？",
+          "reading": "とーるさいずで。あ、やっぱりてんないでのみます。わいふぁいはありますか？",
+          "romaji": "tooru saizu de. a, yappari tennai de nomimasu. waifai wa arimasu ka?"
+        },
         "english": "Tall size. Oh, actually I'll drink it here. Do you have Wi-Fi?",
         "chinese": "中杯。啊，還是內用好了。有Wi-Fi嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、ございます。パスワードはレシートに書いてあります。", "reading": "はい、ございます。ぱすわーどはれしーとにかいてあります。", "romaji": "hai, gozaimasu. pasuwaado wa reshiito ni kaite arimasu." },
+        "japanese": {
+          "text": "はい、ございます。パスワードはレシートに書いてあります。",
+          "reading": "はい、ございます。ぱすわーどはれしーとにかいてあります。",
+          "romaji": "hai, gozaimasu. pasuwaado wa reshiito ni kaite arimasu."
+        },
         "english": "Yes, we do. The password is on the receipt.",
         "chinese": "有的。密碼寫在收據上。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "ありがとうございます。", "reading": "ありがとうございます。", "romaji": "arigatou gozaimasu." },
+        "japanese": {
+          "text": "ありがとうございます。",
+          "reading": "ありがとうございます。",
+          "romaji": "arigatou gozaimasu."
+        },
         "english": "Thank you.",
         "chinese": "謝謝。"
       }
@@ -838,25 +1346,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "七時に予約した田中ですが。", "reading": "しちじによやくしたたなかですが。", "romaji": "shichiji ni yoyaku shita tanaka desu ga." },
+        "japanese": {
+          "text": "七時に予約した田中ですが。",
+          "reading": "しちじによやくしたたなかですが。",
+          "romaji": "shichiji ni yoyaku shita tanaka desu ga."
+        },
         "english": "I have a reservation at 7. The name is Tanaka.",
         "chinese": "我是七點預約的田中。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "田中様ですね。四名様でご予約いただいております。", "reading": "たなかさまですね。よんめいさまでごよやくいただいております。", "romaji": "tanaka sama desu ne. yonmei sama de goyoyaku itadaite orimasu." },
+        "japanese": {
+          "text": "田中様ですね。四名様でご予約いただいております。",
+          "reading": "たなかさまですね。よんめいさまでごよやくいただいております。",
+          "romaji": "tanaka sama desu ne. yonmei sama de goyoyaku itadaite orimasu."
+        },
         "english": "Mr. Tanaka, right? We have a reservation for four.",
         "chinese": "田中先生對吧。您預約了四位。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "はい、そうです。窓側の席はありますか？", "reading": "はい、そうです。まどがわのせきはありますか？", "romaji": "hai, sou desu. madogawa no seki wa arimasu ka?" },
+        "japanese": {
+          "text": "はい、そうです。窓側の席はありますか？",
+          "reading": "はい、そうです。まどがわのせきはありますか？",
+          "romaji": "hai, sou desu. madogawa no seki wa arimasu ka?"
+        },
         "english": "Yes, that's right. Do you have a window seat?",
         "chinese": "對的。有靠窗的位子嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "ご用意しております。こちらへどうぞ。", "reading": "ごよういしております。こちらへどうぞ。", "romaji": "goyoui shite orimasu. kochira e douzo." },
+        "japanese": {
+          "text": "ご用意しております。こちらへどうぞ。",
+          "reading": "ごよういしております。こちらへどうぞ。",
+          "romaji": "goyoui shite orimasu. kochira e douzo."
+        },
         "english": "We've prepared one for you. This way, please.",
         "chinese": "已經為您準備好了。這邊請。"
       }
@@ -869,37 +1393,61 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、お会計は別々にできますか？", "reading": "すみません、おかいけいはべつべつにできますか？", "romaji": "sumimasen, okaikei wa betsubetsu ni dekimasu ka?" },
+        "japanese": {
+          "text": "すみません、お会計は別々にできますか？",
+          "reading": "すみません、おかいけいはべつべつにできますか？",
+          "romaji": "sumimasen, okaikei wa betsubetsu ni dekimasu ka?"
+        },
         "english": "Excuse me, can we pay separately?",
         "chinese": "不好意思，可以分開結帳嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "申し訳ございません、別会計は承っておりません。", "reading": "もうしわけございません、べつかいけいはうけたまわっておりません。", "romaji": "moushiwake gozaimasen, betsu kaikei wa uketamawatte orimasen." },
+        "japanese": {
+          "text": "申し訳ございません、別会計は承っておりません。",
+          "reading": "もうしわけございません、べつかいけいはうけたまわっておりません。",
+          "romaji": "moushiwake gozaimasen, betsu kaikei wa uketamawatte orimasen."
+        },
         "english": "I'm sorry, we don't do separate checks.",
         "chinese": "非常抱歉，我們不提供分開結帳。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "じゃあ、私がまとめて払います。合計はいくらですか？", "reading": "じゃあ、わたしがまとめてはらいます。ごうけいはいくらですか？", "romaji": "jaa, watashi ga matomete haraimasu. goukei wa ikura desu ka?" },
+        "japanese": {
+          "text": "じゃあ、私がまとめて払います。合計はいくらですか？",
+          "reading": "じゃあ、わたしがまとめてはらいます。ごうけいはいくらですか？",
+          "romaji": "jaa, watashi ga matomete haraimasu. goukei wa ikura desu ka?"
+        },
         "english": "Then I'll pay for everything. What's the total?",
         "chinese": "那我一起付。總共多少錢？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "合計で八千四百円になります。", "reading": "ごうけいではっせんよんひゃくえんになります。", "romaji": "goukei de hassen yonhyaku en ni narimasu." },
+        "japanese": {
+          "text": "合計で八千四百円になります。",
+          "reading": "ごうけいではっせんよんひゃくえんになります。",
+          "romaji": "goukei de hassen yonhyaku en ni narimasu."
+        },
         "english": "The total is 8,400 yen.",
         "chinese": "總共八千四百日圓。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "一万円でお願いします。", "reading": "いちまんえんでおねがいします。", "romaji": "ichiman en de onegaishimasu." },
+        "japanese": {
+          "text": "一万円でお願いします。",
+          "reading": "いちまんえんでおねがいします。",
+          "romaji": "ichiman en de onegaishimasu."
+        },
         "english": "Here's 10,000 yen.",
         "chinese": "用一萬日圓付。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "千六百円のお返しです。ありがとうございました。", "reading": "せんろっぴゃくえんのおかえしです。ありがとうございました。", "romaji": "senroppyaku en no okaeshi desu. arigatou gozaimashita." },
+        "japanese": {
+          "text": "千六百円のお返しです。ありがとうございました。",
+          "reading": "せんろっぴゃくえんのおかえしです。ありがとうございました。",
+          "romaji": "senroppyaku en no okaeshi desu. arigatou gozaimashita."
+        },
         "english": "Here's 1,600 yen in change. Thank you very much.",
         "chinese": "找您一千六百日圓。謝謝光臨。"
       }
@@ -912,37 +1460,61 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、注文したものと違うようなんですが。", "reading": "すみません、ちゅうもんしたものとちがうようなんですが。", "romaji": "sumimasen, chuumon shita mono to chigau you nan desu ga." },
+        "japanese": {
+          "text": "すみません、注文したものと違うようなんですが。",
+          "reading": "すみません、ちゅうもんしたものとちがうようなんですが。",
+          "romaji": "sumimasen, chuumon shita mono to chigau you nan desu ga."
+        },
         "english": "Excuse me, this doesn't seem to be what I ordered.",
         "chinese": "不好意思，這好像跟我點的不一樣。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "大変申し訳ございません。何をご注文されましたか？", "reading": "たいへんもうしわけございません。なにをごちゅうもんされましたか？", "romaji": "taihen moushiwake gozaimasen. nani o gochuumon saremashita ka?" },
+        "japanese": {
+          "text": "大変申し訳ございません。何をご注文されましたか？",
+          "reading": "たいへんもうしわけございません。なにをごちゅうもんされましたか？",
+          "romaji": "taihen moushiwake gozaimasen. nani o gochuumon saremashita ka?"
+        },
         "english": "I'm terribly sorry. What did you order?",
         "chinese": "非常抱歉。請問您點了什麼？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "カルボナーラを頼んだんですが、ミートソースが来ました。", "reading": "かるぼなーらをたのんだんですが、みーとそーすがきました。", "romaji": "karubonaara o tanonda n desu ga, miitosoosu ga kimashita." },
+        "japanese": {
+          "text": "カルボナーラを頼んだんですが、ミートソースが来ました。",
+          "reading": "かるぼなーらをたのんだんですが、みーとそーすがきました。",
+          "romaji": "karubonaara o tanonda n desu ga, miitosoosu ga kimashita."
+        },
         "english": "I ordered carbonara, but I got meat sauce pasta.",
         "chinese": "我點了卡邦尼，但送來的是肉醬義大利麵。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "申し訳ございません。すぐにお作り直しいたします。", "reading": "もうしわけございません。すぐにおつくりなおしいたします。", "romaji": "moushiwake gozaimasen. sugu ni otsukuri naoshi itashimasu." },
+        "japanese": {
+          "text": "申し訳ございません。すぐにお作り直しいたします。",
+          "reading": "もうしわけございません。すぐにおつくりなおしいたします。",
+          "romaji": "moushiwake gozaimasen. sugu ni otsukuri naoshi itashimasu."
+        },
         "english": "I'm very sorry. We'll remake it right away.",
         "chinese": "非常抱歉。馬上為您重做。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "どのくらいかかりますか？", "reading": "どのくらいかかりますか？", "romaji": "dono kurai kakarimasu ka?" },
+        "japanese": {
+          "text": "どのくらいかかりますか？",
+          "reading": "どのくらいかかりますか？",
+          "romaji": "dono kurai kakarimasu ka?"
+        },
         "english": "How long will it take?",
         "chinese": "大概要多久？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "十分ほどで お持ちいたします。お詫びにドリンクをサービスさせていただきます。", "reading": "じゅっぷんほどでおもちいたします。おわびにどりんくをさーびすさせていただきます。", "romaji": "juppun hodo de omochi itashimasu. owabi ni dorinku o saabisu sasete itadakimasu." },
+        "japanese": {
+          "text": "十分ほどで お持ちいたします。お詫びにドリンクをサービスさせていただきます。",
+          "reading": "じゅっぷんほどでおもちいたします。おわびにどりんくをさーびすさせていただきます。",
+          "romaji": "juppun hodo de omochi itashimasu. owabi ni dorinku o saabisu sasete itadakimasu."
+        },
         "english": "About ten minutes. As an apology, we'd like to offer you a complimentary drink.",
         "chinese": "大約十分鐘會送過來。為了表示歉意，飲料免費招待。"
       }
@@ -955,31 +1527,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、このネタは天然ものですか？養殖ですか？", "reading": "すみません、このねたはてんねんものですか？ようしょくですか？", "romaji": "sumimasen, kono neta wa tennen mono desu ka? youshoku desu ka?" },
+        "japanese": {
+          "text": "すみません、このネタは天然ものですか？養殖ですか？",
+          "reading": "すみません、このねたはてんねんものですか？ようしょくですか？",
+          "romaji": "sumimasen, kono neta wa tennen mono desu ka? youshoku desu ka?"
+        },
         "english": "Excuse me, is this fish wild-caught or farmed?",
         "chinese": "不好意思，這個食材是野生的還是養殖的？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "こちらのブリは天然もので、今朝築地から入ったばかりです。", "reading": "こちらのぶりはてんねんもので、けさつきじからはいったばかりです。", "romaji": "kochira no buri wa tennen mono de, kesa tsukiji kara haitta bakari desu." },
+        "japanese": {
+          "text": "こちらのブリは天然もので、今朝築地から入ったばかりです。",
+          "reading": "こちらのぶりはてんねんもので、けさつきじからはいったばかりです。",
+          "romaji": "kochira no buri wa tennen mono de, kesa tsukiji kara haitta bakari desu."
+        },
         "english": "This yellowtail is wild-caught, freshly arrived from Tsukiji this morning.",
         "chinese": "這個鰤魚是野生的，今早剛從築地市場進貨。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "産地はどちらですか？", "reading": "さんちはどちらですか？", "romaji": "sanchi wa dochira desu ka?" },
+        "japanese": {
+          "text": "産地はどちらですか？",
+          "reading": "さんちはどちらですか？",
+          "romaji": "sanchi wa dochira desu ka?"
+        },
         "english": "Where is it from?",
         "chinese": "產地是哪裡？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "北海道産です。脂がのっていて今が一番おいしい時期ですよ。", "reading": "ほっかいどうさんです。あぶらがのっていていまがいちばんおいしいじきですよ。", "romaji": "hokkaidou san desu. abura ga notte ite ima ga ichiban oishii jiki desu yo." },
+        "japanese": {
+          "text": "北海道産です。脂がのっていて今が一番おいしい時期ですよ。",
+          "reading": "ほっかいどうさんです。あぶらがのっていていまがいちばんおいしいじきですよ。",
+          "romaji": "hokkaidou san desu. abura ga notte ite ima ga ichiban oishii jiki desu yo."
+        },
         "english": "It's from Hokkaido. It's nice and fatty - this is the best season for it.",
         "chinese": "北海道產的。油脂豐富，現在是最好吃的季節喔。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "じゃあ、ブリを二貫と、おまかせで五貫お願いします。", "reading": "じゃあ、ぶりをにかんと、おまかせでごかんおねがいします。", "romaji": "jaa, buri o nikan to, omakase de gokan onegaishimasu." },
+        "japanese": {
+          "text": "じゃあ、ブリを二貫と、おまかせで五貫お願いします。",
+          "reading": "じゃあ、ぶりをにかんと、おまかせでごかんおねがいします。",
+          "romaji": "jaa, buri o nikan to, omakase de gokan onegaishimasu."
+        },
         "english": "Then two pieces of yellowtail and five pieces of chef's choice, please.",
         "chinese": "那請給我鰤魚兩貫，再來五貫主廚推薦的。"
       }
@@ -992,25 +1584,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、三十分前に注文したんですが、まだ来ていないんです。", "reading": "すみません、さんじゅっぷんまえにちゅうもんしたんですが、まだきていないんです。", "romaji": "sumimasen, sanjuppun mae ni chuumon shita n desu ga, mada kite inai n desu." },
+        "japanese": {
+          "text": "すみません、三十分前に注文したんですが、まだ来ていないんです。",
+          "reading": "すみません、さんじゅっぷんまえにちゅうもんしたんですが、まだきていないんです。",
+          "romaji": "sumimasen, sanjuppun mae ni chuumon shita n desu ga, mada kite inai n desu."
+        },
         "english": "Excuse me, I ordered thirty minutes ago but it still hasn't arrived.",
         "chinese": "不好意思，我三十分鐘前就點了，但還沒來。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "大変申し訳ございません。すぐに確認してまいります。", "reading": "たいへんもうしわけございません。すぐにかくにんしてまいります。", "romaji": "taihen moushiwake gozaimasen. sugu ni kakunin shite mairimasu." },
+        "japanese": {
+          "text": "大変申し訳ございません。すぐに確認してまいります。",
+          "reading": "たいへんもうしわけございません。すぐにかくにんしてまいります。",
+          "romaji": "taihen moushiwake gozaimasen. sugu ni kakunin shite mairimasu."
+        },
         "english": "I'm terribly sorry. Let me check on it right away.",
         "chinese": "非常抱歉。我馬上去確認。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "お待たせして申し訳ございません。あと五分ほどでお出しできます。", "reading": "おまたせしてもうしわけございません。あとごふんほどでおだしできます。", "romaji": "omatase shite moushiwake gozaimasen. ato gofun hodo de odashi dekimasu." },
+        "japanese": {
+          "text": "お待たせして申し訳ございません。あと五分ほどでお出しできます。",
+          "reading": "おまたせしてもうしわけございません。あとごふんほどでおだしできます。",
+          "romaji": "omatase shite moushiwake gozaimasen. ato gofun hodo de odashi dekimasu."
+        },
         "english": "I'm sorry for the wait. It should be ready in about five more minutes.",
         "chinese": "讓您久等了，非常抱歉。大約再五分鐘就可以上菜。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "わかりました。でも急いでいるので、早めにお願いできますか？", "reading": "わかりました。でもいそいでいるので、はやめにおねがいできますか？", "romaji": "wakarimashita. demo isoide iru node, hayame ni onegai dekimasu ka?" },
+        "japanese": {
+          "text": "わかりました。でも急いでいるので、早めにお願いできますか？",
+          "reading": "わかりました。でもいそいでいるので、はやめにおねがいできますか？",
+          "romaji": "wakarimashita. demo isoide iru node, hayame ni onegai dekimasu ka?"
+        },
         "english": "I understand. But I'm in a hurry, so could you speed it up?",
         "chinese": "我知道了。但我在趕時間，可以盡快嗎？"
       }
@@ -1023,31 +1631,51 @@
     "phrases": [
       {
         "speaker": "staff",
-        "japanese": { "text": "本日のコースは前菜、お魚、お肉、デザートの四品になります。", "reading": "ほんじつのこーすはぜんさい、おさかな、おにく、でざーとのよんしなになります。", "romaji": "honjitsu no koosu wa zensai, osakana, oniku, dezaato no yonshina ni narimasu." },
+        "japanese": {
+          "text": "本日のコースは前菜、お魚、お肉、デザートの四品になります。",
+          "reading": "ほんじつのこーすはぜんさい、おさかな、おにく、でざーとのよんしなになります。",
+          "romaji": "honjitsu no koosu wa zensai, osakana, oniku, dezaato no yonshina ni narimasu."
+        },
         "english": "Today's course includes an appetizer, fish, meat, and dessert - four dishes.",
         "chinese": "今天的套餐是前菜、魚、肉、甜點共四道。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "お魚料理に合うワインをおすすめしてもらえますか？", "reading": "おさかなりょうりにあうわいんをおすすめしてもらえますか？", "romaji": "osakana ryouri ni au wain o osusume shite moraemasu ka?" },
+        "japanese": {
+          "text": "お魚料理に合うワインをおすすめしてもらえますか？",
+          "reading": "おさかなりょうりにあうわいんをおすすめしてもらえますか？",
+          "romaji": "osakana ryouri ni au wain o osusume shite moraemasu ka?"
+        },
         "english": "Could you recommend a wine that goes well with the fish course?",
         "chinese": "可以推薦搭配魚料理的葡萄酒嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "本日のお魚はスズキのポワレですので、辛口の白ワインが合うかと思います。", "reading": "ほんじつのおさかなはすずきのぽわれですので、からくちのしろわいんがあうかとおもいます。", "romaji": "honjitsu no osakana wa suzuki no poware desu node, karakuchi no shiro wain ga au ka to omoimasu." },
+        "japanese": {
+          "text": "本日のお魚はスズキのポワレですので、辛口の白ワインが合うかと思います。",
+          "reading": "ほんじつのおさかなはすずきのぽわれですので、からくちのしろわいんがあうかとおもいます。",
+          "romaji": "honjitsu no osakana wa suzuki no poware desu node, karakuchi no shiro wain ga au ka to omoimasu."
+        },
         "english": "Today's fish is pan-seared sea bass, so a dry white wine would pair well.",
         "chinese": "今天的魚是煎鱸魚，搭配不甜的白酒應該很合適。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "じゃあ、それをグラスでお願いします。苦手な食材はないので、おまかせで。", "reading": "じゃあ、それをぐらすでおねがいします。にがてなしょくざいはないので、おまかせで。", "romaji": "jaa, sore o gurasu de onegaishimasu. nigate na shokuzai wa nai node, omakase de." },
+        "japanese": {
+          "text": "じゃあ、それをグラスでお願いします。苦手な食材はないので、おまかせで。",
+          "reading": "じゃあ、それをぐらすでおねがいします。にがてなしょくざいはないので、おまかせで。",
+          "romaji": "jaa, sore o gurasu de onegaishimasu. nigate na shokuzai wa nai node, omakase de."
+        },
         "english": "Then I'll have a glass of that. I don't have any food dislikes, so I'll leave it up to you.",
         "chinese": "那請給我一杯。我沒有不吃的食材，交給你們安排。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "かしこまりました。ごゆっくりお楽しみください。", "reading": "かしこまりました。ごゆっくりおたのしみください。", "romaji": "kashikomarimashita. goyukkuri otanoshimi kudasai." },
+        "japanese": {
+          "text": "かしこまりました。ごゆっくりお楽しみください。",
+          "reading": "かしこまりました。ごゆっくりおたのしみください。",
+          "romaji": "kashikomarimashita. goyukkuri otanoshimi kudasai."
+        },
         "english": "Certainly. Please take your time and enjoy.",
         "chinese": "好的。請慢慢享用。"
       }
@@ -1060,31 +1688,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、子供用の椅子はありますか？あと、離乳食の持ち込みは大丈夫ですか？", "reading": "すみません、こどもようのいすはありますか？あと、りにゅうしょくのもちこみはだいじょうぶですか？", "romaji": "sumimasen, kodomo you no isu wa arimasu ka? ato, rinyuushoku no mochikomi wa daijoubu desu ka?" },
+        "japanese": {
+          "text": "すみません、子供用の椅子はありますか？あと、離乳食の持ち込みは大丈夫ですか？",
+          "reading": "すみません、こどもようのいすはありますか？あと、りにゅうしょくのもちこみはだいじょうぶですか？",
+          "romaji": "sumimasen, kodomo you no isu wa arimasu ka? ato, rinyuushoku no mochikomi wa daijoubu desu ka?"
+        },
         "english": "Excuse me, do you have a high chair? Also, is it okay to bring in baby food?",
         "chinese": "不好意思，有兒童座椅嗎？另外，可以帶嬰兒食品進來嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、お子様用の椅子をお持ちしますね。離乳食もお持ち込みいただいて結構です。", "reading": "はい、おこさまようのいすをおもちしますね。りにゅうしょくもおもちこみいただいてけっこうです。", "romaji": "hai, okosama you no isu o omochi shimasu ne. rinyuushoku mo omochikomi itadaite kekkou desu." },
+        "japanese": {
+          "text": "はい、お子様用の椅子をお持ちしますね。離乳食もお持ち込みいただいて結構です。",
+          "reading": "はい、おこさまようのいすをおもちしますね。りにゅうしょくもおもちこみいただいてけっこうです。",
+          "romaji": "hai, okosama you no isu o omochi shimasu ne. rinyuushoku mo omochikomi itadaite kekkou desu."
+        },
         "english": "Yes, I'll bring a high chair. You're welcome to bring in baby food.",
         "chinese": "好的，我幫您拿兒童座椅。嬰兒食品可以帶進來。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "あと、この料理の辛さを控えめにしてもらうことはできますか？子供も一緒に食べるので。", "reading": "あと、このりょうりのからさをひかえめにしてもらうことはできますか？こどももいっしょにたべるので。", "romaji": "ato, kono ryouri no karasa o hikaeme ni shite morau koto wa dekimasu ka? kodomo mo issho ni taberu node." },
+        "japanese": {
+          "text": "あと、この料理の辛さを控えめにしてもらうことはできますか？子供も一緒に食べるので。",
+          "reading": "あと、このりょうりのからさをひかえめにしてもらうことはできますか？こどももいっしょにたべるので。",
+          "romaji": "ato, kono ryouri no karasa o hikaeme ni shite morau koto wa dekimasu ka? kodomo mo issho ni taberu node."
+        },
         "english": "Also, can you make this dish less spicy? My child will be eating it too.",
         "chinese": "還有，這道菜可以做不辣的嗎？因為小孩也要一起吃。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、辛さ控えめにできます。お子様用に小さいお皿もお持ちしましょうか？", "reading": "はい、からさひかえめにできます。おこさまようにちいさいおさらもおもちしましょうか？", "romaji": "hai, karasa hikaeme ni dekimasu. okosama you ni chiisai osara mo omochi shimashou ka?" },
+        "japanese": {
+          "text": "はい、辛さ控えめにできます。お子様用に小さいお皿もお持ちしましょうか？",
+          "reading": "はい、からさひかえめにできます。おこさまようにちいさいおさらもおもちしましょうか？",
+          "romaji": "hai, karasa hikaeme ni dekimasu. okosama you ni chiisai osara mo omochi shimashou ka?"
+        },
         "english": "Yes, we can make it less spicy. Shall I bring a small plate for your child too?",
         "chinese": "可以做不辣的。要不要也幫您拿小朋友用的小盤子？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "はい、お願いします。とても助かります。ありがとうございます。", "reading": "はい、おねがいします。とてもたすかります。ありがとうございます。", "romaji": "hai, onegaishimasu. totemo tasukarimasu. arigatou gozaimasu." },
+        "japanese": {
+          "text": "はい、お願いします。とても助かります。ありがとうございます。",
+          "reading": "はい、おねがいします。とてもたすかります。ありがとうございます。",
+          "romaji": "hai, onegaishimasu. totemo tasukarimasu. arigatou gozaimasu."
+        },
         "english": "Yes, please. That's very helpful. Thank you.",
         "chinese": "好的，麻煩你。真的很感謝。"
       }

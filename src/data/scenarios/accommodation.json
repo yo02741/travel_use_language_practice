@@ -6,25 +6,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "チェックインお願いします。", "reading": "ちぇっくいんおねがいします。", "romaji": "chekkuin onegai shimasu." },
+        "japanese": {
+          "text": "チェックインお願いします。",
+          "reading": "ちぇっくいんおねがいします。",
+          "romaji": "chekkuin onegai shimasu."
+        },
         "english": "I'd like to check in, please.",
         "chinese": "我想辦理入住。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "パスポートをお見せいただけますか？", "reading": "ぱすぽーとをおみせいただけますか？", "romaji": "pasupooto o omise itadakemasu ka?" },
+        "japanese": {
+          "text": "パスポートをお見せいただけますか？",
+          "reading": "ぱすぽーとをおみせいただけますか？",
+          "romaji": "pasupooto o omise itadakemasu ka?"
+        },
         "english": "May I see your passport?",
         "chinese": "可以出示您的護照嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "はい、どうぞ。", "reading": "はい、どうぞ。", "romaji": "hai, douzo." },
+        "japanese": {
+          "text": "はい、どうぞ。",
+          "reading": "はい、どうぞ。",
+          "romaji": "hai, douzo."
+        },
         "english": "Here you are.",
         "chinese": "好的，請看。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "お部屋は5階の502号室です。こちらがルームキーになります。", "reading": "おへやはごかいのごまるにごうしつです。こちらがるーむきーになります。", "romaji": "oheya wa gokai no go maru ni goushitsu desu. kochira ga ruumu kii ni narimasu." },
+        "japanese": {
+          "text": "お部屋は5階の502号室です。こちらがルームキーになります。",
+          "reading": "おへやはごかいのごまるにごうしつです。こちらがるーむきーになります。",
+          "romaji": "oheya wa gokai no go maru ni goushitsu desu. kochira ga ruumu kii ni narimasu."
+        },
         "english": "Your room is 502 on the 5th floor. Here is your room key.",
         "chinese": "您的房間是5樓的502號室。這是您的房間鑰匙。"
       }
@@ -37,25 +53,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、Wi-Fiのパスワードを教えていただけますか？", "reading": "すみません、わいふぁいのぱすわーどをおしえていただけますか？", "romaji": "sumimasen, waifai no pasuwaado o oshiete itadakemasu ka?" },
+        "japanese": {
+          "text": "すみません、Wi-Fiのパスワードを教えていただけますか？",
+          "reading": "すみません、わいふぁいのぱすわーどをおしえていただけますか？",
+          "romaji": "sumimasen, waifai no pasuwaado o oshiete itadakemasu ka?"
+        },
         "english": "Excuse me, could you tell me the Wi-Fi password?",
         "chinese": "不好意思，可以告訴我Wi-Fi密碼嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "Wi-Fiのパスワードはこちらのカードに書いてあります。", "reading": "わいふぁいのぱすわーどはこちらのかーどにかいてあります。", "romaji": "waifai no pasuwaado wa kochira no kaado ni kaite arimasu." },
+        "japanese": {
+          "text": "Wi-Fiのパスワードはこちらのカードに書いてあります。",
+          "reading": "わいふぁいのぱすわーどはこちらのかーどにかいてあります。",
+          "romaji": "waifai no pasuwaado wa kochira no kaado ni kaite arimasu."
+        },
         "english": "The Wi-Fi password is written on this card.",
         "chinese": "Wi-Fi密碼寫在這張卡片上。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "ありがとうございます。接続できない場合はどうすればいいですか？", "reading": "ありがとうございます。せつぞくできないばあいはどうすればいいですか？", "romaji": "arigatou gozaimasu. setsuzoku dekinai baai wa dou sureba ii desu ka?" },
+        "japanese": {
+          "text": "ありがとうございます。接続できない場合はどうすればいいですか？",
+          "reading": "ありがとうございます。せつぞくできないばあいはどうすればいいですか？",
+          "romaji": "arigatou gozaimasu. setsuzoku dekinai baai wa dou sureba ii desu ka?"
+        },
         "english": "Thank you. What should I do if I can't connect?",
         "chinese": "謝謝。如果連不上的話該怎麼辦？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "フロントにお電話いただければ、対応いたします。", "reading": "ふろんとにおでんわいただければ、たいおういたします。", "romaji": "furonto ni odenwa itadakereba, taiou itashimasu." },
+        "japanese": {
+          "text": "フロントにお電話いただければ、対応いたします。",
+          "reading": "ふろんとにおでんわいただければ、たいおういたします。",
+          "romaji": "furonto ni odenwa itadakereba, taiou itashimasu."
+        },
         "english": "Please call the front desk and we'll assist you.",
         "chinese": "請致電前台，我們會為您處理。"
       }
@@ -68,31 +100,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "チェックアウトお願いします。", "reading": "ちぇっくあうとおねがいします。", "romaji": "chekkuauto onegai shimasu." },
+        "japanese": {
+          "text": "チェックアウトお願いします。",
+          "reading": "ちぇっくあうとおねがいします。",
+          "romaji": "chekkuauto onegai shimasu."
+        },
         "english": "I'd like to check out, please.",
         "chinese": "我想辦理退房。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "ルームキーをお返しください。ミニバーのご利用はありましたか？", "reading": "るーむきーをおかえしください。みにばーのごりようはありましたか？", "romaji": "ruumu kii o okaeshi kudasai. minibaa no goriyou wa arimashita ka?" },
+        "japanese": {
+          "text": "ルームキーをお返しください。ミニバーのご利用はありましたか？",
+          "reading": "るーむきーをおかえしください。みにばーのごりようはありましたか？",
+          "romaji": "ruumu kii o okaeshi kudasai. minibaa no goriyou wa arimashita ka?"
+        },
         "english": "Please return your room key. Did you use the minibar?",
         "chinese": "請歸還房間鑰匙。請問有使用迷你吧嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "いいえ、使っていません。", "reading": "いいえ、つかっていません。", "romaji": "iie, tsukatte imasen." },
+        "japanese": {
+          "text": "いいえ、使っていません。",
+          "reading": "いいえ、つかっていません。",
+          "romaji": "iie, tsukatte imasen."
+        },
         "english": "No, I didn't use it.",
         "chinese": "沒有，我沒有使用。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "かしこまりました。ご滞在はいかがでしたか？", "reading": "かしこまりました。ごたいざいはいかがでしたか？", "romaji": "kashikomarimashita. gotaizai wa ikaga deshita ka?" },
+        "japanese": {
+          "text": "かしこまりました。ご滞在はいかがでしたか？",
+          "reading": "かしこまりました。ごたいざいはいかがでしたか？",
+          "romaji": "kashikomarimashita. gotaizai wa ikaga deshita ka?"
+        },
         "english": "Understood. How was your stay?",
         "chinese": "好的。您住得還好嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "とても快適でした。ありがとうございました。", "reading": "とてもかいてきでした。ありがとうございました。", "romaji": "totemo kaiteki deshita. arigatou gozaimashita." },
+        "japanese": {
+          "text": "とても快適でした。ありがとうございました。",
+          "reading": "とてもかいてきでした。ありがとうございました。",
+          "romaji": "totemo kaiteki deshita. arigatou gozaimashita."
+        },
         "english": "It was very comfortable. Thank you.",
         "chinese": "非常舒適。謝謝。"
       }
@@ -105,25 +157,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "予約した田中です。Booking.comで予約しました。", "reading": "よやくしたたなかです。ぶっきんぐどっとこむでよやくしました。", "romaji": "yoyaku shita tanaka desu. bukkingu dotto komu de yoyaku shimashita." },
+        "japanese": {
+          "text": "予約した田中です。Booking.comで予約しました。",
+          "reading": "よやくしたたなかです。ぶっきんぐどっとこむでよやくしました。",
+          "romaji": "yoyaku shita tanaka desu. bukkingu dotto komu de yoyaku shimashita."
+        },
         "english": "I'm Tanaka, I have a reservation. I booked through Booking.com.",
         "chinese": "我是有預約的田中。我透過Booking.com預訂的。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "確認いたします。お名前のスペルを教えていただけますか？", "reading": "かくにんいたします。おなまえのすぺるをおしえていただけますか？", "romaji": "kakunin itashimasu. onamae no superu o oshiete itadakemasu ka?" },
+        "japanese": {
+          "text": "確認いたします。お名前のスペルを教えていただけますか？",
+          "reading": "かくにんいたします。おなまえのすぺるをおしえていただけますか？",
+          "romaji": "kakunin itashimasu. onamae no superu o oshiete itadakemasu ka?"
+        },
         "english": "Let me check. Could you spell your name for me?",
         "chinese": "我確認一下。可以告訴我您名字的拼法嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "T-A-N-A-K-Aです。2泊の予約です。", "reading": "てぃーえーえぬえーけーえーです。にはくのよやくです。", "romaji": "tii ee enu ee kee ee desu. nihaku no yoyaku desu." },
+        "japanese": {
+          "text": "T-A-N-A-K-Aです。2泊の予約です。",
+          "reading": "てぃーえーえぬえーけーえーです。にはくのよやくです。",
+          "romaji": "tii ee enu ee kee ee desu. nihaku no yoyaku desu."
+        },
         "english": "T-A-N-A-K-A. It's a reservation for two nights.",
         "chinese": "T-A-N-A-K-A。預訂了兩晚。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、確認できました。シングルルームで2泊ですね。", "reading": "はい、かくにんできました。しんぐるるーむでにはくですね。", "romaji": "hai, kakunin dekimashita. shinguru ruumu de nihaku desu ne." },
+        "japanese": {
+          "text": "はい、確認できました。シングルルームで2泊ですね。",
+          "reading": "はい、かくにんできました。しんぐるるーむでにはくですね。",
+          "romaji": "hai, kakunin dekimashita. shinguru ruumu de nihaku desu ne."
+        },
         "english": "Yes, I found it. A single room for two nights, correct?",
         "chinese": "是的，已確認。單人房兩晚，對吧？"
       }
@@ -136,31 +204,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "ツインルームはありますか？", "reading": "ついんるーむはありますか？", "romaji": "tsuin ruumu wa arimasu ka?" },
+        "japanese": {
+          "text": "ツインルームはありますか？",
+          "reading": "ついんるーむはありますか？",
+          "romaji": "tsuin ruumu wa arimasu ka?"
+        },
         "english": "Do you have a twin room available?",
         "chinese": "有雙床房嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、ございます。一泊12,000円になります。", "reading": "はい、ございます。いっぱくいちまんにせんえんになります。", "romaji": "hai, gozaimasu. ippaku ichiman nisen en ni narimasu." },
+        "japanese": {
+          "text": "はい、ございます。一泊12,000円になります。",
+          "reading": "はい、ございます。いっぱくいちまんにせんえんになります。",
+          "romaji": "hai, gozaimasu. ippaku ichiman nisen en ni narimasu."
+        },
         "english": "Yes, we do. It's 12,000 yen per night.",
         "chinese": "有的。一晚12,000日圓。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "朝食は付いていますか？", "reading": "ちょうしょくはついていますか？", "romaji": "choushoku wa tsuite imasu ka?" },
+        "japanese": {
+          "text": "朝食は付いていますか？",
+          "reading": "ちょうしょくはついていますか？",
+          "romaji": "choushoku wa tsuite imasu ka?"
+        },
         "english": "Is breakfast included?",
         "chinese": "有附早餐嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "朝食付きですと、14,000円になります。", "reading": "ちょうしょくつきですと、いちまんよんせんえんになります。", "romaji": "choushoku tsuki desu to, ichiman yonsen en ni narimasu." },
+        "japanese": {
+          "text": "朝食付きですと、14,000円になります。",
+          "reading": "ちょうしょくつきですと、いちまんよんせんえんになります。",
+          "romaji": "choushoku tsuki desu to, ichiman yonsen en ni narimasu."
+        },
         "english": "With breakfast included, it would be 14,000 yen.",
         "chinese": "含早餐的話是14,000日圓。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "じゃあ、朝食付きでお願いします。", "reading": "じゃあ、ちょうしょくつきでおねがいします。", "romaji": "jaa, choushoku tsuki de onegai shimasu." },
+        "japanese": {
+          "text": "じゃあ、朝食付きでお願いします。",
+          "reading": "じゃあ、ちょうしょくつきでおねがいします。",
+          "romaji": "jaa, choushoku tsuki de onegai shimasu."
+        },
         "english": "Then I'll take the one with breakfast, please.",
         "chinese": "那我要含早餐的，麻煩了。"
       }
@@ -173,25 +261,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "ドミトリーの予約をしている者ですが。", "reading": "どみとりーのよやくをしているものですが。", "romaji": "domitorii no yoyaku o shite iru mono desu ga." },
+        "japanese": {
+          "text": "ドミトリーの予約をしている者ですが。",
+          "reading": "どみとりーのよやくをしているものですが。",
+          "romaji": "domitorii no yoyaku o shite iru mono desu ga."
+        },
         "english": "I have a reservation for a dormitory bed.",
         "chinese": "我有預約多人房的床位。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "Welcome！お名前をお願いします。ロッカーの鍵をお渡しします。", "reading": "うぇるかむ！おなまえをおねがいします。ろっかーのかぎをおわたしします。", "romaji": "werukamu! onamae o onegai shimasu. rokkaa no kagi o owatashi shimasu." },
+        "japanese": {
+          "text": "Welcome！お名前をお願いします。ロッカーの鍵をお渡しします。",
+          "reading": "うぇるかむ！おなまえをおねがいします。ろっかーのかぎをおわたしします。",
+          "romaji": "werukamu! onamae o onegai shimasu. rokkaa no kagi o owatashi shimasu."
+        },
         "english": "Welcome! Your name, please. I'll give you a locker key.",
         "chinese": "歡迎！請告訴我您的名字。我會給您置物櫃的鑰匙。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "シャワールームはどこですか？", "reading": "しゃわーるーむはどこですか？", "romaji": "shawaa ruumu wa doko desu ka?" },
+        "japanese": {
+          "text": "シャワールームはどこですか？",
+          "reading": "しゃわーるーむはどこですか？",
+          "romaji": "shawaa ruumu wa doko desu ka?"
+        },
         "english": "Where is the shower room?",
         "chinese": "淋浴間在哪裡？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "2階の突き当たりにあります。シャンプーとボディソープは備え付けです。", "reading": "にかいのつきあたりにあります。しゃんぷーとぼでぃそーぷはそなえつけです。", "romaji": "nikai no tsukiatari ni arimasu. shanpuu to bodi soopu wa sonaetsuke desu." },
+        "japanese": {
+          "text": "2階の突き当たりにあります。シャンプーとボディソープは備え付けです。",
+          "reading": "にかいのつきあたりにあります。しゃんぷーとぼでぃそーぷはそなえつけです。",
+          "romaji": "nikai no tsukiatari ni arimasu. shanpuu to bodi soopu wa sonaetsuke desu."
+        },
         "english": "It's at the end of the 2nd floor hallway. Shampoo and body soap are provided.",
         "chinese": "在2樓走廊盡頭。洗髮精和沐浴乳有提供。"
       }
@@ -204,25 +308,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、歯ブラシはありますか？", "reading": "すみません、はぶらしはありますか？", "romaji": "sumimasen, haburashi wa arimasu ka?" },
+        "japanese": {
+          "text": "すみません、歯ブラシはありますか？",
+          "reading": "すみません、はぶらしはありますか？",
+          "romaji": "sumimasen, haburashi wa arimasu ka?"
+        },
         "english": "Excuse me, do you have a toothbrush?",
         "chinese": "不好意思，有牙刷嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、フロントにご用意しております。おいくつ必要ですか？", "reading": "はい、ふろんとにごよういしております。おいくつひつようですか？", "romaji": "hai, furonto ni goyoui shite orimasu. oikutsu hitsuyou desu ka?" },
+        "japanese": {
+          "text": "はい、フロントにご用意しております。おいくつ必要ですか？",
+          "reading": "はい、ふろんとにごよういしております。おいくつひつようですか？",
+          "romaji": "hai, furonto ni goyoui shite orimasu. oikutsu hitsuyou desu ka?"
+        },
         "english": "Yes, we have them at the front desk. How many do you need?",
         "chinese": "有的，前台有準備。需要幾支？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "2つお願いします。あと、スリッパもいただけますか？", "reading": "ふたつおねがいします。あと、すりっぱもいただけますか？", "romaji": "futatsu onegai shimasu. ato, surippa mo itadakemasu ka?" },
+        "japanese": {
+          "text": "2つお願いします。あと、スリッパもいただけますか？",
+          "reading": "ふたつおねがいします。あと、すりっぱもいただけますか？",
+          "romaji": "futatsu onegai shimasu. ato, surippa mo itadakemasu ka?"
+        },
         "english": "Two, please. Also, may I have some slippers?",
         "chinese": "請給我兩支。另外，也可以給我拖鞋嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、どうぞ。他に何かございましたらお申し付けください。", "reading": "はい、どうぞ。ほかになにかございましたらおもうしつけください。", "romaji": "hai, douzo. hoka ni nanika gozaimashitara omoushitsuke kudasai." },
+        "japanese": {
+          "text": "はい、どうぞ。他に何かございましたらお申し付けください。",
+          "reading": "はい、どうぞ。ほかになにかございましたらおもうしつけください。",
+          "romaji": "hai, douzo. hoka ni nanika gozaimashitara omoushitsuke kudasai."
+        },
         "english": "Here you go. Please let us know if you need anything else.",
         "chinese": "好的，請拿。如果還有需要，請隨時告知。"
       }
@@ -235,19 +355,31 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "チェックアウトは何時ですか？", "reading": "ちぇっくあうとはなんじですか？", "romaji": "chekkuauto wa nanji desu ka?" },
+        "japanese": {
+          "text": "チェックアウトは何時ですか？",
+          "reading": "ちぇっくあうとはなんじですか？",
+          "romaji": "chekkuauto wa nanji desu ka?"
+        },
         "english": "What time is check-out?",
         "chinese": "退房時間是幾點？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "チェックアウトは11時です。", "reading": "ちぇっくあうとはじゅういちじです。", "romaji": "chekkuauto wa juuichiji desu." },
+        "japanese": {
+          "text": "チェックアウトは11時です。",
+          "reading": "ちぇっくあうとはじゅういちじです。",
+          "romaji": "chekkuauto wa juuichiji desu."
+        },
         "english": "Check-out is at 11 o'clock.",
         "chinese": "退房時間是11點。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "わかりました。ありがとうございます。", "reading": "わかりました。ありがとうございます。", "romaji": "wakarimashita. arigatou gozaimasu." },
+        "japanese": {
+          "text": "わかりました。ありがとうございます。",
+          "reading": "わかりました。ありがとうございます。",
+          "romaji": "wakarimashita. arigatou gozaimasu."
+        },
         "english": "Got it. Thank you.",
         "chinese": "了解了。謝謝。"
       }
@@ -260,25 +392,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、鍵の受け取り方がわかりません。", "reading": "すみません、かぎのうけとりかたがわかりません。", "romaji": "sumimasen, kagi no uketorikata ga wakarimasen." },
+        "japanese": {
+          "text": "すみません、鍵の受け取り方がわかりません。",
+          "reading": "すみません、かぎのうけとりかたがわかりません。",
+          "romaji": "sumimasen, kagi no uketorikata ga wakarimasen."
+        },
         "english": "Excuse me, I don't understand how to get the key.",
         "chinese": "不好意思，我不知道怎麼領取鑰匙。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "玄関の横にキーボックスがあります。暗証番号は1234です。", "reading": "げんかんのよこにきーぼっくすがあります。あんしょうばんごうはいちにさんよんです。", "romaji": "genkan no yoko ni kii bokkusu ga arimasu. anshou bangou wa ichi ni san yon desu." },
+        "japanese": {
+          "text": "玄関の横にキーボックスがあります。暗証番号は1234です。",
+          "reading": "げんかんのよこにきーぼっくすがあります。あんしょうばんごうはいちにさんよんです。",
+          "romaji": "genkan no yoko ni kii bokkusu ga arimasu. anshou bangou wa ichi ni san yon desu."
+        },
         "english": "There's a key box next to the entrance. The code is 1234.",
         "chinese": "入口旁邊有一個鑰匙箱。密碼是1234。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "ゴミの出し方を教えてください。", "reading": "ごみのだしかたをおしえてください。", "romaji": "gomi no dashikata o oshiete kudasai." },
+        "japanese": {
+          "text": "ゴミの出し方を教えてください。",
+          "reading": "ごみのだしかたをおしえてください。",
+          "romaji": "gomi no dashikata o oshiete kudasai."
+        },
         "english": "Please tell me how to take out the garbage.",
         "chinese": "請告訴我怎麼丟垃圾。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "燃えるゴミは赤い袋、ペットボトルは青い袋に分けてください。", "reading": "もえるごみはあかいふくろ、ぺっとぼとるはあおいふくろにわけてください。", "romaji": "moeru gomi wa akai fukuro, pettobotoru wa aoi fukuro ni wakete kudasai." },
+        "japanese": {
+          "text": "燃えるゴミは赤い袋、ペットボトルは青い袋に分けてください。",
+          "reading": "もえるごみはあかいふくろ、ぺっとぼとるはあおいふくろにわけてください。",
+          "romaji": "moeru gomi wa akai fukuro, pettobotoru wa aoi fukuro ni wakete kudasai."
+        },
         "english": "Please separate burnable trash in red bags and plastic bottles in blue bags.",
         "chinese": "可燃垃圾請用紅色袋子，寶特瓶請用藍色袋子分類。"
       }
@@ -291,19 +439,31 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "エレベーターはどこですか？", "reading": "えれべーたーはどこですか？", "romaji": "erebeetaa wa doko desu ka?" },
+        "japanese": {
+          "text": "エレベーターはどこですか？",
+          "reading": "えれべーたーはどこですか？",
+          "romaji": "erebeetaa wa doko desu ka?"
+        },
         "english": "Where is the elevator?",
         "chinese": "電梯在哪裡？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "あちらの廊下を右に曲がったところにあります。", "reading": "あちらのろうかをみぎにまがったところにあります。", "romaji": "achira no rouka o migi ni magatta tokoro ni arimasu." },
+        "japanese": {
+          "text": "あちらの廊下を右に曲がったところにあります。",
+          "reading": "あちらのろうかをみぎにまがったところにあります。",
+          "romaji": "achira no rouka o migi ni magatta tokoro ni arimasu."
+        },
         "english": "It's down that hallway, turn right.",
         "chinese": "在那邊走廊右轉的地方。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "荷物が多いので助かります。ありがとうございます。", "reading": "にもつがおおいのでたすかります。ありがとうございます。", "romaji": "nimotsu ga ooi node tasukarimasu. arigatou gozaimasu." },
+        "japanese": {
+          "text": "荷物が多いので助かります。ありがとうございます。",
+          "reading": "にもつがおおいのでたすかります。ありがとうございます。",
+          "romaji": "nimotsu ga ooi node tasukarimasu. arigatou gozaimasu."
+        },
         "english": "That helps since I have a lot of luggage. Thank you.",
         "chinese": "因為行李很多，這樣太好了。謝謝。"
       }
@@ -316,25 +476,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "クレジットカードで支払えますか？", "reading": "くれじっとかーどでしはらえますか？", "romaji": "kurejitto kaado de shiharaemasu ka?" },
+        "japanese": {
+          "text": "クレジットカードで支払えますか？",
+          "reading": "くれじっとかーどでしはらえますか？",
+          "romaji": "kurejitto kaado de shiharaemasu ka?"
+        },
         "english": "Can I pay by credit card?",
         "chinese": "可以用信用卡付款嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、Visa、Mastercard、JCBがご利用いただけます。", "reading": "はい、びざ、ますたーかーど、じぇいしーびーがごりよういただけます。", "romaji": "hai, biza, masutaakaado, jeishiibii ga goriyou itadakemasu." },
+        "japanese": {
+          "text": "はい、Visa、Mastercard、JCBがご利用いただけます。",
+          "reading": "はい、びざ、ますたーかーど、じぇいしーびーがごりよういただけます。",
+          "romaji": "hai, biza, masutaakaado, jeishiibii ga goriyou itadakemasu."
+        },
         "english": "Yes, we accept Visa, Mastercard, and JCB.",
         "chinese": "可以的，我們接受Visa、Mastercard和JCB。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "では、Visaでお願いします。", "reading": "では、びざでおねがいします。", "romaji": "dewa, biza de onegai shimasu." },
+        "japanese": {
+          "text": "では、Visaでお願いします。",
+          "reading": "では、びざでおねがいします。",
+          "romaji": "dewa, biza de onegai shimasu."
+        },
         "english": "Then I'll pay with Visa, please.",
         "chinese": "那我用Visa付，麻煩了。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "こちらにサインをお願いいたします。", "reading": "こちらにさいんをおねがいいたします。", "romaji": "kochira ni sain o onegai itashimasu." },
+        "japanese": {
+          "text": "こちらにサインをお願いいたします。",
+          "reading": "こちらにさいんをおねがいいたします。",
+          "romaji": "kochira ni sain o onegai itashimasu."
+        },
         "english": "Please sign here.",
         "chinese": "請在這裡簽名。"
       }
@@ -347,31 +523,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "予約していないんですが、今夜空いている部屋はありますか？", "reading": "よやくしていないんですが、こんやあいているへやはありますか？", "romaji": "yoyaku shite inain desu ga, konya aite iru heya wa arimasu ka?" },
+        "japanese": {
+          "text": "予約していないんですが、今夜空いている部屋はありますか？",
+          "reading": "よやくしていないんですが、こんやあいているへやはありますか？",
+          "romaji": "yoyaku shite inain desu ga, konya aite iru heya wa arimasu ka?"
+        },
         "english": "I don't have a reservation. Do you have a room available tonight?",
         "chinese": "我沒有預約，今晚有空房嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "少々お待ちください。確認いたします。…はい、ダブルルームが一部屋空いております。", "reading": "しょうしょうおまちください。かくにんいたします。…はい、だぶるるーむがひとへやあいております。", "romaji": "shoushou omachi kudasai. kakunin itashimasu. ...hai, daburu ruumu ga hitoheya aite orimasu." },
+        "japanese": {
+          "text": "少々お待ちください。確認いたします。…はい、ダブルルームが一部屋空いております。",
+          "reading": "しょうしょうおまちください。かくにんいたします。…はい、だぶるるーむがひとへやあいております。",
+          "romaji": "shoushou omachi kudasai. kakunin itashimasu. ...hai, daburu ruumu ga hitoheya aite orimasu."
+        },
         "english": "One moment please. Let me check. ...Yes, we have one double room available.",
         "chinese": "請稍等。我確認一下。……有的，有一間雙人房空著。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "一泊いくらですか？", "reading": "いっぱくいくらですか？", "romaji": "ippaku ikura desu ka?" },
+        "japanese": {
+          "text": "一泊いくらですか？",
+          "reading": "いっぱくいくらですか？",
+          "romaji": "ippaku ikura desu ka?"
+        },
         "english": "How much is it per night?",
         "chinese": "一晚多少錢？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "一泊15,000円、税込みです。", "reading": "いっぱくいちまんごせんえん、ぜいこみです。", "romaji": "ippaku ichiman gosen en, zeikomi desu." },
+        "japanese": {
+          "text": "一泊15,000円、税込みです。",
+          "reading": "いっぱくいちまんごせんえん、ぜいこみです。",
+          "romaji": "ippaku ichiman gosen en, zeikomi desu."
+        },
         "english": "15,000 yen per night, tax included.",
         "chinese": "一晚15,000日圓，含稅。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "お願いします。", "reading": "おねがいします。", "romaji": "onegai shimasu." },
+        "japanese": {
+          "text": "お願いします。",
+          "reading": "おねがいします。",
+          "romaji": "onegai shimasu."
+        },
         "english": "I'll take it, please.",
         "chinese": "那就麻煩了。"
       }
@@ -384,25 +580,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "チェックイン前ですが、荷物を預かっていただけますか？", "reading": "ちぇっくいんまえですが、にもつをあずかっていただけますか？", "romaji": "chekkuin mae desu ga, nimotsu o azukatte itadakemasu ka?" },
+        "japanese": {
+          "text": "チェックイン前ですが、荷物を預かっていただけますか？",
+          "reading": "ちぇっくいんまえですが、にもつをあずかっていただけますか？",
+          "romaji": "chekkuin mae desu ga, nimotsu o azukatte itadakemasu ka?"
+        },
         "english": "It's before check-in time, but could you store my luggage?",
         "chinese": "還沒到入住時間，可以先寄放行李嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、お預かりいたします。お荷物はいくつですか？", "reading": "はい、おあずかりいたします。おにもつはいくつですか？", "romaji": "hai, oazukari itashimasu. onimotsu wa ikutsu desu ka?" },
+        "japanese": {
+          "text": "はい、お預かりいたします。お荷物はいくつですか？",
+          "reading": "はい、おあずかりいたします。おにもつはいくつですか？",
+          "romaji": "hai, oazukari itashimasu. onimotsu wa ikutsu desu ka?"
+        },
         "english": "Yes, we can keep them for you. How many pieces of luggage?",
         "chinese": "好的，我們可以幫您保管。有幾件行李？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "スーツケース2つとリュック1つです。", "reading": "すーつけーすふたつとりゅっくひとつです。", "romaji": "suutsukeesu futatsu to ryukku hitotsu desu." },
+        "japanese": {
+          "text": "スーツケース2つとリュック1つです。",
+          "reading": "すーつけーすふたつとりゅっくひとつです。",
+          "romaji": "suutsukeesu futatsu to ryukku hitotsu desu."
+        },
         "english": "Two suitcases and one backpack.",
         "chinese": "兩個行李箱和一個背包。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "かしこまりました。こちらの引換券をお持ちください。", "reading": "かしこまりました。こちらのひきかえけんをおもちください。", "romaji": "kashikomarimashita. kochira no hikikaeken o omochi kudasai." },
+        "japanese": {
+          "text": "かしこまりました。こちらの引換券をお持ちください。",
+          "reading": "かしこまりました。こちらのひきかえけんをおもちください。",
+          "romaji": "kashikomarimashita. kochira no hikikaeken o omochi kudasai."
+        },
         "english": "Understood. Please keep this claim ticket.",
         "chinese": "好的。請保管好這張領取券。"
       }
@@ -415,25 +627,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、タオルを追加でいただけますか？", "reading": "すみません、たおるをついかでいただけますか？", "romaji": "sumimasen, taoru o tsuika de itadakemasu ka?" },
+        "japanese": {
+          "text": "すみません、タオルを追加でいただけますか？",
+          "reading": "すみません、たおるをついかでいただけますか？",
+          "romaji": "sumimasen, taoru o tsuika de itadakemasu ka?"
+        },
         "english": "Excuse me, could I get some extra towels?",
         "chinese": "不好意思，可以多給我幾條毛巾嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、バスタオルとフェイスタオル、どちらが必要ですか？", "reading": "はい、ばすたおるとふぇいすたおる、どちらがひつようですか？", "romaji": "hai, basu taoru to feisu taoru, dochira ga hitsuyou desu ka?" },
+        "japanese": {
+          "text": "はい、バスタオルとフェイスタオル、どちらが必要ですか？",
+          "reading": "はい、ばすたおるとふぇいすたおる、どちらがひつようですか？",
+          "romaji": "hai, basu taoru to feisu taoru, dochira ga hitsuyou desu ka?"
+        },
         "english": "Sure, do you need bath towels or face towels?",
         "chinese": "好的，您需要浴巾還是面巾？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "バスタオルを2枚お願いします。", "reading": "ばすたおるをにまいおねがいします。", "romaji": "basu taoru o nimai onegai shimasu." },
+        "japanese": {
+          "text": "バスタオルを2枚お願いします。",
+          "reading": "ばすたおるをにまいおねがいします。",
+          "romaji": "basu taoru o nimai onegai shimasu."
+        },
         "english": "Two bath towels, please.",
         "chinese": "請給我兩條浴巾。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "お部屋にお届けいたします。10分ほどお待ちください。", "reading": "おへやにおとどけいたします。じゅっぷんほどおまちください。", "romaji": "oheya ni otodoke itashimasu. juppun hodo omachi kudasai." },
+        "japanese": {
+          "text": "お部屋にお届けいたします。10分ほどお待ちください。",
+          "reading": "おへやにおとどけいたします。じゅっぷんほどおまちください。",
+          "romaji": "oheya ni otodoke itashimasu. juppun hodo omachi kudasai."
+        },
         "english": "We'll deliver them to your room. Please wait about 10 minutes.",
         "chinese": "我們會送到您的房間。請等約10分鐘。"
       }
@@ -446,37 +674,61 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "大浴場は何時まで利用できますか？", "reading": "だいよくじょうはなんじまでりようできますか？", "romaji": "daiyokujou wa nanji made riyou dekimasu ka?" },
+        "japanese": {
+          "text": "大浴場は何時まで利用できますか？",
+          "reading": "だいよくじょうはなんじまでりようできますか？",
+          "romaji": "daiyokujou wa nanji made riyou dekimasu ka?"
+        },
         "english": "Until what time can I use the public bath?",
         "chinese": "大浴場可以使用到幾點？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "夜は11時まで、朝は6時から9時までご利用いただけます。", "reading": "よるはじゅういちじまで、あさはろくじからくじまでごりよういただけます。", "romaji": "yoru wa juuichiji made, asa wa rokuji kara kuji made goriyou itadakemasu." },
+        "japanese": {
+          "text": "夜は11時まで、朝は6時から9時までご利用いただけます。",
+          "reading": "よるはじゅういちじまで、あさはろくじからくじまでごりよういただけます。",
+          "romaji": "yoru wa juuichiji made, asa wa rokuji kara kuji made goriyou itadakemasu."
+        },
         "english": "In the evening until 11 PM, and in the morning from 6 to 9 AM.",
         "chinese": "晚上到11點，早上6點到9點可以使用。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "タトゥーがあっても大丈夫ですか？", "reading": "たとぅーがあってもだいじょうぶですか？", "romaji": "tatuu ga atte mo daijoubu desu ka?" },
+        "japanese": {
+          "text": "タトゥーがあっても大丈夫ですか？",
+          "reading": "たとぅーがあってもだいじょうぶですか？",
+          "romaji": "tatuu ga atte mo daijoubu desu ka?"
+        },
         "english": "Is it okay if I have tattoos?",
         "chinese": "有刺青也可以嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "申し訳ございません。タトゥーのある方はご遠慮いただいております。貸切風呂をご利用ください。", "reading": "もうしわけございません。たとぅーのあるかたはごえんりょいただいております。かしきりぶろをごりようください。", "romaji": "moushiwake gozaimasen. tatuu no aru kata wa goenryo itadaite orimasu. kashikiri buro o goriyou kudasai." },
+        "japanese": {
+          "text": "申し訳ございません。タトゥーのある方はご遠慮いただいております。貸切風呂をご利用ください。",
+          "reading": "もうしわけございません。たとぅーのあるかたはごえんりょいただいております。かしきりぶろをごりようください。",
+          "romaji": "moushiwake gozaimasen. tatuu no aru kata wa goenryo itadaite orimasu. kashikiri buro o goriyou kudasai."
+        },
         "english": "I'm sorry. Guests with tattoos are asked to refrain. You can use the private bath instead.",
         "chinese": "很抱歉。有刺青的客人我們婉拒使用。您可以使用包場浴室。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "貸切風呂の予約はどうすればいいですか？", "reading": "かしきりぶろのよやくはどうすればいいですか？", "romaji": "kashikiri buro no yoyaku wa dou sureba ii desu ka?" },
+        "japanese": {
+          "text": "貸切風呂の予約はどうすればいいですか？",
+          "reading": "かしきりぶろのよやくはどうすればいいですか？",
+          "romaji": "kashikiri buro no yoyaku wa dou sureba ii desu ka?"
+        },
         "english": "How can I reserve the private bath?",
         "chinese": "包場浴室要怎麼預約？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "フロントでご予約いただけます。1回45分で2,000円です。", "reading": "ふろんとでごよやくいただけます。いっかいよんじゅうごふんでにせんえんです。", "romaji": "furonto de goyoyaku itadakemasu. ikkai yonjuugofun de nisen en desu." },
+        "japanese": {
+          "text": "フロントでご予約いただけます。1回45分で2,000円です。",
+          "reading": "ふろんとでごよやくいただけます。いっかいよんじゅうごふんでにせんえんです。",
+          "romaji": "furonto de goyoyaku itadakemasu. ikkai yonjuugofun de nisen en desu."
+        },
         "english": "You can book it at the front desk. It's 2,000 yen for 45 minutes.",
         "chinese": "可以在前台預約。一次45分鐘，2,000日圓。"
       }
@@ -489,25 +741,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "もう一泊延長したいのですが、可能ですか？", "reading": "もういっぱくえんちょうしたいのですが、かのうですか？", "romaji": "mou ippaku enchou shitai no desu ga, kanou desu ka?" },
+        "japanese": {
+          "text": "もう一泊延長したいのですが、可能ですか？",
+          "reading": "もういっぱくえんちょうしたいのですが、かのうですか？",
+          "romaji": "mou ippaku enchou shitai no desu ga, kanou desu ka?"
+        },
         "english": "I'd like to extend my stay by one more night. Is that possible?",
         "chinese": "我想延長住一晚，可以嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "確認いたします。…申し訳ございません、同じお部屋は明日予約が入っております。別のお部屋でしたらご用意できます。", "reading": "かくにんいたします。…もうしわけございません、おなじおへやはあしたよやくがはいっております。べつのおへやでしたらごよういできます。", "romaji": "kakunin itashimasu. ...moushiwake gozaimasen, onaji oheya wa ashita yoyaku ga haitte orimasu. betsu no oheya deshitara goyoui dekimasu." },
+        "japanese": {
+          "text": "確認いたします。…申し訳ございません、同じお部屋は明日予約が入っております。別のお部屋でしたらご用意できます。",
+          "reading": "かくにんいたします。…もうしわけございません、おなじおへやはあしたよやくがはいっております。べつのおへやでしたらごよういできます。",
+          "romaji": "kakunin itashimasu. ...moushiwake gozaimasen, onaji oheya wa ashita yoyaku ga haitte orimasu. betsu no oheya deshitara goyoui dekimasu."
+        },
         "english": "Let me check. ...I'm sorry, the same room is booked tomorrow. We can prepare a different room.",
         "chinese": "我確認一下。……很抱歉，同一間房間明天已有預約。如果是其他房間的話可以安排。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "それで大丈夫です。料金は同じですか？", "reading": "それでだいじょうぶです。りょうきんはおなじですか？", "romaji": "sore de daijoubu desu. ryoukin wa onaji desu ka?" },
+        "japanese": {
+          "text": "それで大丈夫です。料金は同じですか？",
+          "reading": "それでだいじょうぶです。りょうきんはおなじですか？",
+          "romaji": "sore de daijoubu desu. ryoukin wa onaji desu ka?"
+        },
         "english": "That's fine. Is the rate the same?",
         "chinese": "那也可以。費用一樣嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、同じ料金でご案内できます。", "reading": "はい、おなじりょうきんでごあんないできます。", "romaji": "hai, onaji ryoukin de goannai dekimasu." },
+        "japanese": {
+          "text": "はい、同じ料金でご案内できます。",
+          "reading": "はい、おなじりょうきんでごあんないできます。",
+          "romaji": "hai, onaji ryoukin de goannai dekimasu."
+        },
         "english": "Yes, we can offer the same rate.",
         "chinese": "是的，可以用同樣的費用。"
       }
@@ -520,25 +788,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "朝食は何時からですか？場所はどこですか？", "reading": "ちょうしょくはなんじからですか？ばしょはどこですか？", "romaji": "choushoku wa nanji kara desu ka? basho wa doko desu ka?" },
+        "japanese": {
+          "text": "朝食は何時からですか？場所はどこですか？",
+          "reading": "ちょうしょくはなんじからですか？ばしょはどこですか？",
+          "romaji": "choushoku wa nanji kara desu ka? basho wa doko desu ka?"
+        },
         "english": "What time does breakfast start? Where is it served?",
         "chinese": "早餐從幾點開始？在哪裡用餐？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "朝食は7時から9時まで、1階のレストランでお召し上がりいただけます。", "reading": "ちょうしょくはしちじからくじまで、いっかいのれすとらんでおめしあがりいただけます。", "romaji": "choushoku wa shichiji kara kuji made, ikkai no resutoran de omeshiagari itadakemasu." },
+        "japanese": {
+          "text": "朝食は7時から9時まで、1階のレストランでお召し上がりいただけます。",
+          "reading": "ちょうしょくはしちじからくじまで、いっかいのれすとらんでおめしあがりいただけます。",
+          "romaji": "choushoku wa shichiji kara kuji made, ikkai no resutoran de omeshiagari itadakemasu."
+        },
         "english": "Breakfast is from 7 to 9 AM at the restaurant on the first floor.",
         "chinese": "早餐是7點到9點，在1樓的餐廳用餐。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "和食と洋食、どちらもありますか？", "reading": "わしょくとようしょく、どちらもありますか？", "romaji": "washoku to youshoku, dochira mo arimasu ka?" },
+        "japanese": {
+          "text": "和食と洋食、どちらもありますか？",
+          "reading": "わしょくとようしょく、どちらもありますか？",
+          "romaji": "washoku to youshoku, dochira mo arimasu ka?"
+        },
         "english": "Do you have both Japanese and Western-style breakfast?",
         "chinese": "日式和西式的都有嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、バイキング形式ですので、お好きなものをお選びいただけます。", "reading": "はい、ばいきんぐけいしきですので、おすきなものをおえらびいただけます。", "romaji": "hai, baikingu keishiki desu node, osuki na mono o oerabi itadakemasu." },
+        "japanese": {
+          "text": "はい、バイキング形式ですので、お好きなものをお選びいただけます。",
+          "reading": "はい、ばいきんぐけいしきですので、おすきなものをおえらびいただけます。",
+          "romaji": "hai, baikingu keishiki desu node, osuki na mono o oerabi itadakemasu."
+        },
         "english": "Yes, it's a buffet, so you can choose whatever you like.",
         "chinese": "是的，是自助餐形式，您可以自由選擇。"
       }
@@ -551,25 +835,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "この浴衣はどうやって着るんですか？", "reading": "このゆかたはどうやってきるんですか？", "romaji": "kono yukata wa douyatte kirun desu ka?" },
+        "japanese": {
+          "text": "この浴衣はどうやって着るんですか？",
+          "reading": "このゆかたはどうやってきるんですか？",
+          "romaji": "kono yukata wa douyatte kirun desu ka?"
+        },
         "english": "How do I wear this yukata?",
         "chinese": "這件浴衣要怎麼穿？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "右側を先に体に合わせて、その上に左側を重ねてください。帯で結びます。", "reading": "みぎがわをさきにからだにあわせて、そのうえにひだりがわをかさねてください。おびでむすびます。", "romaji": "migigawa o saki ni karada ni awasete, sono ue ni hidarigawa o kasanete kudasai. obi de musubimasu." },
+        "japanese": {
+          "text": "右側を先に体に合わせて、その上に左側を重ねてください。帯で結びます。",
+          "reading": "みぎがわをさきにからだにあわせて、そのうえにひだりがわをかさねてください。おびでむすびます。",
+          "romaji": "migigawa o saki ni karada ni awasete, sono ue ni hidarigawa o kasanete kudasai. obi de musubimasu."
+        },
         "english": "Wrap the right side over your body first, then layer the left side on top. Tie it with the sash.",
         "chinese": "先將右邊貼合身體，然後左邊疊在上面。用腰帶繫好。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "浴衣のまま食事に行ってもいいですか？", "reading": "ゆかたのままshょくじにいってもいいですか？", "romaji": "yukata no mama shokuji ni itte mo ii desu ka?" },
+        "japanese": {
+          "text": "浴衣のまま食事に行ってもいいですか？",
+          "reading": "ゆかたのままshょくじにいってもいいですか？",
+          "romaji": "yukata no mama shokuji ni itte mo ii desu ka?"
+        },
         "english": "Is it okay to go to dinner wearing the yukata?",
         "chinese": "穿著浴衣去用餐可以嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、館内でしたら浴衣のままで大丈夫ですよ。", "reading": "はい、かんないでしたらゆかたのままでだいじょうぶですよ。", "romaji": "hai, kannai deshitara yukata no mama de daijoubu desu yo." },
+        "japanese": {
+          "text": "はい、館内でしたら浴衣のままで大丈夫ですよ。",
+          "reading": "はい、かんないでしたらゆかたのままでだいじょうぶですよ。",
+          "romaji": "hai, kannai deshitara yukata no mama de daijoubu desu yo."
+        },
         "english": "Yes, you can wear the yukata anywhere inside the building.",
         "chinese": "可以的，在館內穿浴衣沒問題。"
       }
@@ -582,25 +882,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "部屋の掃除をお願いできますか？", "reading": "へやのそうじをおねがいできますか？", "romaji": "heya no souji o onegai dekimasu ka?" },
+        "japanese": {
+          "text": "部屋の掃除をお願いできますか？",
+          "reading": "へやのそうじをおねがいできますか？",
+          "romaji": "heya no souji o onegai dekimasu ka?"
+        },
         "english": "Could you clean my room, please?",
         "chinese": "可以打掃一下房間嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "かしこまりました。何時頃がよろしいですか？", "reading": "かしこまりました。なんじごろがよろしいですか？", "romaji": "kashikomarimashita. nanjigoro ga yoroshii desu ka?" },
+        "japanese": {
+          "text": "かしこまりました。何時頃がよろしいですか？",
+          "reading": "かしこまりました。なんじごろがよろしいですか？",
+          "romaji": "kashikomarimashita. nanjigoro ga yoroshii desu ka?"
+        },
         "english": "Certainly. What time would be convenient?",
         "chinese": "好的。什麼時候方便呢？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "午前中にお願いします。あと、ベッドのシーツも替えてもらえますか？", "reading": "ごぜんちゅうにおねがいします。あと、べっどのしーつもかえてもらえますか？", "romaji": "gozenchuu ni onegai shimasu. ato, beddo no shiitsu mo kaete moraemasu ka?" },
+        "japanese": {
+          "text": "午前中にお願いします。あと、ベッドのシーツも替えてもらえますか？",
+          "reading": "ごぜんちゅうにおねがいします。あと、べっどのしーつもかえてもらえますか？",
+          "romaji": "gozenchuu ni onegai shimasu. ato, beddo no shiitsu mo kaete moraemasu ka?"
+        },
         "english": "In the morning, please. Also, could you change the bed sheets?",
         "chinese": "上午麻煩了。另外，床單也可以換嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "承知いたしました。外出の際はドアに「清掃希望」のカードをかけておいてください。", "reading": "しょうちいたしました。がいしゅつのさいはどあに「せいそうきぼう」のかーどをかけておいてください。", "romaji": "shouchi itashimashita. gaishutsu no sai wa doa ni 'seisou kibou' no kaado o kakete oite kudasai." },
+        "japanese": {
+          "text": "承知いたしました。外出の際はドアに「清掃希望」のカードをかけておいてください。",
+          "reading": "しょうちいたしました。がいしゅつのさいはどあに「せいそうきぼう」のかーどをかけておいてください。",
+          "romaji": "shouchi itashimashita. gaishutsu no sai wa doa ni 'seisou kibou' no kaado o kakete oite kudasai."
+        },
         "english": "Understood. When you leave, please hang the 'housekeeping requested' card on the door.",
         "chinese": "了解了。外出時請將「希望清掃」的卡片掛在門上。"
       }
@@ -613,25 +929,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "ランドリーはありますか？", "reading": "らんどりーはありますか？", "romaji": "randorii wa arimasu ka?" },
+        "japanese": {
+          "text": "ランドリーはありますか？",
+          "reading": "らんどりーはありますか？",
+          "romaji": "randorii wa arimasu ka?"
+        },
         "english": "Do you have laundry facilities?",
         "chinese": "有洗衣設備嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、地下1階にコインランドリーがあります。洗濯が1回300円、乾燥が1回100円です。", "reading": "はい、ちかいっかいにこいんらんどりーがあります。せんたくがいっかいさんびゃくえん、かんそうがいっかいひゃくえんです。", "romaji": "hai, chika ikkai ni koin randorii ga arimasu. sentaku ga ikkai sanbyaku en, kansou ga ikkai hyaku en desu." },
+        "japanese": {
+          "text": "はい、地下1階にコインランドリーがあります。洗濯が1回300円、乾燥が1回100円です。",
+          "reading": "はい、ちかいっかいにこいんらんどりーがあります。せんたくがいっかいさんびゃくえん、かんそうがいっかいひゃくえんです。",
+          "romaji": "hai, chika ikkai ni koin randorii ga arimasu. sentaku ga ikkai sanbyaku en, kansou ga ikkai hyaku en desu."
+        },
         "english": "Yes, there's a coin laundry in basement level 1. Washing is 300 yen and drying is 100 yen per cycle.",
         "chinese": "有的，地下一樓有投幣式洗衣機。洗衣一次300日圓，烘乾一次100日圓。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "洗剤は必要ですか？", "reading": "せんざいはひつようですか？", "romaji": "senzai wa hitsuyou desu ka?" },
+        "japanese": {
+          "text": "洗剤は必要ですか？",
+          "reading": "せんざいはひつようですか？",
+          "romaji": "senzai wa hitsuyou desu ka?"
+        },
         "english": "Do I need to bring detergent?",
         "chinese": "需要自備洗衣精嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "洗剤は自動で投入されますので、ご用意いただかなくて大丈夫です。", "reading": "せんざいはじどうでとうにゅうされますので、ごよういいただかなくてだいじょうぶです。", "romaji": "senzai wa jidou de tounyuu saremasu node, goyoui itadakanakute daijoubu desu." },
+        "japanese": {
+          "text": "洗剤は自動で投入されますので、ご用意いただかなくて大丈夫です。",
+          "reading": "せんざいはじどうでとうにゅうされますので、ごよういいただかなくてだいじょうぶです。",
+          "romaji": "senzai wa jidou de tounyuu saremasu node, goyoui itadakanakute daijoubu desu."
+        },
         "english": "The detergent is automatically dispensed, so you don't need to bring any.",
         "chinese": "洗衣精是自動投入的，所以不需要自備。"
       }
@@ -644,25 +976,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "チェックアウト後も荷物を預かってもらえますか？飛行機は夜なので。", "reading": "ちぇっくあうとごもにもつをあずかってもらえますか？ひこうきはよるなので。", "romaji": "chekkuauto go mo nimotsu o azukatte moraemasu ka? hikouki wa yoru na node." },
+        "japanese": {
+          "text": "チェックアウト後も荷物を預かってもらえますか？飛行機は夜なので。",
+          "reading": "ちぇっくあうとごもにもつをあずかってもらえますか？ひこうきはよるなので。",
+          "romaji": "chekkuauto go mo nimotsu o azukatte moraemasu ka? hikouki wa yoru na node."
+        },
         "english": "Can you store my luggage after check-out? My flight is in the evening.",
         "chinese": "退房之後也可以寄放行李嗎？因為我的班機是晚上。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "もちろんです。何時頃お戻りになりますか？", "reading": "もちろんです。なんじごろおもどりになりますか？", "romaji": "mochiron desu. nanjigoro omodori ni narimasu ka?" },
+        "japanese": {
+          "text": "もちろんです。何時頃お戻りになりますか？",
+          "reading": "もちろんです。なんじごろおもどりになりますか？",
+          "romaji": "mochiron desu. nanjigoro omodori ni narimasu ka?"
+        },
         "english": "Of course. What time will you come back to pick them up?",
         "chinese": "當然可以。您大約幾點回來取呢？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "夕方5時頃に取りに来ます。", "reading": "ゆうがたごじごろにとりにきます。", "romaji": "yuugata goji goro ni tori ni kimasu." },
+        "japanese": {
+          "text": "夕方5時頃に取りに来ます。",
+          "reading": "ゆうがたごじごろにとりにきます。",
+          "romaji": "yuugata goji goro ni tori ni kimasu."
+        },
         "english": "I'll come to pick them up around 5 PM.",
         "chinese": "傍晚5點左右來取。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "かしこまりました。こちらの番号札をお持ちください。", "reading": "かしこまりました。こちらのばんごうふだをおもちください。", "romaji": "kashikomarimashita. kochira no bangoufuda o omochi kudasai." },
+        "japanese": {
+          "text": "かしこまりました。こちらの番号札をお持ちください。",
+          "reading": "かしこまりました。こちらのばんごうふだをおもちください。",
+          "romaji": "kashikomarimashita. kochira no bangoufuda o omochi kudasai."
+        },
         "english": "Understood. Please take this numbered tag.",
         "chinese": "好的。請保管好這個號碼牌。"
       }
@@ -675,31 +1023,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "明日の朝、空港までのタクシーを呼んでいただけますか？", "reading": "あしたのあさ、くうこうまでのたくしーをよんでいただけますか？", "romaji": "ashita no asa, kuukou made no takushii o yonde itadakemasu ka?" },
+        "japanese": {
+          "text": "明日の朝、空港までのタクシーを呼んでいただけますか？",
+          "reading": "あしたのあさ、くうこうまでのたくしーをよんでいただけますか？",
+          "romaji": "ashita no asa, kuukou made no takushii o yonde itadakemasu ka?"
+        },
         "english": "Could you call a taxi to the airport for tomorrow morning?",
         "chinese": "明天早上可以幫我叫一台到機場的計程車嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、何時のお迎えがよろしいですか？", "reading": "はい、なんじのおむかえがよろしいですか？", "romaji": "hai, nanji no omukae ga yoroshii desu ka?" },
+        "japanese": {
+          "text": "はい、何時のお迎えがよろしいですか？",
+          "reading": "はい、なんじのおむかえがよろしいですか？",
+          "romaji": "hai, nanji no omukae ga yoroshii desu ka?"
+        },
         "english": "Sure, what time would you like to be picked up?",
         "chinese": "好的，您希望幾點來接呢？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "朝7時にお願いします。成田空港までだいたいどのくらいかかりますか？", "reading": "あさしちじにおねがいします。なりたくうこうまでだいたいどのくらいかかりますか？", "romaji": "asa shichiji ni onegai shimasu. narita kuukou made daitai dono kurai kakarimasu ka?" },
+        "japanese": {
+          "text": "朝7時にお願いします。成田空港までだいたいどのくらいかかりますか？",
+          "reading": "あさしちじにおねがいします。なりたくうこうまでだいたいどのくらいかかりますか？",
+          "romaji": "asa shichiji ni onegai shimasu. narita kuukou made daitai dono kurai kakarimasu ka?"
+        },
         "english": "At 7 AM, please. About how long does it take to Narita Airport?",
         "chinese": "早上7點麻煩了。到成田機場大概要多久？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "道路状況によりますが、約1時間半です。リムジンバスもございますが、タクシーでよろしいですか？", "reading": "どうろじょうきょうによりますが、やくいちじかんはんです。りむじんばすもございますが、たくしーでよろしいですか？", "romaji": "douro joukyou ni yorimasu ga, yaku ichijikan han desu. rimujin basu mo gozaimasu ga, takushii de yoroshii desu ka?" },
+        "japanese": {
+          "text": "道路状況によりますが、約1時間半です。リムジンバスもございますが、タクシーでよろしいですか？",
+          "reading": "どうろじょうきょうによりますが、やくいちじかんはんです。りむじんばすもございますが、たくしーでよろしいですか？",
+          "romaji": "douro joukyou ni yorimasu ga, yaku ichijikan han desu. rimujin basu mo gozaimasu ga, takushii de yoroshii desu ka?"
+        },
         "english": "Depending on traffic, about an hour and a half. We also have a limousine bus. Would you still prefer a taxi?",
         "chinese": "依路況而定，大約一個半小時。也有利木津巴士，您確定要搭計程車嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "荷物が多いのでタクシーでお願いします。", "reading": "にもつがおおいのでたくしーでおねがいします。", "romaji": "nimotsu ga ooi node takushii de onegai shimasu." },
+        "japanese": {
+          "text": "荷物が多いのでタクシーでお願いします。",
+          "reading": "にもつがおおいのでたくしーでおねがいします。",
+          "romaji": "nimotsu ga ooi node takushii de onegai shimasu."
+        },
         "english": "I have a lot of luggage, so a taxi please.",
         "chinese": "因為行李很多，所以麻煩叫計程車。"
       }
@@ -712,19 +1080,31 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "レイトチェックアウトは可能ですか？1時まで延長したいのですが。", "reading": "れいとちぇっくあうとはかのうですか？いちじまでえんちょうしたいのですが。", "romaji": "reito chekkuauto wa kanou desu ka? ichiji made enchou shitai no desu ga." },
+        "japanese": {
+          "text": "レイトチェックアウトは可能ですか？1時まで延長したいのですが。",
+          "reading": "れいとちぇっくあうとはかのうですか？いちじまでえんちょうしたいのですが。",
+          "romaji": "reito chekkuauto wa kanou desu ka? ichiji made enchou shitai no desu ga."
+        },
         "english": "Is late check-out possible? I'd like to extend until 1 PM.",
         "chinese": "可以延遲退房嗎？我想延到下午1點。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "1時までですと、追加料金が2,000円かかりますが、よろしいですか？", "reading": "いちじまでですと、ついかりょうきんがにせんえんかかりますが、よろしいですか？", "romaji": "ichiji made desu to, tsuika ryoukin ga nisen en kakarimasu ga, yoroshii desu ka?" },
+        "japanese": {
+          "text": "1時までですと、追加料金が2,000円かかりますが、よろしいですか？",
+          "reading": "いちじまでですと、ついかりょうきんがにせんえんかかりますが、よろしいですか？",
+          "romaji": "ichiji made desu to, tsuika ryoukin ga nisen en kakarimasu ga, yoroshii desu ka?"
+        },
         "english": "Until 1 PM would incur an extra charge of 2,000 yen. Is that okay?",
         "chinese": "到1點的話需要追加2,000日圓，可以嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "はい、大丈夫です。お願いします。", "reading": "はい、だいじょうぶです。おねがいします。", "romaji": "hai, daijoubu desu. onegai shimasu." },
+        "japanese": {
+          "text": "はい、大丈夫です。お願いします。",
+          "reading": "はい、だいじょうぶです。おねがいします。",
+          "romaji": "hai, daijoubu desu. onegai shimasu."
+        },
         "english": "Yes, that's fine. Please go ahead.",
         "chinese": "好的，沒問題。麻煩了。"
       }
@@ -737,37 +1117,61 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "今晩の夕食は何時からですか？", "reading": "こんばんのゆうしょくはなんじからですか？", "romaji": "konban no yuushoku wa nanji kara desu ka?" },
+        "japanese": {
+          "text": "今晩の夕食は何時からですか？",
+          "reading": "こんばんのゆうしょくはなんじからですか？",
+          "romaji": "konban no yuushoku wa nanji kara desu ka?"
+        },
         "english": "What time is dinner tonight?",
         "chinese": "今晚的晚餐是幾點開始？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "夕食は6時または7時からお選びいただけます。お部屋食でございます。", "reading": "ゆうしょくはろくじまたはしちじからおえらびいただけます。おへやしょくでございます。", "romaji": "yuushoku wa rokuji matawa shichiji kara oerabi itadakemasu. oheyashoku de gozaimasu." },
+        "japanese": {
+          "text": "夕食は6時または7時からお選びいただけます。お部屋食でございます。",
+          "reading": "ゆうしょくはろくじまたはしちじからおえらびいただけます。おへやしょくでございます。",
+          "romaji": "yuushoku wa rokuji matawa shichiji kara oerabi itadakemasu. oheyashoku de gozaimasu."
+        },
         "english": "You can choose either 6 PM or 7 PM. It will be served in your room.",
         "chinese": "晚餐可以選擇6點或7點開始。是在房間內用餐。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "7時でお願いします。食物アレルギーがあるのですが、対応できますか？", "reading": "しちじでおねがいします。しょくもつあれるぎーがあるのですが、たいおうできますか？", "romaji": "shichiji de onegai shimasu. shokumotsu arerugii ga aru no desu ga, taiou dekimasu ka?" },
+        "japanese": {
+          "text": "7時でお願いします。食物アレルギーがあるのですが、対応できますか？",
+          "reading": "しちじでおねがいします。しょくもつあれるぎーがあるのですが、たいおうできますか？",
+          "romaji": "shichiji de onegai shimasu. shokumotsu arerugii ga aru no desu ga, taiou dekimasu ka?"
+        },
         "english": "7 PM, please. I have food allergies. Can you accommodate that?",
         "chinese": "7點，麻煩了。我有食物過敏，可以配合嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、対応いたします。どのようなアレルギーがおありですか？", "reading": "はい、たいおういたします。どのようなあれるぎーがおありですか？", "romaji": "hai, taiou itashimasu. dono you na arerugii ga oari desu ka?" },
+        "japanese": {
+          "text": "はい、対応いたします。どのようなアレルギーがおありですか？",
+          "reading": "はい、たいおういたします。どのようなあれるぎーがおありですか？",
+          "romaji": "hai, taiou itashimasu. dono you na arerugii ga oari desu ka?"
+        },
         "english": "Yes, we can accommodate that. What allergies do you have?",
         "chinese": "可以配合。請問您有什麼過敏？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "エビとカニがダメです。", "reading": "えびとかにがだめです。", "romaji": "ebi to kani ga dame desu." },
+        "japanese": {
+          "text": "エビとカニがダメです。",
+          "reading": "えびとかにがだめです。",
+          "romaji": "ebi to kani ga dame desu."
+        },
         "english": "I can't eat shrimp or crab.",
         "chinese": "蝦和螃蟹不行。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "かしこまりました。甲殻類を使わないメニューでご用意いたします。", "reading": "かしこまりました。こうかくるいをつかわないめにゅーでごよういいたします。", "romaji": "kashikomarimashita. koukakurui o tsukawanai menyuu de goyoui itashimasu." },
+        "japanese": {
+          "text": "かしこまりました。甲殻類を使わないメニューでご用意いたします。",
+          "reading": "かしこまりました。こうかくるいをつかわないめにゅーでごよういいたします。",
+          "romaji": "kashikomarimashita. koukakurui o tsukawanai menyuu de goyoui itashimasu."
+        },
         "english": "Understood. We'll prepare a menu without shellfish.",
         "chinese": "好的。我們會準備不含甲殼類的菜單。"
       }
@@ -780,31 +1184,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、エアコンが動かないんですが。", "reading": "すみません、えあこんがうごかないんですが。", "romaji": "sumimasen, eakon ga ugokanain desu ga." },
+        "japanese": {
+          "text": "すみません、エアコンが動かないんですが。",
+          "reading": "すみません、えあこんがうごかないんですが。",
+          "romaji": "sumimasen, eakon ga ugokanain desu ga."
+        },
         "english": "Excuse me, the air conditioner isn't working.",
         "chinese": "不好意思，冷氣不動了。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "大変申し訳ございません。リモコンの電池を確認されましたか？", "reading": "たいへんもうしわけございません。りもこんのでんちをかくにんされましたか？", "romaji": "taihen moushiwake gozaimasen. rimokon no denchi o kakunin saremashita ka?" },
+        "japanese": {
+          "text": "大変申し訳ございません。リモコンの電池を確認されましたか？",
+          "reading": "たいへんもうしわけございません。りもこんのでんちをかくにんされましたか？",
+          "romaji": "taihen moushiwake gozaimasen. rimokon no denchi o kakunin saremashita ka?"
+        },
         "english": "I'm very sorry. Have you checked the batteries in the remote?",
         "chinese": "非常抱歉。您有確認遙控器的電池嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "はい、リモコンは反応するんですが、エアコン本体から風が出ません。", "reading": "はい、りもこんははんのうするんですが、えあこんほんたいからかぜがでません。", "romaji": "hai, rimokon wa hannou surun desu ga, eakon hontai kara kaze ga demasen." },
+        "japanese": {
+          "text": "はい、リモコンは反応するんですが、エアコン本体から風が出ません。",
+          "reading": "はい、りもこんははんのうするんですが、えあこんほんたいからかぜがでません。",
+          "romaji": "hai, rimokon wa hannou surun desu ga, eakon hontai kara kaze ga demasen."
+        },
         "english": "Yes, the remote responds but no air comes out of the unit.",
         "chinese": "有，遙控器有反應，但冷氣本體沒有出風。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "すぐにスタッフをお部屋に伺わせます。もし修理に時間がかかる場合、お部屋を変更させていただいてもよろしいですか？", "reading": "すぐにすたっふをおへやにうかがわせます。もししゅうりにじかんがかかるばあい、おへやをへんこうさせていただいてもよろしいですか？", "romaji": "sugu ni sutaffu o oheya ni ukagawasemasu. moshi shuuri ni jikan ga kakaru baai, oheya o henkou sasete itadaite mo yoroshii desu ka?" },
+        "japanese": {
+          "text": "すぐにスタッフをお部屋に伺わせます。もし修理に時間がかかる場合、お部屋を変更させていただいてもよろしいですか？",
+          "reading": "すぐにすたっふをおへやにうかがわせます。もししゅうりにじかんがかかるばあい、おへやをへんこうさせていただいてもよろしいですか？",
+          "romaji": "sugu ni sutaffu o oheya ni ukagawasemasu. moshi shuuri ni jikan ga kakaru baai, oheya o henkou sasete itadaite mo yoroshii desu ka?"
+        },
         "english": "We'll send staff to your room right away. If the repair takes time, would you mind if we moved you to a different room?",
         "chinese": "我們馬上派人到您的房間。如果維修需要時間，可以幫您換房間嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "はい、お願いします。暑くてちょっとつらいので。", "reading": "はい、おねがいします。あつくてちょっとつらいので。", "romaji": "hai, onegai shimasu. atsukute chotto tsurai node." },
+        "japanese": {
+          "text": "はい、お願いします。暑くてちょっとつらいので。",
+          "reading": "はい、おねがいします。あつくてちょっとつらいので。",
+          "romaji": "hai, onegai shimasu. atsukute chotto tsurai node."
+        },
         "english": "Yes, please. It's quite hot and uncomfortable.",
         "chinese": "好的，麻煩了。太熱了有點受不了。"
       }
@@ -817,31 +1241,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "隣の部屋がとてもうるさくて眠れないんですが。", "reading": "となりのへやがとてもうるさくてねむれないんですが。", "romaji": "tonari no heya ga totemo urusakute nemurenain desu ga." },
+        "japanese": {
+          "text": "隣の部屋がとてもうるさくて眠れないんですが。",
+          "reading": "となりのへやがとてもうるさくてねむれないんですが。",
+          "romaji": "tonari no heya ga totemo urusakute nemurenain desu ga."
+        },
         "english": "The room next door is very noisy and I can't sleep.",
         "chinese": "隔壁房間非常吵，我沒辦法睡覺。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "大変申し訳ございません。すぐに確認いたします。何時頃から騒がしいですか？", "reading": "たいへんもうしわけございません。すぐにかくにんいたします。なんじごろからさわがしいですか？", "romaji": "taihen moushiwake gozaimasen. sugu ni kakunin itashimasu. nanjigoro kara sawagashii desu ka?" },
+        "japanese": {
+          "text": "大変申し訳ございません。すぐに確認いたします。何時頃から騒がしいですか？",
+          "reading": "たいへんもうしわけございません。すぐにかくにんいたします。なんじごろからさわがしいですか？",
+          "romaji": "taihen moushiwake gozaimasen. sugu ni kakunin itashimasu. nanjigoro kara sawagashii desu ka?"
+        },
         "english": "I'm very sorry. We'll look into it right away. Since what time has it been noisy?",
         "chinese": "非常抱歉。我們馬上確認。大概從幾點開始吵的？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "11時過ぎからずっとです。大声で話したり、音楽をかけたりしています。", "reading": "じゅういちじすぎからずっとです。おおごえではなしたり、おんがくをかけたりしています。", "romaji": "juuichiji sugi kara zutto desu. oogoe de hanashitari, ongaku o kaketari shite imasu." },
+        "japanese": {
+          "text": "11時過ぎからずっとです。大声で話したり、音楽をかけたりしています。",
+          "reading": "じゅういちじすぎからずっとです。おおごえではなしたり、おんがくをかけたりしています。",
+          "romaji": "juuichiji sugi kara zutto desu. oogoe de hanashitari, ongaku o kaketari shite imasu."
+        },
         "english": "It's been going on since past 11. They're talking loudly and playing music.",
         "chinese": "從11點多開始一直都是。他們大聲說話，還放音樂。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "すぐにお声がけいたします。もし改善されない場合は、別のフロアのお部屋にお移りいただけますが、いかがですか？", "reading": "すぐにおこえがけいたします。もしかいぜんされないばあいは、べつのふろあのおへやにおうつりいただけますが、いかがですか？", "romaji": "sugu ni okoegake itashimasu. moshi kaizen sarenai baai wa, betsu no furoa no oheya ni outsuri itadakemasu ga, ikaga desu ka?" },
+        "japanese": {
+          "text": "すぐにお声がけいたします。もし改善されない場合は、別のフロアのお部屋にお移りいただけますが、いかがですか？",
+          "reading": "すぐにおこえがけいたします。もしかいぜんされないばあいは、べつのふろあのおへやにおうつりいただけますが、いかがですか？",
+          "romaji": "sugu ni okoegake itashimasu. moshi kaizen sarenai baai wa, betsu no furoa no oheya ni outsuri itadakemasu ga, ikaga desu ka?"
+        },
         "english": "We'll speak to them right away. If it doesn't improve, we can move you to a room on a different floor. Would you like that?",
         "chinese": "我們馬上去提醒。如果沒有改善的話，可以幫您換到其他樓層的房間，您覺得如何？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "まず注意してみてください。ダメだったら部屋を変えてほしいです。", "reading": "まずちゅういしてみてください。だめだったらへやをかえてほしいです。", "romaji": "mazu chuui shite mite kudasai. dame dattara heya o kaete hoshii desu." },
+        "japanese": {
+          "text": "まず注意してみてください。ダメだったら部屋を変えてほしいです。",
+          "reading": "まずちゅういしてみてください。だめだったらへやをかえてほしいです。",
+          "romaji": "mazu chuui shite mite kudasai. dame dattara heya o kaete hoshii desu."
+        },
         "english": "Please try talking to them first. If it doesn't work, I'd like to change rooms.",
         "chinese": "請先去提醒看看。如果不行的話，我想換房間。"
       }
@@ -854,37 +1298,61 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "予約したのはダブルルームなんですが、シングルルームになっています。", "reading": "よやくしたのはだぶるるーむなんですが、しんぐるるーむになっています。", "romaji": "yoyaku shita no wa daburu ruumu nan desu ga, shinguru ruumu ni natte imasu." },
+        "japanese": {
+          "text": "予約したのはダブルルームなんですが、シングルルームになっています。",
+          "reading": "よやくしたのはだぶるるーむなんですが、しんぐるるーむになっています。",
+          "romaji": "yoyaku shita no wa daburu ruumu nan desu ga, shinguru ruumu ni natte imasu."
+        },
         "english": "I booked a double room, but this is a single room.",
         "chinese": "我預訂的是雙人房，但這是單人房。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "大変失礼いたしました。予約を確認させてください。…確かにダブルルームでご予約いただいておりました。", "reading": "たいへんしつれいいたしました。よやくをかくにんさせてください。…たしかにだぶるるーむでごよやくいただいておりました。", "romaji": "taihen shitsurei itashimashita. yoyaku o kakunin sasete kudasai. ...tashika ni daburu ruumu de goyoyaku itadaite orimashita." },
+        "japanese": {
+          "text": "大変失礼いたしました。予約を確認させてください。…確かにダブルルームでご予約いただいておりました。",
+          "reading": "たいへんしつれいいたしました。よやくをかくにんさせてください。…たしかにだぶるるーむでごよやくいただいておりました。",
+          "romaji": "taihen shitsurei itashimashita. yoyaku o kakunin sasete kudasai. ...tashika ni daburu ruumu de goyoyaku itadaite orimashita."
+        },
         "english": "I sincerely apologize. Let me check the reservation. ...Indeed, you had booked a double room.",
         "chinese": "非常失禮。請讓我確認預約。……確實是預訂了雙人房。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "すぐにダブルルームに変えてもらえますか？妻も一緒なので。", "reading": "すぐにだぶるるーむにかえてもらえますか？つまもいっしょなので。", "romaji": "sugu ni daburu ruumu ni kaete moraemasu ka? tsuma mo issho na node." },
+        "japanese": {
+          "text": "すぐにダブルルームに変えてもらえますか？妻も一緒なので。",
+          "reading": "すぐにだぶるるーむにかえてもらえますか？つまもいっしょなので。",
+          "romaji": "sugu ni daburu ruumu ni kaete moraemasu ka? tsuma mo issho na node."
+        },
         "english": "Can you switch me to a double room right away? My wife is with me.",
         "chinese": "可以馬上幫我換成雙人房嗎？因為我太太也一起。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "もちろんでございます。アップグレードしたお部屋をご用意いたしますので、追加料金はいただきません。", "reading": "もちろんでございます。あっぷぐれーどしたおへやをごよういいたしますので、ついかりょうきんはいただきません。", "romaji": "mochiron de gozaimasu. appugureedo shita oheya o goyoui itashimasu node, tsuika ryoukin wa itadakimasen." },
+        "japanese": {
+          "text": "もちろんでございます。アップグレードしたお部屋をご用意いたしますので、追加料金はいただきません。",
+          "reading": "もちろんでございます。あっぷぐれーどしたおへやをごよういいたしますので、ついかりょうきんはいただきません。",
+          "romaji": "mochiron de gozaimasu. appugureedo shita oheya o goyoui itashimasu node, tsuika ryoukin wa itadakimasen."
+        },
         "english": "Of course. We'll prepare an upgraded room for you at no extra charge.",
         "chinese": "當然可以。我們會為您準備升級的房間，不收取額外費用。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "ありがとうございます。荷物はこのまま置いておいて大丈夫ですか？", "reading": "ありがとうございます。にもつはこのままおいておいてだいじょうぶですか？", "romaji": "arigatou gozaimasu. nimotsu wa kono mama oite oite daijoubu desu ka?" },
+        "japanese": {
+          "text": "ありがとうございます。荷物はこのまま置いておいて大丈夫ですか？",
+          "reading": "ありがとうございます。にもつはこのままおいておいてだいじょうぶですか？",
+          "romaji": "arigatou gozaimasu. nimotsu wa kono mama oite oite daijoubu desu ka?"
+        },
         "english": "Thank you. Can I leave my luggage here as is?",
         "chinese": "謝謝。行李就放在這裡可以嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "スタッフが新しいお部屋にお運びいたします。", "reading": "すたっふがあたらしいおへやにおはこびいたします。", "romaji": "sutaffu ga atarashii oheya ni ohakobi itashimasu." },
+        "japanese": {
+          "text": "スタッフが新しいお部屋にお運びいたします。",
+          "reading": "すたっふがあたらしいおへやにおはこびいたします。",
+          "romaji": "sutaffu ga atarashii oheya ni ohakobi itashimasu."
+        },
         "english": "Our staff will move them to the new room for you.",
         "chinese": "工作人員會幫您搬到新的房間。"
       }
@@ -897,31 +1365,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、ルームキーをなくしてしまいました。", "reading": "すみません、るーむきーをなくしてしまいました。", "romaji": "sumimasen, ruumu kii o nakushite shimaimashita." },
+        "japanese": {
+          "text": "すみません、ルームキーをなくしてしまいました。",
+          "reading": "すみません、るーむきーをなくしてしまいました。",
+          "romaji": "sumimasen, ruumu kii o nakushite shimaimashita."
+        },
         "english": "Excuse me, I've lost my room key.",
         "chinese": "不好意思，我把房卡弄丟了。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "お部屋番号とお名前を確認させてください。", "reading": "おへやばんごうとおなまえをかくにんさせてください。", "romaji": "oheya bangou to onamae o kakunin sasete kudasai." },
+        "japanese": {
+          "text": "お部屋番号とお名前を確認させてください。",
+          "reading": "おへやばんごうとおなまえをかくにんさせてください。",
+          "romaji": "oheya bangou to onamae o kakunin sasete kudasai."
+        },
         "english": "May I confirm your room number and name?",
         "chinese": "請讓我確認您的房號和姓名。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "801号室のSmithです。たぶん外で落としたと思います。", "reading": "はちまるいちごうしつのすみすです。たぶんそとでおとしたとおもいます。", "romaji": "hachi maru ichi goushitsu no sumisu desu. tabun soto de otoshita to omoimasu." },
+        "japanese": {
+          "text": "801号室のSmithです。たぶん外で落としたと思います。",
+          "reading": "はちまるいちごうしつのすみすです。たぶんそとでおとしたとおもいます。",
+          "romaji": "hachi maru ichi goushitsu no sumisu desu. tabun soto de otoshita to omoimasu."
+        },
         "english": "I'm Smith in room 801. I think I dropped it outside somewhere.",
         "chinese": "我是801號室的Smith。我想大概是在外面掉的。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "前のカードを無効にして、新しいカードを発行いたします。再発行手数料として1,000円かかりますが、よろしいですか？", "reading": "まえのかーどをむこうにして、あたらしいかーどをはっこういたします。さいはっこうてすうりょうとしてせんえんかかりますが、よろしいですか？", "romaji": "mae no kaado o mukou ni shite, atarashii kaado o hakkou itashimasu. saihakkou tesuuryou toshite sen en kakarimasu ga, yoroshii desu ka?" },
+        "japanese": {
+          "text": "前のカードを無効にして、新しいカードを発行いたします。再発行手数料として1,000円かかりますが、よろしいですか？",
+          "reading": "まえのかーどをむこうにして、あたらしいかーどをはっこういたします。さいはっこうてすうりょうとしてせんえんかかりますが、よろしいですか？",
+          "romaji": "mae no kaado o mukou ni shite, atarashii kaado o hakkou itashimasu. saihakkou tesuuryou toshite sen en kakarimasu ga, yoroshii desu ka?"
+        },
         "english": "We'll deactivate the old card and issue a new one. There's a 1,000 yen reissue fee. Is that okay?",
         "chinese": "我們會將舊卡片停用，發行新的卡片。補辦手續費1,000日圓，可以嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "わかりました。お願いします。", "reading": "わかりました。おねがいします。", "romaji": "wakarimashita. onegai shimasu." },
+        "japanese": {
+          "text": "わかりました。お願いします。",
+          "reading": "わかりました。おねがいします。",
+          "romaji": "wakarimashita. onegai shimasu."
+        },
         "english": "Understood. Please go ahead.",
         "chinese": "了解了。麻煩了。"
       }
@@ -934,37 +1422,61 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "部屋の状態がひどかったので、一部返金していただきたいのですが。", "reading": "へやのじょうたいがひどかったので、いちぶへんきんしていただきたいのですが。", "romaji": "heya no joutai ga hidokatta node, ichibu henkin shite itadakitai no desu ga." },
+        "japanese": {
+          "text": "部屋の状態がひどかったので、一部返金していただきたいのですが。",
+          "reading": "へやのじょうたいがひどかったので、いちぶへんきんしていただきたいのですが。",
+          "romaji": "heya no joutai ga hidokatta node, ichibu henkin shite itadakitai no desu ga."
+        },
         "english": "The room condition was terrible, so I'd like a partial refund.",
         "chinese": "房間狀況很糟糕，我想要求部分退款。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "大変申し訳ございません。具体的にどのような問題がありましたか？", "reading": "たいへんもうしわけございません。ぐたいてきにどのようなもんだいがありましたか？", "romaji": "taihen moushiwake gozaimasen. gutaiteki ni dono you na mondai ga arimashita ka?" },
+        "japanese": {
+          "text": "大変申し訳ございません。具体的にどのような問題がありましたか？",
+          "reading": "たいへんもうしわけございません。ぐたいてきにどのようなもんだいがありましたか？",
+          "romaji": "taihen moushiwake gozaimasen. gutaiteki ni dono you na mondai ga arimashita ka?"
+        },
         "english": "I'm terribly sorry. Could you tell me specifically what the issues were?",
         "chinese": "非常抱歉。具體是有什麼問題呢？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "お湯が出なくて、シャワーが使えませんでした。フロントに電話しましたが、結局直りませんでした。", "reading": "おゆがでなくて、しゃわーがつかえませんでした。ふろんとにでんわしましたが、けっきょくなおりませんでした。", "romaji": "oyu ga denakute, shawaa ga tsukaemasen deshita. furonto ni denwa shimashita ga, kekkyoku naorimasen deshita." },
+        "japanese": {
+          "text": "お湯が出なくて、シャワーが使えませんでした。フロントに電話しましたが、結局直りませんでした。",
+          "reading": "おゆがでなくて、しゃわーがつかえませんでした。ふろんとにでんわしましたが、けっきょくなおりませんでした。",
+          "romaji": "oyu ga denakute, shawaa ga tsukaemasen deshita. furonto ni denwa shimashita ga, kekkyoku naorimasen deshita."
+        },
         "english": "There was no hot water and I couldn't use the shower. I called the front desk but it never got fixed.",
         "chinese": "沒有熱水，淋浴沒辦法用。我打了電話到前台，但最後也沒修好。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "重ねてお詫び申し上げます。マネージャーに確認いたしますので、少々お待ちいただけますか？", "reading": "かさねておわびもうしあげます。まねーじゃーにかくにんいたしますので、しょうしょうおまちいただけますか？", "romaji": "kasanete owabi moushiagemasu. maneejaa ni kakunin itashimasu node, shoushou omachi itadakemasu ka?" },
+        "japanese": {
+          "text": "重ねてお詫び申し上げます。マネージャーに確認いたしますので、少々お待ちいただけますか？",
+          "reading": "かさねておわびもうしあげます。まねーじゃーにかくにんいたしますので、しょうしょうおまちいただけますか？",
+          "romaji": "kasanete owabi moushiagemasu. maneejaa ni kakunin itashimasu node, shoushou omachi itadakemasu ka?"
+        },
         "english": "I sincerely apologize again. Let me check with the manager. Could you wait a moment?",
         "chinese": "再次向您致歉。我跟經理確認一下，可以稍等一下嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "お待たせいたしました。一泊分の50%を返金させていただきます。", "reading": "おまたせいたしました。いっぱくぶんのごじゅっぱーせんとをへんきんさせていただきます。", "romaji": "omatase itashimashita. ippaku bun no gojuppaaasento o henkin sasete itadakimasu." },
+        "japanese": {
+          "text": "お待たせいたしました。一泊分の50%を返金させていただきます。",
+          "reading": "おまたせいたしました。いっぱくぶんのごじゅっぱーせんとをへんきんさせていただきます。",
+          "romaji": "omatase itashimashita. ippaku bun no gojuppaaasento o henkin sasete itadakimasu."
+        },
         "english": "Thank you for waiting. We will refund 50% of one night's charge.",
         "chinese": "讓您久等了。我們會退還一晚費用的50%。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "わかりました。クレジットカードに返金されますか？", "reading": "わかりました。くれじっとかーどにへんきんされますか？", "romaji": "wakarimashita. kurejitto kaado ni henkin saremasu ka?" },
+        "japanese": {
+          "text": "わかりました。クレジットカードに返金されますか？",
+          "reading": "わかりました。くれじっとかーどにへんきんされますか？",
+          "romaji": "wakarimashita. kurejitto kaado ni henkin saremasu ka?"
+        },
         "english": "Understood. Will it be refunded to my credit card?",
         "chinese": "了解。會退到信用卡上嗎？"
       }
@@ -977,37 +1489,61 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "大変です！バスルームの天井から水が漏れています！", "reading": "たいへんです！ばするーむのてんじょうからみずがもれています！", "romaji": "taihen desu! basaruumu no tenjou kara mizu ga morete imasu!" },
+        "japanese": {
+          "text": "大変です！バスルームの天井から水が漏れています！",
+          "reading": "たいへんです！ばするーむのてんじょうからみずがもれています！",
+          "romaji": "taihen desu! basaruumu no tenjou kara mizu ga morete imasu!"
+        },
         "english": "This is urgent! Water is leaking from the bathroom ceiling!",
         "chinese": "糟糕了！浴室天花板在漏水！"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "大変申し訳ございません！すぐにスタッフを向かわせます。お部屋番号は何番ですか？", "reading": "たいへんもうしわけございません！すぐにすたっふをむかわせます。おへやばんごうはなんばんですか？", "romaji": "taihen moushiwake gozaimasen! sugu ni sutaffu o mukawasemasu. oheya bangou wa nanban desu ka?" },
+        "japanese": {
+          "text": "大変申し訳ございません！すぐにスタッフを向かわせます。お部屋番号は何番ですか？",
+          "reading": "たいへんもうしわけございません！すぐにすたっふをむかわせます。おへやばんごうはなんばんですか？",
+          "romaji": "taihen moushiwake gozaimasen! sugu ni sutaffu o mukawasemasu. oheya bangou wa nanban desu ka?"
+        },
         "english": "I'm so sorry! We'll send someone right away. What is your room number?",
         "chinese": "非常抱歉！我們馬上派人過去。您的房號是幾號？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "305号室です。荷物が濡れそうなので、早く来てください！", "reading": "さんまるごごうしつです。にもつがぬれそうなので、はやくきてください！", "romaji": "san maru go goushitsu desu. nimotsu ga nuresou na node, hayaku kite kudasai!" },
+        "japanese": {
+          "text": "305号室です。荷物が濡れそうなので、早く来てください！",
+          "reading": "さんまるごごうしつです。にもつがぬれそうなので、はやくきてください！",
+          "romaji": "san maru go goushitsu desu. nimotsu ga nuresou na node, hayaku kite kudasai!"
+        },
         "english": "Room 305. My luggage is about to get wet, please hurry!",
         "chinese": "305號室。行李快被弄濕了，請快點來！"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "ただいま向かいます。荷物はバスルームから離れた場所に移動してください。すぐに別のお部屋もご用意いたします。", "reading": "ただいまむかいます。にもつはばするーむからはなれたばしょにいどうしてください。すぐにべつのおへやもごよういいたします。", "romaji": "tadaima mukaimasu. nimotsu wa basaruumu kara hanareta basho ni idou shite kudasai. sugu ni betsu no oheya mo goyoui itashimasu." },
+        "japanese": {
+          "text": "ただいま向かいます。荷物はバスルームから離れた場所に移動してください。すぐに別のお部屋もご用意いたします。",
+          "reading": "ただいまむかいます。にもつはばするーむからはなれたばしょにいどうしてください。すぐにべつのおへやもごよういいたします。",
+          "romaji": "tadaima mukaimasu. nimotsu wa basaruumu kara hanareta basho ni idou shite kudasai. sugu ni betsu no oheya mo goyoui itashimasu."
+        },
         "english": "We're on our way now. Please move your luggage away from the bathroom. We'll also prepare another room right away.",
         "chinese": "我們現在就過去。請先把行李搬離浴室。我們也會馬上準備另一間房間。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "わかりました。もし荷物が濡れてダメになったら、補償してもらえますか？", "reading": "わかりました。もしにもつがぬれてだめになったら、ほしょうしてもらえますか？", "romaji": "wakarimashita. moshi nimotsu ga nurete dame ni nattara, hoshou shite moraemasu ka?" },
+        "japanese": {
+          "text": "わかりました。もし荷物が濡れてダメになったら、補償してもらえますか？",
+          "reading": "わかりました。もしにもつがぬれてだめになったら、ほしょうしてもらえますか？",
+          "romaji": "wakarimashita. moshi nimotsu ga nurete dame ni nattara, hoshou shite moraemasu ka?"
+        },
         "english": "Understood. If my belongings get water-damaged, will I be compensated?",
         "chinese": "了解了。如果行李被弄濕損壞的話，可以獲得賠償嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、もちろんでございます。被害の状況を確認させていただき、適切に対応させていただきます。", "reading": "はい、もちろんでございます。ひがいのじょうきょうをかくにんさせていただき、てきせつにたいおうさせていただきます。", "romaji": "hai, mochiron de gozaimasu. higai no joukyou o kakunin sasete itadaki, tekisetsu ni taiou sasete itadakimasu." },
+        "japanese": {
+          "text": "はい、もちろんでございます。被害の状況を確認させていただき、適切に対応させていただきます。",
+          "reading": "はい、もちろんでございます。ひがいのじょうきょうをかくにんさせていただき、てきせつにたいおうさせていただきます。",
+          "romaji": "hai, mochiron de gozaimasu. higai no joukyou o kakunin sasete itadaki, tekisetsu ni taiou sasete itadakimasu."
+        },
         "english": "Yes, of course. We'll assess the damage and handle it appropriately.",
         "chinese": "是的，當然。我們會確認損失狀況，妥善處理。"
       }

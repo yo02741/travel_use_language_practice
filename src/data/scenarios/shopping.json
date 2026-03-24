@@ -6,31 +6,51 @@
     "phrases": [
       {
         "speaker": "staff",
-        "japanese": { "text": "いらっしゃいませ。袋はご利用ですか？", "reading": "いらっしゃいませ。ふくろはごりようですか？", "romaji": "irasshaimase. fukuro wa goriyou desu ka?" },
+        "japanese": {
+          "text": "いらっしゃいませ。袋はご利用ですか？",
+          "reading": "いらっしゃいませ。ふくろはごりようですか？",
+          "romaji": "irasshaimase. fukuro wa goriyou desu ka?"
+        },
         "english": "Welcome. Would you like a bag?",
         "chinese": "歡迎光臨。請問需要袋子嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "はい、お願いします。", "reading": "はい、おねがいします。", "romaji": "hai, onegaishimasu." },
+        "japanese": {
+          "text": "はい、お願いします。",
+          "reading": "はい、おねがいします。",
+          "romaji": "hai, onegaishimasu."
+        },
         "english": "Yes, please.",
         "chinese": "好的，麻煩了。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "お会計は560円になります。", "reading": "おかいけいはごひゃくろくじゅうえんになります。", "romaji": "okaikei wa gohyaku rokujuu en ni narimasu." },
+        "japanese": {
+          "text": "お会計は560円になります。",
+          "reading": "おかいけいはごひゃくろくじゅうえんになります。",
+          "romaji": "okaikei wa gohyaku rokujuu en ni narimasu."
+        },
         "english": "Your total is 560 yen.",
         "chinese": "總共是560日圓。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "Suicaで払えますか？", "reading": "すいかではらえますか？", "romaji": "suika de haraemasu ka?" },
+        "japanese": {
+          "text": "Suicaで払えますか？",
+          "reading": "すいかではらえますか？",
+          "romaji": "suika de haraemasu ka?"
+        },
         "english": "Can I pay with Suica?",
         "chinese": "可以用Suica付款嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、どうぞこちらにタッチしてください。", "reading": "はい、どうぞこちらにたっちしてください。", "romaji": "hai, douzo kochira ni tacchi shite kudasai." },
+        "japanese": {
+          "text": "はい、どうぞこちらにタッチしてください。",
+          "reading": "はい、どうぞこちらにたっちしてください。",
+          "romaji": "hai, douzo kochira ni tacchi shite kudasai."
+        },
         "english": "Yes, please tap here.",
         "chinese": "好的，請在這裡感應一下。"
       }
@@ -43,31 +63,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、これはいくらですか？", "reading": "すみません、これはいくらですか？", "romaji": "sumimasen, kore wa ikura desu ka?" },
+        "japanese": {
+          "text": "すみません、これはいくらですか？",
+          "reading": "すみません、これはいくらですか？",
+          "romaji": "sumimasen, kore wa ikura desu ka?"
+        },
         "english": "Excuse me, how much is this?",
         "chinese": "不好意思，這個多少錢？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "こちらは税込みで210円です。", "reading": "こちらはぜいこみでにひゃくじゅうえんです。", "romaji": "kochira wa zeikomi de nihyaku juu en desu." },
+        "japanese": {
+          "text": "こちらは税込みで210円です。",
+          "reading": "こちらはぜいこみでにひゃくじゅうえんです。",
+          "romaji": "kochira wa zeikomi de nihyaku juu en desu."
+        },
         "english": "This is 210 yen including tax.",
         "chinese": "這個含稅210日圓。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "じゃあ、これをください。", "reading": "じゃあ、これをください。", "romaji": "jaa, kore wo kudasai." },
+        "japanese": {
+          "text": "じゃあ、これをください。",
+          "reading": "じゃあ、これをください。",
+          "romaji": "jaa, kore wo kudasai."
+        },
         "english": "Then I'll take this, please.",
         "chinese": "那我要這個。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "お箸はお付けしますか？", "reading": "おはしはおつけしますか？", "romaji": "ohashi wa otsuke shimasu ka?" },
+        "japanese": {
+          "text": "お箸はお付けしますか？",
+          "reading": "おはしはおつけしますか？",
+          "romaji": "ohashi wa otsuke shimasu ka?"
+        },
         "english": "Would you like chopsticks?",
         "chinese": "需要附筷子嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "はい、お願いします。", "reading": "はい、おねがいします。", "romaji": "hai, onegaishimasu." },
+        "japanese": {
+          "text": "はい、お願いします。",
+          "reading": "はい、おねがいします。",
+          "romaji": "hai, onegaishimasu."
+        },
         "english": "Yes, please.",
         "chinese": "好的，麻煩了。"
       }
@@ -80,25 +120,41 @@
     "phrases": [
       {
         "speaker": "staff",
-        "japanese": { "text": "温めますか？", "reading": "あたためますか？", "romaji": "atatamemasu ka?" },
+        "japanese": {
+          "text": "温めますか？",
+          "reading": "あたためますか？",
+          "romaji": "atatamemasu ka?"
+        },
         "english": "Would you like this heated up?",
         "chinese": "需要加熱嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "はい、お願いします。", "reading": "はい、おねがいします。", "romaji": "hai, onegaishimasu." },
+        "japanese": {
+          "text": "はい、お願いします。",
+          "reading": "はい、おねがいします。",
+          "romaji": "hai, onegaishimasu."
+        },
         "english": "Yes, please.",
         "chinese": "好的，麻煩了。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "お弁当とお飲み物は別の袋にしますか？", "reading": "おべんとうとおのみものはべつのふくろにしますか？", "romaji": "obentou to onomimono wa betsu no fukuro ni shimasu ka?" },
+        "japanese": {
+          "text": "お弁当とお飲み物は別の袋にしますか？",
+          "reading": "おべんとうとおのみものはべつのふくろにしますか？",
+          "romaji": "obentou to onomimono wa betsu no fukuro ni shimasu ka?"
+        },
         "english": "Would you like the lunch box and drink in separate bags?",
         "chinese": "便當和飲料要分開裝袋嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "一緒で大丈夫です。", "reading": "いっしょでだいじょうぶです。", "romaji": "issho de daijoubu desu." },
+        "japanese": {
+          "text": "一緒で大丈夫です。",
+          "reading": "いっしょでだいじょうぶです。",
+          "romaji": "issho de daijoubu desu."
+        },
         "english": "Together is fine.",
         "chinese": "放一起就好。"
       }
@@ -111,31 +167,51 @@
     "phrases": [
       {
         "speaker": "staff",
-        "japanese": { "text": "お会計は1,080円になります。", "reading": "おかいけいはせんはちじゅうえんになります。", "romaji": "okaikei wa sen hachijuu en ni narimasu." },
+        "japanese": {
+          "text": "お会計は1,080円になります。",
+          "reading": "おかいけいはせんはちじゅうえんになります。",
+          "romaji": "okaikei wa sen hachijuu en ni narimasu."
+        },
         "english": "Your total is 1,080 yen.",
         "chinese": "總共是1,080日圓。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "一万円でお願いします。", "reading": "いちまんえんでおねがいします。", "romaji": "ichiman en de onegaishimasu." },
+        "japanese": {
+          "text": "一万円でお願いします。",
+          "reading": "いちまんえんでおねがいします。",
+          "romaji": "ichiman en de onegaishimasu."
+        },
         "english": "Here's 10,000 yen.",
         "chinese": "用一萬日圓支付。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "一万円お預かりします。お釣りは8,920円です。", "reading": "いちまんえんおあずかりします。おつりははっせんきゅうひゃくにじゅうえんです。", "romaji": "ichiman en oazukari shimasu. otsuri wa hassen kyuuhyaku nijuu en desu." },
+        "japanese": {
+          "text": "一万円お預かりします。お釣りは8,920円です。",
+          "reading": "いちまんえんおあずかりします。おつりははっせんきゅうひゃくにじゅうえんです。",
+          "romaji": "ichiman en oazukari shimasu. otsuri wa hassen kyuuhyaku nijuu en desu."
+        },
         "english": "Out of 10,000 yen. Your change is 8,920 yen.",
         "chinese": "收您一萬日圓。找您8,920日圓。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "レシートはご利用ですか？", "reading": "れしーとはごりようですか？", "romaji": "reshiito wa goriyou desu ka?" },
+        "japanese": {
+          "text": "レシートはご利用ですか？",
+          "reading": "れしーとはごりようですか？",
+          "romaji": "reshiito wa goriyou desu ka?"
+        },
         "english": "Would you like the receipt?",
         "chinese": "需要收據嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "いいえ、大丈夫です。", "reading": "いいえ、だいじょうぶです。", "romaji": "iie, daijoubu desu." },
+        "japanese": {
+          "text": "いいえ、大丈夫です。",
+          "reading": "いいえ、だいじょうぶです。",
+          "romaji": "iie, daijoubu desu."
+        },
         "english": "No, I'm fine.",
         "chinese": "不用了，沒關係。"
       }
@@ -148,31 +224,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、目薬はどこにありますか？", "reading": "すみません、めぐすりはどこにありますか？", "romaji": "sumimasen, megusuri wa doko ni arimasu ka?" },
+        "japanese": {
+          "text": "すみません、目薬はどこにありますか？",
+          "reading": "すみません、めぐすりはどこにありますか？",
+          "romaji": "sumimasen, megusuri wa doko ni arimasu ka?"
+        },
         "english": "Excuse me, where are the eye drops?",
         "chinese": "不好意思，眼藥水在哪裡？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "目薬はあちらの棚の3段目にございます。", "reading": "めぐすりはあちらのたなのさんだんめにございます。", "romaji": "megusuri wa achira no tana no sandanme ni gozaimasu." },
+        "japanese": {
+          "text": "目薬はあちらの棚の3段目にございます。",
+          "reading": "めぐすりはあちらのたなのさんだんめにございます。",
+          "romaji": "megusuri wa achira no tana no sandanme ni gozaimasu."
+        },
         "english": "The eye drops are on the third shelf over there.",
         "chinese": "眼藥水在那邊架子的第三層。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "ありがとうございます。あと、おすすめの日焼け止めはありますか？", "reading": "ありがとうございます。あと、おすすめのひやけどめはありますか？", "romaji": "arigatou gozaimasu. ato, osusume no hiyakedome wa arimasu ka?" },
+        "japanese": {
+          "text": "ありがとうございます。あと、おすすめの日焼け止めはありますか？",
+          "reading": "ありがとうございます。あと、おすすめのひやけどめはありますか？",
+          "romaji": "arigatou gozaimasu. ato, osusume no hiyakedome wa arimasu ka?"
+        },
         "english": "Thank you. Also, do you have a recommended sunscreen?",
         "chinese": "謝謝。另外，有推薦的防曬乳嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "こちらが一番人気です。SPF50で、お肌にも優しいですよ。", "reading": "こちらがいちばんにんきです。えすぴーえふごじゅうで、おはだにもやさしいですよ。", "romaji": "kochira ga ichiban ninki desu. esu pii efu gojuu de, ohada ni mo yasashii desu yo." },
+        "japanese": {
+          "text": "こちらが一番人気です。SPF50で、お肌にも優しいですよ。",
+          "reading": "こちらがいちばんにんきです。えすぴーえふごじゅうで、おはだにもやさしいですよ。",
+          "romaji": "kochira ga ichiban ninki desu. esu pii efu gojuu de, ohada ni mo yasashii desu yo."
+        },
         "english": "This one is the most popular. It's SPF 50 and gentle on the skin.",
         "chinese": "這個最受歡迎。SPF50，而且對皮膚很溫和。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "じゃあ、それにします。", "reading": "じゃあ、それにします。", "romaji": "jaa, sore ni shimasu." },
+        "japanese": {
+          "text": "じゃあ、それにします。",
+          "reading": "じゃあ、それにします。",
+          "romaji": "jaa, sore ni shimasu."
+        },
         "english": "Then I'll go with that one.",
         "chinese": "那就選那個吧。"
       }
@@ -185,19 +281,31 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、トイレはありますか？", "reading": "すみません、といれはありますか？", "romaji": "sumimasen, toire wa arimasu ka?" },
+        "japanese": {
+          "text": "すみません、トイレはありますか？",
+          "reading": "すみません、といれはありますか？",
+          "romaji": "sumimasen, toire wa arimasu ka?"
+        },
         "english": "Excuse me, is there a restroom?",
         "chinese": "不好意思，請問有廁所嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、奥の右側にございます。", "reading": "はい、おくのみぎがわにございます。", "romaji": "hai, oku no migigawa ni gozaimasu." },
+        "japanese": {
+          "text": "はい、奥の右側にございます。",
+          "reading": "はい、おくのみぎがわにございます。",
+          "romaji": "hai, oku no migigawa ni gozaimasu."
+        },
         "english": "Yes, it's on the right side in the back.",
         "chinese": "有的，在後面的右手邊。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "ありがとうございます。", "reading": "ありがとうございます。", "romaji": "arigatou gozaimasu." },
+        "japanese": {
+          "text": "ありがとうございます。",
+          "reading": "ありがとうございます。",
+          "romaji": "arigatou gozaimasu."
+        },
         "english": "Thank you.",
         "chinese": "謝謝。"
       }
@@ -210,31 +318,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、人気のお土産はどれですか？", "reading": "すみません、にんきのおみやげはどれですか？", "romaji": "sumimasen, ninki no omiyage wa dore desu ka?" },
+        "japanese": {
+          "text": "すみません、人気のお土産はどれですか？",
+          "reading": "すみません、にんきのおみやげはどれですか？",
+          "romaji": "sumimasen, ninki no omiyage wa dore desu ka?"
+        },
         "english": "Excuse me, which souvenirs are popular?",
         "chinese": "不好意思，哪些伴手禮比較受歡迎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "こちらの抹茶チョコレートが一番人気ですよ。", "reading": "こちらのまっちゃちょこれーとがいちばんにんきですよ。", "romaji": "kochira no matcha chokoreeto ga ichiban ninki desu yo." },
+        "japanese": {
+          "text": "こちらの抹茶チョコレートが一番人気ですよ。",
+          "reading": "こちらのまっちゃちょこれーとがいちばんにんきですよ。",
+          "romaji": "kochira no matcha chokoreeto ga ichiban ninki desu yo."
+        },
         "english": "This matcha chocolate is the most popular.",
         "chinese": "這款抹茶巧克力最受歡迎。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "これは何個入りですか？", "reading": "これはなんこいりですか？", "romaji": "kore wa nanko iri desu ka?" },
+        "japanese": {
+          "text": "これは何個入りですか？",
+          "reading": "これはなんこいりですか？",
+          "romaji": "kore wa nanko iri desu ka?"
+        },
         "english": "How many pieces are in this?",
         "chinese": "這個裡面有幾個？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "12個入りで1,200円です。", "reading": "じゅうにこいりでせんにひゃくえんです。", "romaji": "juuniko iri de sen nihyaku en desu." },
+        "japanese": {
+          "text": "12個入りで1,200円です。",
+          "reading": "じゅうにこいりでせんにひゃくえんです。",
+          "romaji": "juuniko iri de sen nihyaku en desu."
+        },
         "english": "It has 12 pieces and costs 1,200 yen.",
         "chinese": "12個裝，1,200日圓。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "3箱ください。", "reading": "さんはこください。", "romaji": "sanhako kudasai." },
+        "japanese": {
+          "text": "3箱ください。",
+          "reading": "さんはこください。",
+          "romaji": "sanhako kudasai."
+        },
         "english": "I'll take 3 boxes, please.",
         "chinese": "請給我3盒。"
       }
@@ -247,25 +375,41 @@
     "phrases": [
       {
         "speaker": "staff",
-        "japanese": { "text": "袋はご利用ですか？", "reading": "ふくろはごりようですか？", "romaji": "fukuro wa goriyou desu ka?" },
+        "japanese": {
+          "text": "袋はご利用ですか？",
+          "reading": "ふくろはごりようですか？",
+          "romaji": "fukuro wa goriyou desu ka?"
+        },
         "english": "Would you like a bag?",
         "chinese": "需要袋子嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "いいえ、大丈夫です。そのままで。", "reading": "いいえ、だいじょうぶです。そのままで。", "romaji": "iie, daijoubu desu. sono mama de." },
+        "japanese": {
+          "text": "いいえ、大丈夫です。そのままで。",
+          "reading": "いいえ、だいじょうぶです。そのままで。",
+          "romaji": "iie, daijoubu desu. sono mama de."
+        },
         "english": "No, I'm fine. As is.",
         "chinese": "不用了，沒關係。就這樣就好。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "かしこまりました。お会計は350円です。", "reading": "かしこまりました。おかいけいはさんびゃくごじゅうえんです。", "romaji": "kashikomarimashita. okaikei wa sanbyaku gojuu en desu." },
+        "japanese": {
+          "text": "かしこまりました。お会計は350円です。",
+          "reading": "かしこまりました。おかいけいはさんびゃくごじゅうえんです。",
+          "romaji": "kashikomarimashita. okaikei wa sanbyaku gojuu en desu."
+        },
         "english": "Understood. Your total is 350 yen.",
         "chinese": "好的。總共350日圓。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "クレジットカードで。", "reading": "くれじっとかーどで。", "romaji": "kurejitto kaado de." },
+        "japanese": {
+          "text": "クレジットカードで。",
+          "reading": "くれじっとかーどで。",
+          "romaji": "kurejitto kaado de."
+        },
         "english": "By credit card.",
         "chinese": "用信用卡。"
       }
@@ -278,25 +422,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、おにぎりはどこですか？", "reading": "すみません、おにぎりはどこですか？", "romaji": "sumimasen, onigiri wa doko desu ka?" },
+        "japanese": {
+          "text": "すみません、おにぎりはどこですか？",
+          "reading": "すみません、おにぎりはどこですか？",
+          "romaji": "sumimasen, onigiri wa doko desu ka?"
+        },
         "english": "Excuse me, where are the rice balls?",
         "chinese": "不好意思，飯糰在哪裡？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "入口のすぐ右側にございます。", "reading": "いりぐちのすぐみぎがわにございます。", "romaji": "iriguchi no sugu migigawa ni gozaimasu." },
+        "japanese": {
+          "text": "入口のすぐ右側にございます。",
+          "reading": "いりぐちのすぐみぎがわにございます。",
+          "romaji": "iriguchi no sugu migigawa ni gozaimasu."
+        },
         "english": "They're right on the right side of the entrance.",
         "chinese": "就在入口的右手邊。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "この明太子のおにぎりをください。", "reading": "このめんたいこのおにぎりをください。", "romaji": "kono mentaiko no onigiri wo kudasai." },
+        "japanese": {
+          "text": "この明太子のおにぎりをください。",
+          "reading": "このめんたいこのおにぎりをください。",
+          "romaji": "kono mentaiko no onigiri wo kudasai."
+        },
         "english": "I'd like this mentaiko rice ball, please.",
         "chinese": "請給我這個明太子飯糰。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "160円になります。", "reading": "ひゃくろくじゅうえんになります。", "romaji": "hyaku rokujuu en ni narimasu." },
+        "japanese": {
+          "text": "160円になります。",
+          "reading": "ひゃくろくじゅうえんになります。",
+          "romaji": "hyaku rokujuu en ni narimasu."
+        },
         "english": "That'll be 160 yen.",
         "chinese": "160日圓。"
       }
@@ -309,19 +469,31 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、この薬の飲み方を教えてもらえますか？", "reading": "すみません、このくすりののみかたをおしえてもらえますか？", "romaji": "sumimasen, kono kusuri no nomikata wo oshiete moraemasu ka?" },
+        "japanese": {
+          "text": "すみません、この薬の飲み方を教えてもらえますか？",
+          "reading": "すみません、このくすりののみかたをおしえてもらえますか？",
+          "romaji": "sumimasen, kono kusuri no nomikata wo oshiete moraemasu ka?"
+        },
         "english": "Excuse me, could you tell me how to take this medicine?",
         "chinese": "不好意思，可以告訴我這個藥怎麼吃嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "1日3回、食後に1錠ずつ飲んでください。", "reading": "いちにちさんかい、しょくごにいちじょうずつのんでください。", "romaji": "ichinichi sankai, shokugo ni ichijou zutsu nonde kudasai." },
+        "japanese": {
+          "text": "1日3回、食後に1錠ずつ飲んでください。",
+          "reading": "いちにちさんかい、しょくごにいちじょうずつのんでください。",
+          "romaji": "ichinichi sankai, shokugo ni ichijou zutsu nonde kudasai."
+        },
         "english": "Take one tablet three times a day after meals.",
         "chinese": "一天三次，飯後各吃一錠。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "わかりました。ありがとうございます。", "reading": "わかりました。ありがとうございます。", "romaji": "wakarimashita. arigatou gozaimasu." },
+        "japanese": {
+          "text": "わかりました。ありがとうございます。",
+          "reading": "わかりました。ありがとうございます。",
+          "romaji": "wakarimashita. arigatou gozaimasu."
+        },
         "english": "I understand. Thank you.",
         "chinese": "我知道了。謝謝。"
       }
@@ -334,25 +506,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "プレゼント用に包んでもらえますか？", "reading": "ぷれぜんとようにつつんでもらえますか？", "romaji": "purezento you ni tsutsunde moraemasu ka?" },
+        "japanese": {
+          "text": "プレゼント用に包んでもらえますか？",
+          "reading": "ぷれぜんとようにつつんでもらえますか？",
+          "romaji": "purezento you ni tsutsunde moraemasu ka?"
+        },
         "english": "Could you wrap this as a gift?",
         "chinese": "可以幫我包裝成禮物嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、もちろんです。紙袋もお付けしますか？", "reading": "はい、もちろんです。かみぶくろもおつけしますか？", "romaji": "hai, mochiron desu. kamibukuro mo otsuke shimasu ka?" },
+        "japanese": {
+          "text": "はい、もちろんです。紙袋もお付けしますか？",
+          "reading": "はい、もちろんです。かみぶくろもおつけしますか？",
+          "romaji": "hai, mochiron desu. kamibukuro mo otsuke shimasu ka?"
+        },
         "english": "Yes, of course. Would you also like a paper bag?",
         "chinese": "好的，當然可以。需要附紙袋嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "はい、お願いします。", "reading": "はい、おねがいします。", "romaji": "hai, onegaishimasu." },
+        "japanese": {
+          "text": "はい、お願いします。",
+          "reading": "はい、おねがいします。",
+          "romaji": "hai, onegaishimasu."
+        },
         "english": "Yes, please.",
         "chinese": "好的，麻煩了。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "少々お待ちください。", "reading": "しょうしょうおまちください。", "romaji": "shoushou omachi kudasai." },
+        "japanese": {
+          "text": "少々お待ちください。",
+          "reading": "しょうしょうおまちください。",
+          "romaji": "shoushou omachi kudasai."
+        },
         "english": "Please wait a moment.",
         "chinese": "請稍等一下。"
       }
@@ -365,19 +553,31 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "ATMはありますか？", "reading": "えーてぃーえむはありますか？", "romaji": "ee tii emu wa arimasu ka?" },
+        "japanese": {
+          "text": "ATMはありますか？",
+          "reading": "えーてぃーえむはありますか？",
+          "romaji": "ee tii emu wa arimasu ka?"
+        },
         "english": "Is there an ATM?",
         "chinese": "請問有ATM嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、入口の左側にございます。海外のカードも使えますよ。", "reading": "はい、いりぐちのひだりがわにございます。かいがいのかーどもつかえますよ。", "romaji": "hai, iriguchi no hidarigawa ni gozaimasu. kaigai no kaado mo tsukaemasu yo." },
+        "japanese": {
+          "text": "はい、入口の左側にございます。海外のカードも使えますよ。",
+          "reading": "はい、いりぐちのひだりがわにございます。かいがいのかーどもつかえますよ。",
+          "romaji": "hai, iriguchi no hidarigawa ni gozaimasu. kaigai no kaado mo tsukaemasu yo."
+        },
         "english": "Yes, it's on the left side of the entrance. You can use overseas cards too.",
         "chinese": "有的，在入口左手邊。海外的卡也可以使用。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "助かります。ありがとうございます。", "reading": "たすかります。ありがとうございます。", "romaji": "tasukarimasu. arigatou gozaimasu." },
+        "japanese": {
+          "text": "助かります。ありがとうございます。",
+          "reading": "たすかります。ありがとうございます。",
+          "romaji": "tasukarimasu. arigatou gozaimasu."
+        },
         "english": "That's helpful. Thank you.",
         "chinese": "幫了大忙。謝謝。"
       }
@@ -390,31 +590,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "免税で買いたいんですけど、どうすればいいですか？", "reading": "めんぜいでかいたいんですけど、どうすればいいですか？", "romaji": "menzei de kaitain desu kedo, dou sureba ii desu ka?" },
+        "japanese": {
+          "text": "免税で買いたいんですけど、どうすればいいですか？",
+          "reading": "めんぜいでかいたいんですけど、どうすればいいですか？",
+          "romaji": "menzei de kaitain desu kedo, dou sureba ii desu ka?"
+        },
         "english": "I'd like to buy tax-free. What should I do?",
         "chinese": "我想免稅購買，該怎麼做？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "パスポートをお持ちですか？5,000円以上のお買い物で免税になります。", "reading": "ぱすぽーとをおもちですか？ごせんえんいじょうのおかいもので めんぜいになります。", "romaji": "pasupooto wo omochi desu ka? gosen en ijou no okaimono de menzei ni narimasu." },
+        "japanese": {
+          "text": "パスポートをお持ちですか？5,000円以上のお買い物で免税になります。",
+          "reading": "ぱすぽーとをおもちですか？ごせんえんいじょうのおかいもので めんぜいになります。",
+          "romaji": "pasupooto wo omochi desu ka? gosen en ijou no okaimono de menzei ni narimasu."
+        },
         "english": "Do you have your passport? Purchases of 5,000 yen or more are tax-free.",
         "chinese": "請問有帶護照嗎？消費滿5,000日圓以上可以免稅。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "はい、パスポートあります。消耗品と一般品は一緒に計算できますか？", "reading": "はい、ぱすぽーとあります。しょうもうひんといっぱんひんはいっしょにけいさんできますか？", "romaji": "hai, pasupooto arimasu. shoumouhinn to ippanhin wa issho ni keisan dekimasu ka?" },
+        "japanese": {
+          "text": "はい、パスポートあります。消耗品と一般品は一緒に計算できますか？",
+          "reading": "はい、ぱすぽーとあります。しょうもうひんといっぱんひんはいっしょにけいさんできますか？",
+          "romaji": "hai, pasupooto arimasu. shoumouhinn to ippanhin wa issho ni keisan dekimasu ka?"
+        },
         "english": "Yes, I have my passport. Can consumable goods and general goods be calculated together?",
         "chinese": "有，我有護照。消耗品和一般商品可以合併計算嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "いいえ、消耗品と一般品は別々に5,000円以上が必要です。", "reading": "いいえ、しょうもうひんといっぱんひんはべつべつにごせんえんいじょうがひつようです。", "romaji": "iie, shoumouhinn to ippanhin wa betsubetsu ni gosen en ijou ga hitsuyou desu." },
+        "japanese": {
+          "text": "いいえ、消耗品と一般品は別々に5,000円以上が必要です。",
+          "reading": "いいえ、しょうもうひんといっぱんひんはべつべつにごせんえんいじょうがひつようです。",
+          "romaji": "iie, shoumouhinn to ippanhin wa betsubetsu ni gosen en ijou ga hitsuyou desu."
+        },
         "english": "No, consumable goods and general goods each need to be 5,000 yen or more separately.",
         "chinese": "不行，消耗品和一般商品要各自達到5,000日圓以上。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "わかりました。じゃあ、もう少し買い足します。", "reading": "わかりました。じゃあ、もうすこしかいたします。", "romaji": "wakarimashita. jaa, mou sukoshi kaitashimasu." },
+        "japanese": {
+          "text": "わかりました。じゃあ、もう少し買い足します。",
+          "reading": "わかりました。じゃあ、もうすこしかいたします。",
+          "romaji": "wakarimashita. jaa, mou sukoshi kaitashimasu."
+        },
         "english": "I see. Then I'll buy a bit more to reach the amount.",
         "chinese": "了解了。那我再多買一些湊金額。"
       }
@@ -427,25 +647,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "免税カウンターはどこですか？", "reading": "めんぜいかうんたーはどこですか？", "romaji": "menzei kauntaa wa doko desu ka?" },
+        "japanese": {
+          "text": "免税カウンターはどこですか？",
+          "reading": "めんぜいかうんたーはどこですか？",
+          "romaji": "menzei kauntaa wa doko desu ka?"
+        },
         "english": "Where is the tax-free counter?",
         "chinese": "免稅櫃檯在哪裡？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "地下1階にございます。本日のレシートとパスポートをお持ちください。", "reading": "ちかいっかいにございます。ほんじつのれしーととぱすぽーとをおもちください。", "romaji": "chika ikkai ni gozaimasu. honjitsu no reshiito to pasupooto wo omochi kudasai." },
+        "japanese": {
+          "text": "地下1階にございます。本日のレシートとパスポートをお持ちください。",
+          "reading": "ちかいっかいにございます。ほんじつのれしーととぱすぽーとをおもちください。",
+          "romaji": "chika ikkai ni gozaimasu. honjitsu no reshiito to pasupooto wo omochi kudasai."
+        },
         "english": "It's on basement level 1. Please bring today's receipts and your passport.",
         "chinese": "在地下一樓。請攜帶今天的收據和護照。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "他のフロアで買ったものも合算できますか？", "reading": "ほかのふろあでかったものもがっさんできますか？", "romaji": "hoka no furoa de katta mono mo gassan dekimasu ka?" },
+        "japanese": {
+          "text": "他のフロアで買ったものも合算できますか？",
+          "reading": "ほかのふろあでかったものもがっさんできますか？",
+          "romaji": "hoka no furoa de katta mono mo gassan dekimasu ka?"
+        },
         "english": "Can I combine purchases from other floors?",
         "chinese": "在其他樓層買的也可以合併計算嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、同じ百貨店内であれば合算可能です。", "reading": "はい、おなじひゃっかてんないであればがっさんかのうです。", "romaji": "hai, onaji hyakkaten nai de areba gassan kanou desu." },
+        "japanese": {
+          "text": "はい、同じ百貨店内であれば合算可能です。",
+          "reading": "はい、おなじひゃっかてんないであればがっさんかのうです。",
+          "romaji": "hai, onaji hyakkaten nai de areba gassan kanou desu."
+        },
         "english": "Yes, as long as it's within the same department store, you can combine them.",
         "chinese": "可以的，只要是同一間百貨公司內的消費都可以合併。"
       }
@@ -458,37 +694,61 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、ファストパスを追加したいんですけど。", "reading": "すみません、ふぁすとぱすをついかしたいんですけど。", "romaji": "sumimasen, fasuto pasu wo tsuika shitain desu kedo." },
+        "japanese": {
+          "text": "すみません、ファストパスを追加したいんですけど。",
+          "reading": "すみません、ふぁすとぱすをついかしたいんですけど。",
+          "romaji": "sumimasen, fasuto pasu wo tsuika shitain desu kedo."
+        },
         "english": "Excuse me, I'd like to add a fast pass.",
         "chinese": "不好意思，我想加購快速通關。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "ファストパスは単品ではご購入いただけません。まず、ベースのパッケージをお選びいただく必要がございます。", "reading": "ふぁすとぱすはたんぴんではごこうにゅういただけません。まず、べーすのぱっけーじをおえらびいただくひつようがございます。", "romaji": "fasuto pasu wa tanpin de wa gokounyuu itadakemasen. mazu, beesu no pakkeji wo oerabi itadaku hitsuyou ga gozaimasu." },
+        "japanese": {
+          "text": "ファストパスは単品ではご購入いただけません。まず、ベースのパッケージをお選びいただく必要がございます。",
+          "reading": "ふぁすとぱすはたんぴんではごこうにゅういただけません。まず、べーすのぱっけーじをおえらびいただくひつようがございます。",
+          "romaji": "fasuto pasu wa tanpin de wa gokounyuu itadakemasen. mazu, beesu no pakkeji wo oerabi itadaku hitsuyou ga gozaimasu."
+        },
         "english": "The fast pass cannot be purchased separately. First, you need to choose a base package.",
         "chinese": "快速通關無法單獨購買。首先，您需要選擇一個基本方案。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "パッケージはどんな種類がありますか？", "reading": "ぱっけーじはどんなしゅるいがありますか？", "romaji": "pakkeji wa donna shurui ga arimasu ka?" },
+        "japanese": {
+          "text": "パッケージはどんな種類がありますか？",
+          "reading": "ぱっけーじはどんなしゅるいがありますか？",
+          "romaji": "pakkeji wa donna shurui ga arimasu ka?"
+        },
         "english": "What kinds of packages are there?",
         "chinese": "有哪些方案可以選？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "A、B、C、Dの4つのパッケージがございます。Aは人気アトラクション3つ、Bは5つ、Cは7つ、Dは乗り放題です。パッケージをお選びいただいてから、オプションの追加が可能です。", "reading": "えー、びー、しー、でぃーのよっつのぱっけーじがございます。えーはにんきあとらくしょんみっつ、びーはいつつ、しーはななつ、でぃーはのりほうだいです。ぱっけーじをおえらびいただいてから、おぷしょんのついかがかのうです。", "romaji": "ee, bii, shii, dii no yottsu no pakkeji ga gozaimasu. ee wa ninki atorakushon mittsu, bii wa itsutsu, shii wa nanatsu, dii wa norihoudai desu. pakkeji wo oerabi itadaite kara, opushon no tsuika ga kanou desu." },
+        "japanese": {
+          "text": "A、B、C、Dの4つのパッケージがございます。Aは人気アトラクション3つ、Bは5つ、Cは7つ、Dは乗り放題です。パッケージをお選びいただいてから、オプションの追加が可能です。",
+          "reading": "えー、びー、しー、でぃーのよっつのぱっけーじがございます。えーはにんきあとらくしょんみっつ、びーはいつつ、しーはななつ、でぃーはのりほうだいです。ぱっけーじをおえらびいただいてから、おぷしょんのついかがかのうです。",
+          "romaji": "ee, bii, shii, dii no yottsu no pakkeji ga gozaimasu. ee wa ninki atorakushon mittsu, bii wa itsutsu, shii wa nanatsu, dii wa norihoudai desu. pakkeji wo oerabi itadaite kara, opushon no tsuika ga kanou desu."
+        },
         "english": "There are four packages: A, B, C, and D. A includes 3 popular attractions, B includes 5, C includes 7, and D is unlimited rides. After choosing a package, you can add options.",
         "chinese": "有A、B、C、D四種方案。A包含3個熱門設施、B包含5個、C包含7個、D是無限搭乘。選好方案之後，才能加購選項。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "なるほど。じゃあ、Bパッケージにファストパスを追加でお願いします。", "reading": "なるほど。じゃあ、びーぱっけーじにふぁすとぱすをついかでおねがいします。", "romaji": "naruhodo. jaa, bii pakkeji ni fasuto pasu wo tsuika de onegaishimasu." },
+        "japanese": {
+          "text": "なるほど。じゃあ、Bパッケージにファストパスを追加でお願いします。",
+          "reading": "なるほど。じゃあ、びーぱっけーじにふぁすとぱすをついかでおねがいします。",
+          "romaji": "naruhodo. jaa, bii pakkeji ni fasuto pasu wo tsuika de onegaishimasu."
+        },
         "english": "I see. Then I'd like package B with the fast pass added, please.",
         "chinese": "原來如此。那請給我B方案，再加購快速通關。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "かしこまりました。Bパッケージ8,500円にファストパス2,000円で、合計10,500円になります。", "reading": "かしこまりました。びーぱっけーじはっせんごひゃくえんにふぁすとぱすにせんえんで、ごうけいいちまんごひゃくえんになります。", "romaji": "kashikomarimashita. bii pakkeji hassen gohyaku en ni fasuto pasu nisen en de, goukei ichiman gohyaku en ni narimasu." },
+        "japanese": {
+          "text": "かしこまりました。Bパッケージ8,500円にファストパス2,000円で、合計10,500円になります。",
+          "reading": "かしこまりました。びーぱっけーじはっせんごひゃくえんにふぁすとぱすにせんえんで、ごうけいいちまんごひゃくえんになります。",
+          "romaji": "kashikomarimashita. bii pakkeji hassen gohyaku en ni fasuto pasu nisen en de, goukei ichiman gohyaku en ni narimasu."
+        },
         "english": "Understood. Package B at 8,500 yen plus fast pass at 2,000 yen, totaling 10,500 yen.",
         "chinese": "好的。B方案8,500日圓加上快速通關2,000日圓，總共10,500日圓。"
       }
@@ -501,37 +761,61 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、これのMサイズはありますか？", "reading": "すみません、これのえむさいずはありますか？", "romaji": "sumimasen, kore no emu saizu wa arimasu ka?" },
+        "japanese": {
+          "text": "すみません、これのMサイズはありますか？",
+          "reading": "すみません、これのえむさいずはありますか？",
+          "romaji": "sumimasen, kore no emu saizu wa arimasu ka?"
+        },
         "english": "Excuse me, do you have this in size M?",
         "chinese": "不好意思，這件有M號嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "少々お待ちください。確認してまいります。", "reading": "しょうしょうおまちください。かくにんしてまいります。", "romaji": "shoushou omachi kudasai. kakunin shite mairimasu." },
+        "japanese": {
+          "text": "少々お待ちください。確認してまいります。",
+          "reading": "しょうしょうおまちください。かくにんしてまいります。",
+          "romaji": "shoushou omachi kudasai. kakunin shite mairimasu."
+        },
         "english": "Please wait a moment. I'll go check.",
         "chinese": "請稍等。我去確認一下。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "申し訳ございません。Mサイズは品切れです。Lサイズならございますが、いかがですか？", "reading": "もうしわけございません。えむさいずはしなぎれです。えるさいずならございますが、いかがですか？", "romaji": "moushiwake gozaimasen. emu saizu wa shinagire desu. eru saizu nara gozaimasu ga, ikaga desu ka?" },
+        "japanese": {
+          "text": "申し訳ございません。Mサイズは品切れです。Lサイズならございますが、いかがですか？",
+          "reading": "もうしわけございません。えむさいずはしなぎれです。えるさいずならございますが、いかがですか？",
+          "romaji": "moushiwake gozaimasen. emu saizu wa shinagire desu. eru saizu nara gozaimasu ga, ikaga desu ka?"
+        },
         "english": "I'm sorry. Size M is out of stock. We have size L, would you like that?",
         "chinese": "非常抱歉。M號已經賣完了。L號還有，您覺得如何？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "ちょっと大きいかも。他の色でMサイズはありますか？", "reading": "ちょっとおおきいかも。ほかのいろでえむさいずはありますか？", "romaji": "chotto ookii kamo. hoka no iro de emu saizu wa arimasu ka?" },
+        "japanese": {
+          "text": "ちょっと大きいかも。他の色でMサイズはありますか？",
+          "reading": "ちょっとおおきいかも。ほかのいろでえむさいずはありますか？",
+          "romaji": "chotto ookii kamo. hoka no iro de emu saizu wa arimasu ka?"
+        },
         "english": "That might be too big. Do you have size M in another color?",
         "chinese": "可能有點大。其他顏色有M號嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "黒のMサイズがございます。ご試着されますか？", "reading": "くろのえむさいずがございます。ごしちゃくされますか？", "romaji": "kuro no emu saizu ga gozaimasu. goshichaku saremasu ka?" },
+        "japanese": {
+          "text": "黒のMサイズがございます。ご試着されますか？",
+          "reading": "くろのえむさいずがございます。ごしちゃくされますか？",
+          "romaji": "kuro no emu saizu ga gozaimasu. goshichaku saremasu ka?"
+        },
         "english": "We have size M in black. Would you like to try it on?",
         "chinese": "黑色有M號。要試穿看看嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "はい、試着したいです。", "reading": "はい、しちゃくしたいです。", "romaji": "hai, shichaku shitai desu." },
+        "japanese": {
+          "text": "はい、試着したいです。",
+          "reading": "はい、しちゃくしたいです。",
+          "romaji": "hai, shichaku shitai desu."
+        },
         "english": "Yes, I'd like to try it on.",
         "chinese": "好的，我想試穿。"
       }
@@ -544,25 +828,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "このカメラとこっちのカメラ、何が違いますか？", "reading": "このかめらとこっちのかめら、なにがちがいますか？", "romaji": "kono kamera to kocchi no kamera, nani ga chigaimasu ka?" },
+        "japanese": {
+          "text": "このカメラとこっちのカメラ、何が違いますか？",
+          "reading": "このかめらとこっちのかめら、なにがちがいますか？",
+          "romaji": "kono kamera to kocchi no kamera, nani ga chigaimasu ka?"
+        },
         "english": "What's the difference between this camera and that one?",
         "chinese": "這台相機和那台相機有什麼不同？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "こちらは手ぶれ補正が付いていて、動画も4Kで撮れます。お値段は3万円ほど高いですが、旅行にはおすすめです。", "reading": "こちらはてぶれほせいがついていて、どうがもよんけーでとれます。おねだんはさんまんえんほどたかいですが、りょこうにはおすすめです。", "romaji": "kochira wa tebure hosei ga tsuite ite, douga mo yonkee de toremasu. onedan wa sanman en hodo takai desu ga, ryokou ni wa osusume desu." },
+        "japanese": {
+          "text": "こちらは手ぶれ補正が付いていて、動画も4Kで撮れます。お値段は3万円ほど高いですが、旅行にはおすすめです。",
+          "reading": "こちらはてぶれほせいがついていて、どうがもよんけーでとれます。おねだんはさんまんえんほどたかいですが、りょこうにはおすすめです。",
+          "romaji": "kochira wa tebure hosei ga tsuite ite, douga mo yonkee de toremasu. onedan wa sanman en hodo takai desu ga, ryokou ni wa osusume desu."
+        },
         "english": "This one has image stabilization and can shoot 4K video. It's about 30,000 yen more expensive, but I'd recommend it for travel.",
         "chinese": "這台有防手震功能，也可以拍4K影片。價格貴了大約三萬日圓，但很推薦旅行使用。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "これは免税対象ですか？", "reading": "これはめんぜいたいしょうですか？", "romaji": "kore wa menzei taishou desu ka?" },
+        "japanese": {
+          "text": "これは免税対象ですか？",
+          "reading": "これはめんぜいたいしょうですか？",
+          "romaji": "kore wa menzei taishou desu ka?"
+        },
         "english": "Is this eligible for tax-free?",
         "chinese": "這個可以免稅嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、パスポートをお見せいただければ、免税でご購入いただけます。", "reading": "はい、ぱすぽーとをおみせいただければ、めんぜいでごこうにゅういただけます。", "romaji": "hai, pasupooto wo omise itadakereba, menzei de gokounyuu itadakemasu." },
+        "japanese": {
+          "text": "はい、パスポートをお見せいただければ、免税でご購入いただけます。",
+          "reading": "はい、ぱすぽーとをおみせいただければ、めんぜいでごこうにゅういただけます。",
+          "romaji": "hai, pasupooto wo omise itadakereba, menzei de gokounyuu itadakemasu."
+        },
         "english": "Yes, if you show your passport, you can purchase it tax-free.",
         "chinese": "可以的，只要出示護照就能免稅購買。"
       }
@@ -575,31 +875,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "このワンピース、他の色はありますか？", "reading": "このわんぴーす、ほかのいろはありますか？", "romaji": "kono wanpiisu, hoka no iro wa arimasu ka?" },
+        "japanese": {
+          "text": "このワンピース、他の色はありますか？",
+          "reading": "このわんぴーす、ほかのいろはありますか？",
+          "romaji": "kono wanpiisu, hoka no iro wa arimasu ka?"
+        },
         "english": "Do you have this dress in other colors?",
         "chinese": "這件洋裝有其他顏色嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、ネイビー、ベージュ、ワインレッドがございます。", "reading": "はい、ねいびー、べーじゅ、わいんれっどがございます。", "romaji": "hai, neibii, beiju, wain reddo ga gozaimasu." },
+        "japanese": {
+          "text": "はい、ネイビー、ベージュ、ワインレッドがございます。",
+          "reading": "はい、ねいびー、べーじゅ、わいんれっどがございます。",
+          "romaji": "hai, neibii, beiju, wain reddo ga gozaimasu."
+        },
         "english": "Yes, we have navy, beige, and wine red.",
         "chinese": "有的，有深藍色、米色和酒紅色。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "ネイビーを見せてください。あと、素材は何ですか？", "reading": "ねいびーをみせてください。あと、そざいはなんですか？", "romaji": "neibii wo misete kudasai. ato, sozai wa nan desu ka?" },
+        "japanese": {
+          "text": "ネイビーを見せてください。あと、素材は何ですか？",
+          "reading": "ねいびーをみせてください。あと、そざいはなんですか？",
+          "romaji": "neibii wo misete kudasai. ato, sozai wa nan desu ka?"
+        },
         "english": "Please show me the navy one. Also, what material is it?",
         "chinese": "請讓我看看深藍色的。還有，材質是什麼？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "綿100%で、洗濯機で洗えますよ。こちらをどうぞ。", "reading": "めんひゃくぱーせんとで、せんたくきであらえますよ。こちらをどうぞ。", "romaji": "men hyaku paasento de, sentakuki de araemasu yo. kochira wo douzo." },
+        "japanese": {
+          "text": "綿100%で、洗濯機で洗えますよ。こちらをどうぞ。",
+          "reading": "めんひゃくぱーせんとで、せんたくきであらえますよ。こちらをどうぞ。",
+          "romaji": "men hyaku paasento de, sentakuki de araemasu yo. kochira wo douzo."
+        },
         "english": "It's 100% cotton and machine washable. Here you go.",
         "chinese": "100%純棉，可以用洗衣機洗。請看。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "これにします。包んでください。", "reading": "これにします。つつんでください。", "romaji": "kore ni shimasu. tsutsunde kudasai." },
+        "japanese": {
+          "text": "これにします。包んでください。",
+          "reading": "これにします。つつんでください。",
+          "romaji": "kore ni shimasu. tsutsunde kudasai."
+        },
         "english": "I'll take this one. Please wrap it up.",
         "chinese": "我要這件。請幫我包起來。"
       }
@@ -612,25 +932,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "この炊飯器の保証は海外でも使えますか？", "reading": "このすいはんきのほしょうはかいがいでもつかえますか？", "romaji": "kono suihanki no hoshou wa kaigai demo tsukaemasu ka?" },
+        "japanese": {
+          "text": "この炊飯器の保証は海外でも使えますか？",
+          "reading": "このすいはんきのほしょうはかいがいでもつかえますか？",
+          "romaji": "kono suihanki no hoshou wa kaigai demo tsukaemasu ka?"
+        },
         "english": "Can the warranty for this rice cooker be used overseas?",
         "chinese": "這台電鍋的保固在海外也適用嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "申し訳ございませんが、保証は日本国内のみとなっております。", "reading": "もうしわけございませんが、ほしょうはにほんこくないのみとなっております。", "romaji": "moushiwake gozaimasen ga, hoshou wa nihon kokunai nomi to natte orimasu." },
+        "japanese": {
+          "text": "申し訳ございませんが、保証は日本国内のみとなっております。",
+          "reading": "もうしわけございませんが、ほしょうはにほんこくないのみとなっております。",
+          "romaji": "moushiwake gozaimasen ga, hoshou wa nihon kokunai nomi to natte orimasu."
+        },
         "english": "I'm sorry, but the warranty is only valid within Japan.",
         "chinese": "很抱歉，保固僅限日本國內。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "電圧は海外でも使えますか？変圧器は必要ですか？", "reading": "でんあつはかいがいでもつかえますか？へんあつきはひつようですか？", "romaji": "denatsu wa kaigai demo tsukaemasu ka? henatsu ki wa hitsuyou desu ka?" },
+        "japanese": {
+          "text": "電圧は海外でも使えますか？変圧器は必要ですか？",
+          "reading": "でんあつはかいがいでもつかえますか？へんあつきはひつようですか？",
+          "romaji": "denatsu wa kaigai demo tsukaemasu ka? henatsu ki wa hitsuyou desu ka?"
+        },
         "english": "Can the voltage be used overseas? Do I need a transformer?",
         "chinese": "電壓在海外也能用嗎？需要變壓器嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "こちらは100V専用です。海外でお使いの場合は変圧器が必要になります。海外対応モデルもございますよ。", "reading": "こちらはひゃくぼるとせんようです。かいがいでおつかいのばあいはへんあつきがひつようになります。かいがいたいおうもでるもございますよ。", "romaji": "kochira wa hyaku boruto senyou desu. kaigai de otsukai no baai wa henatsu ki ga hitsuyou ni narimasu. kaigai taiou moderu mo gozaimasu yo." },
+        "japanese": {
+          "text": "こちらは100V専用です。海外でお使いの場合は変圧器が必要になります。海外対応モデルもございますよ。",
+          "reading": "こちらはひゃくぼるとせんようです。かいがいでおつかいのばあいはへんあつきがひつようになります。かいがいたいおうもでるもございますよ。",
+          "romaji": "kochira wa hyaku boruto senyou desu. kaigai de otsukai no baai wa henatsu ki ga hitsuyou ni narimasu. kaigai taiou moderu mo gozaimasu yo."
+        },
         "english": "This is 100V only. You'll need a transformer for overseas use. We also have international models.",
         "chinese": "這台是100V專用。在海外使用的話需要變壓器。我們也有海外對應的機型喔。"
       }
@@ -643,25 +979,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、化粧品売り場は何階ですか？", "reading": "すみません、けしょうひんうりばはなんがいですか？", "romaji": "sumimasen, keshouhin uriba wa nangai desu ka?" },
+        "japanese": {
+          "text": "すみません、化粧品売り場は何階ですか？",
+          "reading": "すみません、けしょうひんうりばはなんがいですか？",
+          "romaji": "sumimasen, keshouhin uriba wa nangai desu ka?"
+        },
         "english": "Excuse me, what floor is the cosmetics department?",
         "chinese": "不好意思，化妝品賣場在幾樓？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "化粧品は1階でございます。どちらのブランドをお探しですか？", "reading": "けしょうひんはいっかいでございます。どちらのぶらんどをおさがしですか？", "romaji": "keshouhin wa ikkai de gozaimasu. dochira no burando wo osagashi desu ka?" },
+        "japanese": {
+          "text": "化粧品は1階でございます。どちらのブランドをお探しですか？",
+          "reading": "けしょうひんはいっかいでございます。どちらのぶらんどをおさがしですか？",
+          "romaji": "keshouhin wa ikkai de gozaimasu. dochira no burando wo osagashi desu ka?"
+        },
         "english": "Cosmetics are on the 1st floor. Which brand are you looking for?",
         "chinese": "化妝品在1樓。您在找哪個品牌？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "SK-IIを探しています。限定セットはまだありますか？", "reading": "えすけーつーをさがしています。げんていせっとはまだありますか？", "romaji": "esukee tsuu wo sagashite imasu. gentei setto wa mada arimasu ka?" },
+        "japanese": {
+          "text": "SK-IIを探しています。限定セットはまだありますか？",
+          "reading": "えすけーつーをさがしています。げんていせっとはまだありますか？",
+          "romaji": "esukee tsuu wo sagashite imasu. gentei setto wa mada arimasu ka?"
+        },
         "english": "I'm looking for SK-II. Are the limited edition sets still available?",
         "chinese": "我在找SK-II。限定組合還有嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "1階の奥のカウンターにございます。限定セットはまだ在庫がございますよ。", "reading": "いっかいのおくのかうんたーにございます。げんていせっとはまだざいこがございますよ。", "romaji": "ikkai no oku no kauntaa ni gozaimasu. gentei setto wa mada zaiko ga gozaimasu yo." },
+        "japanese": {
+          "text": "1階の奥のカウンターにございます。限定セットはまだ在庫がございますよ。",
+          "reading": "いっかいのおくのかうんたーにございます。げんていせっとはまだざいこがございますよ。",
+          "romaji": "ikkai no oku no kauntaa ni gozaimasu. gentei setto wa mada zaiko ga gozaimasu yo."
+        },
         "english": "It's at the counter in the back of the 1st floor. The limited edition sets are still in stock.",
         "chinese": "在1樓後面的櫃檯。限定組合目前還有庫存喔。"
       }
@@ -674,31 +1026,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "年間パスポートはありますか？", "reading": "ねんかんぱすぽーとはありますか？", "romaji": "nenkan pasupooto wa arimasu ka?" },
+        "japanese": {
+          "text": "年間パスポートはありますか？",
+          "reading": "ねんかんぱすぽーとはありますか？",
+          "romaji": "nenkan pasupooto wa arimasu ka?"
+        },
         "english": "Do you have annual passes?",
         "chinese": "請問有年票嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、レギュラーとプレミアムの2種類がございます。レギュラーは除外日がありますが、プレミアムは毎日入園可能です。", "reading": "はい、れぎゅらーとぷれみあむのにしゅるいがございます。れぎゅらーはじょがいびがありますが、ぷれみあむはまいにちにゅうえんかのうです。", "romaji": "hai, regyuraa to puremiamu no nishurui ga gozaimasu. regyuraa wa jogaibi ga arimasu ga, puremiamu wa mainichi nyuuen kanou desu." },
+        "japanese": {
+          "text": "はい、レギュラーとプレミアムの2種類がございます。レギュラーは除外日がありますが、プレミアムは毎日入園可能です。",
+          "reading": "はい、れぎゅらーとぷれみあむのにしゅるいがございます。れぎゅらーはじょがいびがありますが、ぷれみあむはまいにちにゅうえんかのうです。",
+          "romaji": "hai, regyuraa to puremiamu no nishurui ga gozaimasu. regyuraa wa jogaibi ga arimasu ga, puremiamu wa mainichi nyuuen kanou desu."
+        },
         "english": "Yes, we have two types: Regular and Premium. Regular has blackout dates, but Premium allows entry every day.",
         "chinese": "有的，有Regular和Premium兩種。Regular有除外日，但Premium每天都可以入園。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "レギュラーの除外日はいつですか？", "reading": "れぎゅらーのじょがいびはいつですか？", "romaji": "regyuraa no jogaibi wa itsu desu ka?" },
+        "japanese": {
+          "text": "レギュラーの除外日はいつですか？",
+          "reading": "れぎゅらーのじょがいびはいつですか？",
+          "romaji": "regyuraa no jogaibi wa itsu desu ka?"
+        },
         "english": "When are the Regular blackout dates?",
         "chinese": "Regular的除外日是什麼時候？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "土日祝日と、ゴールデンウィーク、お盆、年末年始が除外日です。", "reading": "どにちしゅくじつと、ごーるでんうぃーく、おぼん、ねんまつねんしがじょがいびです。", "romaji": "donichi shukujitsu to, gooruden wiiku, obon, nenmatsu nenshi ga jogaibi desu." },
+        "japanese": {
+          "text": "土日祝日と、ゴールデンウィーク、お盆、年末年始が除外日です。",
+          "reading": "どにちしゅくじつと、ごーるでんうぃーく、おぼん、ねんまつねんしがじょがいびです。",
+          "romaji": "donichi shukujitsu to, gooruden wiiku, obon, nenmatsu nenshi ga jogaibi desu."
+        },
         "english": "Weekends, national holidays, Golden Week, Obon, and the New Year period are blackout dates.",
         "chinese": "週末、國定假日、黃金週、盂蘭盆節和年末年初是除外日。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "じゃあ、プレミアムにします。", "reading": "じゃあ、ぷれみあむにします。", "romaji": "jaa, puremiamu ni shimasu." },
+        "japanese": {
+          "text": "じゃあ、プレミアムにします。",
+          "reading": "じゃあ、ぷれみあむにします。",
+          "romaji": "jaa, puremiamu ni shimasu."
+        },
         "english": "Then I'll go with Premium.",
         "chinese": "那我選Premium好了。"
       }
@@ -711,25 +1083,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "風邪薬を探しているんですけど、おすすめはありますか？", "reading": "かぜぐすりをさがしているんですけど、おすすめはありますか？", "romaji": "kazegusuri wo sagashite irun desu kedo, osusume wa arimasu ka?" },
+        "japanese": {
+          "text": "風邪薬を探しているんですけど、おすすめはありますか？",
+          "reading": "かぜぐすりをさがしているんですけど、おすすめはありますか？",
+          "romaji": "kazegusuri wo sagashite irun desu kedo, osusume wa arimasu ka?"
+        },
         "english": "I'm looking for cold medicine. Do you have any recommendations?",
         "chinese": "我在找感冒藥，有推薦的嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "どんな症状ですか？熱、咳、鼻水、のどの痛みがありますか？", "reading": "どんなしょうじょうですか？ねつ、せき、はなみず、のどのいたみがありますか？", "romaji": "donna shoujou desu ka? netsu, seki, hanamizu, nodo no itami ga arimasu ka?" },
+        "japanese": {
+          "text": "どんな症状ですか？熱、咳、鼻水、のどの痛みがありますか？",
+          "reading": "どんなしょうじょうですか？ねつ、せき、はなみず、のどのいたみがありますか？",
+          "romaji": "donna shoujou desu ka? netsu, seki, hanamizu, nodo no itami ga arimasu ka?"
+        },
         "english": "What are your symptoms? Do you have fever, cough, runny nose, or sore throat?",
         "chinese": "是什麼症狀呢？有發燒、咳嗽、流鼻水或喉嚨痛嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "咳と鼻水がひどいです。", "reading": "せきとはなみずがひどいです。", "romaji": "seki to hanamizu ga hidoi desu." },
+        "japanese": {
+          "text": "咳と鼻水がひどいです。",
+          "reading": "せきとはなみずがひどいです。",
+          "romaji": "seki to hanamizu ga hidoi desu."
+        },
         "english": "My cough and runny nose are bad.",
         "chinese": "咳嗽和流鼻水很嚴重。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "では、こちらがおすすめです。眠くなりにくいタイプです。1日2回、朝と夜に飲んでください。", "reading": "では、こちらがおすすめです。ねむくなりにくいたいぷです。いちにちにかい、あさとよるにのんでください。", "romaji": "dewa, kochira ga osusume desu. nemuku narinikui taipu desu. ichinichi nikai, asa to yoru ni nonde kudasai." },
+        "japanese": {
+          "text": "では、こちらがおすすめです。眠くなりにくいタイプです。1日2回、朝と夜に飲んでください。",
+          "reading": "では、こちらがおすすめです。ねむくなりにくいたいぷです。いちにちにかい、あさとよるにのんでください。",
+          "romaji": "dewa, kochira ga osusume desu. nemuku narinikui taipu desu. ichinichi nikai, asa to yoru ni nonde kudasai."
+        },
         "english": "Then I recommend this one. It's the non-drowsy type. Take it twice a day, morning and evening.",
         "chinese": "那推薦這個。這是比較不會想睡的類型。一天兩次，早晚各吃一次。"
       }
@@ -742,31 +1130,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "このheadphones、もう少し安くなりませんか？", "reading": "このへっどほんず、もうすこしやすくなりませんか？", "romaji": "kono heddohonzu, mou sukoshi yasuku narimasen ka?" },
+        "japanese": {
+          "text": "このheadphones、もう少し安くなりませんか？",
+          "reading": "このへっどほんず、もうすこしやすくなりませんか？",
+          "romaji": "kono heddohonzu, mou sukoshi yasuku narimasen ka?"
+        },
         "english": "Can these headphones be a bit cheaper?",
         "chinese": "這副耳機可以再便宜一點嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "ポイントカードはお持ちですか？pointが10%付きますので、実質お安くなりますよ。", "reading": "ぽいんとかーどはおもちですか？ぽいんとがじゅっぱーせんとつきますので、じっしつおやすくなりますよ。", "romaji": "pointo kaado wa omochi desu ka? pointo ga juppaasentu tsukimasu node, jisshitsu oyasuku narimasu yo." },
+        "japanese": {
+          "text": "ポイントカードはお持ちですか？pointが10%付きますので、実質お安くなりますよ。",
+          "reading": "ぽいんとかーどはおもちですか？ぽいんとがじゅっぱーせんとつきますので、じっしつおやすくなりますよ。",
+          "romaji": "pointo kaado wa omochi desu ka? pointo ga juppaasentu tsukimasu node, jisshitsu oyasuku narimasu yo."
+        },
         "english": "Do you have a point card? You'll get 10% points, so it's effectively cheaper.",
         "chinese": "請問有集點卡嗎？可以獲得10%的點數，實質上會更便宜喔。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "ポイントカードは持っていないんですが、cash priceで少し安くなりますか？", "reading": "ぽいんとかーどはもっていないんですが、きゃっしゅぷらいすですこしやすくなりますか？", "romaji": "pointo kaado wa motte inain desu ga, kyasshu puraisu de sukoshi yasuku narimasu ka?" },
+        "japanese": {
+          "text": "ポイントカードは持っていないんですが、cash priceで少し安くなりますか？",
+          "reading": "ぽいんとかーどはもっていないんですが、きゃっしゅぷらいすですこしやすくなりますか？",
+          "romaji": "pointo kaado wa motte inain desu ga, kyasshu puraisu de sukoshi yasuku narimasu ka?"
+        },
         "english": "I don't have a point card. Can you give me a discount for cash?",
         "chinese": "我沒有集點卡，付現的話可以便宜一些嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "そうですね…現金でしたら、表示価格から5% offでいかがですか？", "reading": "そうですね…げんきんでしたら、ひょうじかかくからごぱーせんとおふでいかがですか？", "romaji": "sou desu ne... genkin deshitara, hyouji kakaku kara go paasento ofu de ikaga desu ka?" },
+        "japanese": {
+          "text": "そうですね…現金でしたら、表示価格から5% offでいかがですか？",
+          "reading": "そうですね…げんきんでしたら、ひょうじかかくからごぱーせんとおふでいかがですか？",
+          "romaji": "sou desu ne... genkin deshitara, hyouji kakaku kara go paasento ofu de ikaga desu ka?"
+        },
         "english": "Well... if it's cash, how about 5% off the listed price?",
         "chinese": "嗯…如果付現的話，標示價格打95折如何？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "Deal! じゃあ、現金で買います。", "reading": "でぃーる！じゃあ、げんきんでかいます。", "romaji": "diiru! jaa, genkin de kaimasu." },
+        "japanese": {
+          "text": "Deal! じゃあ、現金で買います。",
+          "reading": "でぃーる！じゃあ、げんきんでかいます。",
+          "romaji": "diiru! jaa, genkin de kaimasu."
+        },
         "english": "Deal! I'll pay cash then.",
         "chinese": "成交！那我付現金。"
       }
@@ -779,25 +1187,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "入場券だけ買って、中でファストパスを追加できますか？", "reading": "にゅうじょうけんだけかって、なかでふぁすとぱすをついかできますか？", "romaji": "nyuujouken dake katte, naka de fasuto pasu wo tsuika dekimasu ka?" },
+        "japanese": {
+          "text": "入場券だけ買って、中でファストパスを追加できますか？",
+          "reading": "にゅうじょうけんだけかって、なかでふぁすとぱすをついかできますか？",
+          "romaji": "nyuujouken dake katte, naka de fasuto pasu wo tsuika dekimasu ka?"
+        },
         "english": "Can I buy just the admission ticket and add a fast pass inside?",
         "chinese": "可以只買入場券，進去之後再加購快速通關嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "園内での追加購入は割高になります。入口でパッケージと一緒にお買い求めいただくのがお得ですよ。", "reading": "えんないでのついかこうにゅうはわりだかになります。いりぐちでぱっけーじといっしょにおかいもとめいただくのがおとくですよ。", "romaji": "ennai de no tsuika kounyuu wa waridaka ni narimasu. iriguchi de pakkeji to issho ni okaimotome itadaku no ga otoku desu yo." },
+        "japanese": {
+          "text": "園内での追加購入は割高になります。入口でパッケージと一緒にお買い求めいただくのがお得ですよ。",
+          "reading": "えんないでのついかこうにゅうはわりだかになります。いりぐちでぱっけーじといっしょにおかいもとめいただくのがおとくですよ。",
+          "romaji": "ennai de no tsuika kounyuu wa waridaka ni narimasu. iriguchi de pakkeji to issho ni okaimotome itadaku no ga otoku desu yo."
+        },
         "english": "Buying inside the park costs more. It's a better deal to buy it with the package at the entrance.",
         "chinese": "在園內加購會比較貴。在入口跟方案一起買比較划算喔。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "そうなんですね。じゃあ、今ここで追加します。", "reading": "そうなんですね。じゃあ、いまここでついかします。", "romaji": "sou nan desu ne. jaa, ima koko de tsuika shimasu." },
+        "japanese": {
+          "text": "そうなんですね。じゃあ、今ここで追加します。",
+          "reading": "そうなんですね。じゃあ、いまここでついかします。",
+          "romaji": "sou nan desu ne. jaa, ima koko de tsuika shimasu."
+        },
         "english": "I see. Then I'll add it here now.",
         "chinese": "原來是這樣。那我現在就在這裡加購。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "かしこまりました。パッケージはどちらをお選びになりますか？", "reading": "かしこまりました。ぱっけーじはどちらをおえらびになりますか？", "romaji": "kashikomarimashita. pakkeji wa dochira wo oerabi ni narimasu ka?" },
+        "japanese": {
+          "text": "かしこまりました。パッケージはどちらをお選びになりますか？",
+          "reading": "かしこまりました。ぱっけーじはどちらをおえらびになりますか？",
+          "romaji": "kashikomarimashita. pakkeji wa dochira wo oerabi ni narimasu ka?"
+        },
         "english": "Understood. Which package would you like to choose?",
         "chinese": "好的。請問您要選擇哪個方案？"
       }
@@ -810,37 +1234,61 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、昨日買ったこの商品を返品したいんですが。", "reading": "すみません、きのうかったこのしょうひんをへんぴんしたいんですが。", "romaji": "sumimasen, kinou katta kono shouhin wo henpin shitain desu ga." },
+        "japanese": {
+          "text": "すみません、昨日買ったこの商品を返品したいんですが。",
+          "reading": "すみません、きのうかったこのしょうひんをへんぴんしたいんですが。",
+          "romaji": "sumimasen, kinou katta kono shouhin wo henpin shitain desu ga."
+        },
         "english": "Excuse me, I'd like to return this item I bought yesterday.",
         "chinese": "不好意思，我想退掉昨天買的這個商品。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "返品の理由をお伺いしてもよろしいですか？レシートはお持ちですか？", "reading": "へんぴんのりゆうをおうかがいしてもよろしいですか？れしーとはおもちですか？", "romaji": "henpin no riyuu wo oukagai shite mo yoroshii desu ka? reshiito wa omochi desu ka?" },
+        "japanese": {
+          "text": "返品の理由をお伺いしてもよろしいですか？レシートはお持ちですか？",
+          "reading": "へんぴんのりゆうをおうかがいしてもよろしいですか？れしーとはおもちですか？",
+          "romaji": "henpin no riyuu wo oukagai shite mo yoroshii desu ka? reshiito wa omochi desu ka?"
+        },
         "english": "May I ask the reason for the return? Do you have the receipt?",
         "chinese": "可以請問退貨的原因嗎？有收據嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "はい、レシートあります。開けてみたらサイズが合わなかったんです。未使用です。", "reading": "はい、れしーとあります。あけてみたらさいずがあわなかったんです。みしようです。", "romaji": "hai, reshiito arimasu. akete mitara saizu ga awanakattan desu. mishiyou desu." },
+        "japanese": {
+          "text": "はい、レシートあります。開けてみたらサイズが合わなかったんです。未使用です。",
+          "reading": "はい、れしーとあります。あけてみたらさいずがあわなかったんです。みしようです。",
+          "romaji": "hai, reshiito arimasu. akete mitara saizu ga awanakattan desu. mishiyou desu."
+        },
         "english": "Yes, I have the receipt. When I opened it, the size didn't fit. It's unused.",
         "chinese": "有，收據在這裡。打開後發現尺寸不合。沒有使用過。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "承知しました。開封済みですので、返品ではなくサイズ交換で対応させていただいてもよろしいですか？", "reading": "しょうちしました。かいふうずみですので、へんぴんではなくさいずこうかんでたいおうさせていただいてもよろしいですか？", "romaji": "shouchi shimashita. kaifuu zumi desu node, henpin dewa naku saizu koukan de taiou sasete itadaite mo yoroshii desu ka?" },
+        "japanese": {
+          "text": "承知しました。開封済みですので、返品ではなくサイズ交換で対応させていただいてもよろしいですか？",
+          "reading": "しょうちしました。かいふうずみですので、へんぴんではなくさいずこうかんでたいおうさせていただいてもよろしいですか？",
+          "romaji": "shouchi shimashita. kaifuu zumi desu node, henpin dewa naku saizu koukan de taiou sasete itadaite mo yoroshii desu ka?"
+        },
         "english": "I understand. Since it's been opened, would it be alright if we handle this as a size exchange rather than a return?",
         "chinese": "了解了。因為已經拆封了，可以用換尺寸的方式處理，而不是退貨嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "交換でも大丈夫です。ワンサイズ小さいのはありますか？", "reading": "こうかんでもだいじょうぶです。わんさいずちいさいのはありますか？", "romaji": "koukan demo daijoubu desu. wan saizu chiisai no wa arimasu ka?" },
+        "japanese": {
+          "text": "交換でも大丈夫です。ワンサイズ小さいのはありますか？",
+          "reading": "こうかんでもだいじょうぶです。わんさいずちいさいのはありますか？",
+          "romaji": "koukan demo daijoubu desu. wan saizu chiisai no wa arimasu ka?"
+        },
         "english": "An exchange is fine. Do you have one size smaller?",
         "chinese": "換貨也可以。有小一號的嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "少々お待ちください。在庫を確認してまいります。", "reading": "しょうしょうおまちください。ざいこをかくにんしてまいります。", "romaji": "shoushou omachi kudasai. zaiko wo kakunin shite mairimasu." },
+        "japanese": {
+          "text": "少々お待ちください。在庫を確認してまいります。",
+          "reading": "しょうしょうおまちください。ざいこをかくにんしてまいります。",
+          "romaji": "shoushou omachi kudasai. zaiko wo kakunin shite mairimasu."
+        },
         "english": "Please wait a moment. I'll go check our stock.",
         "chinese": "請稍等。我去確認一下庫存。"
       }
@@ -853,37 +1301,61 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "VIPラウンジのアクセスだけ購入できますか？", "reading": "びっぷらうんじのあくせすだけこうにゅうできますか？", "romaji": "bippu raunji no akusesu dake kounyuu dekimasu ka?" },
+        "japanese": {
+          "text": "VIPラウンジのアクセスだけ購入できますか？",
+          "reading": "びっぷらうんじのあくせすだけこうにゅうできますか？",
+          "romaji": "bippu raunji no akusesu dake kounyuu dekimasu ka?"
+        },
         "english": "Can I purchase just the VIP lounge access?",
         "chinese": "可以只買VIP休息室的使用權嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "申し訳ございませんが、VIPラウンジは単品ではお取り扱いしておりません。CまたはDパッケージのオプションとしてのみご利用いただけます。", "reading": "もうしわけございませんが、びっぷらうんじはたんぴんではおとりあつかいしておりません。しーまたはでぃーぱっけーじのおぷしょんとしてのみごりよういただけます。", "romaji": "moushiwake gozaimasen ga, bippu raunji wa tanpin de wa otoriatsukai shite orimasen. shii matawa dii pakkeji no opushon to shite nomi goriyou itadakemasu." },
+        "japanese": {
+          "text": "申し訳ございませんが、VIPラウンジは単品ではお取り扱いしておりません。CまたはDパッケージのオプションとしてのみご利用いただけます。",
+          "reading": "もうしわけございませんが、びっぷらうんじはたんぴんではおとりあつかいしておりません。しーまたはでぃーぱっけーじのおぷしょんとしてのみごりよういただけます。",
+          "romaji": "moushiwake gozaimasen ga, bippu raunji wa tanpin de wa otoriatsukai shite orimasen. shii matawa dii pakkeji no opushon to shite nomi goriyou itadakemasu."
+        },
         "english": "I'm sorry, but VIP lounge access is not available separately. It's only available as an option with Package C or D.",
         "chinese": "非常抱歉，VIP休息室無法單獨販售。只有C或D方案才能加購此選項。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "え、Bパッケージには追加できないんですか？さっきBを買ったんですけど…", "reading": "え、びーぱっけーじにはついかできないんですか？さっきびーをかったんですけど…", "romaji": "e, bii pakkeji ni wa tsuika dekinain desu ka? sakki bii wo kattan desu kedo..." },
+        "japanese": {
+          "text": "え、Bパッケージには追加できないんですか？さっきBを買ったんですけど…",
+          "reading": "え、びーぱっけーじにはついかできないんですか？さっきびーをかったんですけど…",
+          "romaji": "e, bii pakkeji ni wa tsuika dekinain desu ka? sakki bii wo kattan desu kedo..."
+        },
         "english": "What? It can't be added to Package B? I just bought B...",
         "chinese": "什麼？B方案不能加購嗎？我剛剛才買了B…"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、VIPラウンジはC以上のパッケージが必要です。差額をお支払いいただければ、Cパッケージへのアップグレードも可能です。", "reading": "はい、びっぷらうんじはしーいじょうのぱっけーじがひつようです。さがくをおしはらいいただければ、しーぱっけーじへのあっぷぐれーどもかのうです。", "romaji": "hai, bippu raunji wa shii ijou no pakkeji ga hitsuyou desu. sagaku wo oshiharai itadakereba, shii pakkeji e no appugureedo mo kanou desu." },
+        "japanese": {
+          "text": "はい、VIPラウンジはC以上のパッケージが必要です。差額をお支払いいただければ、Cパッケージへのアップグレードも可能です。",
+          "reading": "はい、びっぷらうんじはしーいじょうのぱっけーじがひつようです。さがくをおしはらいいただければ、しーぱっけーじへのあっぷぐれーどもかのうです。",
+          "romaji": "hai, bippu raunji wa shii ijou no pakkeji ga hitsuyou desu. sagaku wo oshiharai itadakereba, shii pakkeji e no appugureedo mo kanou desu."
+        },
         "english": "Yes, VIP lounge requires Package C or above. If you pay the difference, we can upgrade you to Package C.",
         "chinese": "是的，VIP休息室需要C以上的方案。如果補差額的話，可以升級到C方案。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "差額はいくらですか？", "reading": "さがくはいくらですか？", "romaji": "sagaku wa ikura desu ka?" },
+        "japanese": {
+          "text": "差額はいくらですか？",
+          "reading": "さがくはいくらですか？",
+          "romaji": "sagaku wa ikura desu ka?"
+        },
         "english": "How much is the difference?",
         "chinese": "差額是多少？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "BからCへのアップグレードが4,000円、VIPラウンジのオプションが3,000円で、合計7,000円の追加になります。", "reading": "びーからしーへのあっぷぐれーどがよんせんえん、びっぷらうんじのおぷしょんがさんぜんえんで、ごうけいななせんえんのついかになります。", "romaji": "bii kara shii e no appugureedo ga yonsen en, bippu raunji no opushon ga sanzen en de, goukei nanasen en no tsuika ni narimasu." },
+        "japanese": {
+          "text": "BからCへのアップグレードが4,000円、VIPラウンジのオプションが3,000円で、合計7,000円の追加になります。",
+          "reading": "びーからしーへのあっぷぐれーどがよんせんえん、びっぷらうんじのおぷしょんがさんぜんえんで、ごうけいななせんえんのついかになります。",
+          "romaji": "bii kara shii e no appugureedo ga yonsen en, bippu raunji no opushon ga sanzen en de, goukei nanasen en no tsuika ni narimasu."
+        },
         "english": "The upgrade from B to C is 4,000 yen, plus the VIP lounge option at 3,000 yen, for a total of 7,000 yen additional.",
         "chinese": "從B升級到C是4,000日圓，VIP休息室選項3,000日圓，總共追加7,000日圓。"
       }
@@ -896,31 +1368,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "すみません、この商品なんですが、近くの店でもっと安く売っているのを見たんですけど、price matchはできますか？", "reading": "すみません、このしょうひんなんですが、ちかくのみせでもっとやすくうっているのをみたんですけど、ぷらいすまっちはできますか？", "romaji": "sumimasen, kono shouhin nan desu ga, chikaku no mise de motto yasuku utte iru no wo mitan desu kedo, puraisu macchi wa dekimasu ka?" },
+        "japanese": {
+          "text": "すみません、この商品なんですが、近くの店でもっと安く売っているのを見たんですけど、price matchはできますか？",
+          "reading": "すみません、このしょうひんなんですが、ちかくのみせでもっとやすくうっているのをみたんですけど、ぷらいすまっちはできますか？",
+          "romaji": "sumimasen, kono shouhin nan desu ga, chikaku no mise de motto yasuku utte iru no wo mitan desu kedo, puraisu macchi wa dekimasu ka?"
+        },
         "english": "Excuse me, I saw this product being sold cheaper at a nearby store. Can you price match?",
         "chinese": "不好意思，我在附近的店看到這個商品賣得更便宜，可以比價嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "他店の価格に合わせることは可能です。そのお店の価格がわかるものはございますか？チラシやウェブサイトのスクリーンショットなどでも結構です。", "reading": "たてんのかかくにあわせることはかのうです。そのおみせのかかくがわかるものはございますか？ちらしやうぇぶさいとのすくりーんしょっとなどでもけっこうです。", "romaji": "taten no kakaku ni awaseru koto wa kanou desu. sono omise no kakaku ga wakaru mono wa gozaimasu ka? chirashi ya uebusaito no sukuriinshotto nado demo kekkou desu." },
+        "japanese": {
+          "text": "他店の価格に合わせることは可能です。そのお店の価格がわかるものはございますか？チラシやウェブサイトのスクリーンショットなどでも結構です。",
+          "reading": "たてんのかかくにあわせることはかのうです。そのおみせのかかくがわかるものはございますか？ちらしやうぇぶさいとのすくりーんしょっとなどでもけっこうです。",
+          "romaji": "taten no kakaku ni awaseru koto wa kanou desu. sono omise no kakaku ga wakaru mono wa gozaimasu ka? chirashi ya uebusaito no sukuriinshotto nado demo kekkou desu."
+        },
         "english": "We can match another store's price. Do you have proof of their price? Flyers or website screenshots are fine.",
         "chinese": "可以配合其他店的價格。有能證明那家店價格的東西嗎？傳單或網站截圖都可以。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "はい、ウェブサイトのスクリーンショットがあります。こちらです。", "reading": "はい、うぇぶさいとのすくりーんしょっとがあります。こちらです。", "romaji": "hai, uebusaito no sukuriinshotto ga arimasu. kochira desu." },
+        "japanese": {
+          "text": "はい、ウェブサイトのスクリーンショットがあります。こちらです。",
+          "reading": "はい、うぇぶさいとのすくりーんしょっとがあります。こちらです。",
+          "romaji": "hai, uebusaito no sukuriinshotto ga arimasu. kochira desu."
+        },
         "english": "Yes, I have a screenshot of their website. Here it is.",
         "chinese": "有，我有網站的截圖。在這裡。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "確認いたします。…はい、この価格に合わせて、さらにポイント5%をお付けいたします。", "reading": "かくにんいたします。…はい、このかかくにあわせて、さらにぽいんとごぱーせんとをおつけいたします。", "romaji": "kakunin itashimasu. ...hai, kono kakaku ni awasete, sara ni pointo go paasento wo otsuke itashimasu." },
+        "japanese": {
+          "text": "確認いたします。…はい、この価格に合わせて、さらにポイント5%をお付けいたします。",
+          "reading": "かくにんいたします。…はい、このかかくにあわせて、さらにぽいんとごぱーせんとをおつけいたします。",
+          "romaji": "kakunin itashimasu. ...hai, kono kakaku ni awasete, sara ni pointo go paasento wo otsuke itashimasu."
+        },
         "english": "Let me check. ...Yes, we'll match this price and also give you 5% points on top.",
         "chinese": "我確認一下。…好的，我們會配合這個價格，另外再給您5%的點數。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "ありがとうございます。じゃあ、ここで買います。", "reading": "ありがとうございます。じゃあ、ここでかいます。", "romaji": "arigatou gozaimasu. jaa, koko de kaimasu." },
+        "japanese": {
+          "text": "ありがとうございます。じゃあ、ここで買います。",
+          "reading": "ありがとうございます。じゃあ、ここでかいます。",
+          "romaji": "arigatou gozaimasu. jaa, koko de kaimasu."
+        },
         "english": "Thank you. Then I'll buy it here.",
         "chinese": "謝謝。那我在這裡買。"
       }
@@ -933,25 +1425,41 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "免税で買った化粧品なんですが、日本にいる間に使ってもいいですか？", "reading": "めんぜいでかったけしょうひんなんですが、にほんにいるあいだにつかってもいいですか？", "romaji": "menzei de katta keshouhin nan desu ga, nihon ni iru aida ni tsukatte mo ii desu ka?" },
+        "japanese": {
+          "text": "免税で買った化粧品なんですが、日本にいる間に使ってもいいですか？",
+          "reading": "めんぜいでかったけしょうひんなんですが、にほんにいるあいだにつかってもいいですか？",
+          "romaji": "menzei de katta keshouhin nan desu ga, nihon ni iru aida ni tsukatte mo ii desu ka?"
+        },
         "english": "I bought cosmetics tax-free. Can I use them while still in Japan?",
         "chinese": "我免稅買的化妝品，在日本期間可以使用嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "消耗品の免税品は、特殊な袋に封をして入れております。出国まで開封しないでください。開封されると、出国時に消費税が課される場合があります。", "reading": "しょうもうひんのめんぜいひんは、とくしゅなふくろにふうをしていれております。しゅっこくまでかいふうしないでください。かいふうされると、しゅっこくじにしょうひぜいがかされるばあいがあります。", "romaji": "shoumouhinn no menzeihin wa, tokushu na fukuro ni fuu wo shite irete orimasu. shukkoku made kaifuu shinaide kudasai. kaifuu sareru to, shukkokuji ni shouhizei ga kasareru baai ga arimasu." },
+        "japanese": {
+          "text": "消耗品の免税品は、特殊な袋に封をして入れております。出国まで開封しないでください。開封されると、出国時に消費税が課される場合があります。",
+          "reading": "しょうもうひんのめんぜいひんは、とくしゅなふくろにふうをしていれております。しゅっこくまでかいふうしないでください。かいふうされると、しゅっこくじにしょうひぜいがかされるばあいがあります。",
+          "romaji": "shoumouhinn no menzeihin wa, tokushu na fukuro ni fuu wo shite irete orimasu. shukkoku made kaifuu shinaide kudasai. kaifuu sareru to, shukkokuji ni shouhizei ga kasareru baai ga arimasu."
+        },
         "english": "Tax-free consumable goods are sealed in special bags. Please do not open them until you leave the country. If opened, you may be charged consumption tax at departure.",
         "chinese": "免稅的消耗品會密封在特殊袋子裡。請在出境前不要拆封。如果拆封了，出境時可能會被課消費稅。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "一般品の方は開封しても大丈夫ですか？", "reading": "いっぱんひんのほうはかいふうしてもだいじょうぶですか？", "romaji": "ippanhin no hou wa kaifuu shite mo daijoubu desu ka?" },
+        "japanese": {
+          "text": "一般品の方は開封しても大丈夫ですか？",
+          "reading": "いっぱんひんのほうはかいふうしてもだいじょうぶですか？",
+          "romaji": "ippanhin no hou wa kaifuu shite mo daijoubu desu ka?"
+        },
         "english": "Is it okay to open the general goods?",
         "chinese": "一般商品的話可以拆封嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "はい、一般品は開封してお使いいただいても問題ございません。ただし、出国時にお持ちいただく必要がございます。", "reading": "はい、いっぱんひんはかいふうしておつかいいただいてももんだいございません。ただし、しゅっこくじにおもちいただくひつようがございます。", "romaji": "hai, ippanhin wa kaifuu shite otsukai itadaite mo mondai gozaimasen. tadashi, shukkokuji ni omochi itadaku hitsuyou ga gozaimasu." },
+        "japanese": {
+          "text": "はい、一般品は開封してお使いいただいても問題ございません。ただし、出国時にお持ちいただく必要がございます。",
+          "reading": "はい、いっぱんひんはかいふうしておつかいいただいてももんだいございません。ただし、しゅっこくじにおもちいただくひつようがございます。",
+          "romaji": "hai, ippanhin wa kaifuu shite otsukai itadaite mo mondai gozaimasen. tadashi, shukkokuji ni omochi itadaku hitsuyou ga gozaimasu."
+        },
         "english": "Yes, general goods can be opened and used without any problem. However, you need to take them with you when you leave the country.",
         "chinese": "可以的，一般商品可以拆封使用沒有問題。但是出境時需要攜帶出境。"
       }
@@ -964,31 +1472,51 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "昨日ここで買った電気ケトルなんですが、スイッチを入れてもお湯が沸きません。初期不良だと思います。", "reading": "きのうここでかったでんきけとるなんですが、すいっちをいれてもおゆがわきません。しょきふりょうだとおもいます。", "romaji": "kinou koko de katta denki ketoru nan desu ga, suicchi wo irete mo oyu ga wakimasen. shoki furyou da to omoimasu." },
+        "japanese": {
+          "text": "昨日ここで買った電気ケトルなんですが、スイッチを入れてもお湯が沸きません。初期不良だと思います。",
+          "reading": "きのうここでかったでんきけとるなんですが、すいっちをいれてもおゆがわきません。しょきふりょうだとおもいます。",
+          "romaji": "kinou koko de katta denki ketoru nan desu ga, suicchi wo irete mo oyu ga wakimasen. shoki furyou da to omoimasu."
+        },
         "english": "I bought this electric kettle here yesterday, but the water doesn't boil when I turn it on. I think it's a defect.",
         "chinese": "我昨天在這裡買的電熱水壺，開了開關水也不會燒。我覺得是初始不良品。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "大変申し訳ございません。レシートと商品をお持ちですか？確認させてください。", "reading": "たいへんもうしわけございません。れしーととしょうひんをおもちですか？かくにんさせてください。", "romaji": "taihen moushiwake gozaimasen. reshiito to shouhin wo omochi desu ka? kakunin sasete kudasai." },
+        "japanese": {
+          "text": "大変申し訳ございません。レシートと商品をお持ちですか？確認させてください。",
+          "reading": "たいへんもうしわけございません。れしーととしょうひんをおもちですか？かくにんさせてください。",
+          "romaji": "taihen moushiwake gozaimasen. reshiito to shouhin wo omochi desu ka? kakunin sasete kudasai."
+        },
         "english": "We're very sorry. Do you have the receipt and the product? Let me check.",
         "chinese": "非常抱歉。請問有帶收據和商品嗎？讓我確認一下。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "はい、両方あります。免税で購入したんですが、交換は可能ですか？", "reading": "はい、りょうほうあります。めんぜいでこうにゅうしたんですが、こうかんはかのうですか？", "romaji": "hai, ryouhou arimasu. menzei de kounyuu shitan desu ga, koukan wa kanou desu ka?" },
+        "japanese": {
+          "text": "はい、両方あります。免税で購入したんですが、交換は可能ですか？",
+          "reading": "はい、りょうほうあります。めんぜいでこうにゅうしたんですが、こうかんはかのうですか？",
+          "romaji": "hai, ryouhou arimasu. menzei de kounyuu shitan desu ga, koukan wa kanou desu ka?"
+        },
         "english": "Yes, I have both. I purchased it tax-free. Is an exchange possible?",
         "chinese": "都有。我是免稅購買的，可以換貨嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "初期不良の場合は、免税購入でも同一商品との交換が可能です。ただ、同じ商品の在庫がない場合は、返金対応となり、免税の手続きをやり直す必要がございます。", "reading": "しょきふりょうのばあいは、めんぜいこうにゅうでもどういつしょうひんとのこうかんがかのうです。ただ、おなじしょうひんのざいこがないばあいは、へんきんたいおうとなり、めんぜいのてつづきをやりなおすひつようがございます。", "romaji": "shoki furyou no baai wa, menzei kounyuu demo douitsu shouhin to no koukan ga kanou desu. tada, onaji shouhin no zaiko ga nai baai wa, henkin taiou to nari, menzei no tetsuzuki wo yarinaosu hitsuyou ga gozaimasu." },
+        "japanese": {
+          "text": "初期不良の場合は、免税購入でも同一商品との交換が可能です。ただ、同じ商品の在庫がない場合は、返金対応となり、免税の手続きをやり直す必要がございます。",
+          "reading": "しょきふりょうのばあいは、めんぜいこうにゅうでもどういつしょうひんとのこうかんがかのうです。ただ、おなじしょうひんのざいこがないばあいは、へんきんたいおうとなり、めんぜいのてつづきをやりなおすひつようがございます。",
+          "romaji": "shoki furyou no baai wa, menzei kounyuu demo douitsu shouhin to no koukan ga kanou desu. tada, onaji shouhin no zaiko ga nai baai wa, henkin taiou to nari, menzei no tetsuzuki wo yarinaosu hitsuyou ga gozaimasu."
+        },
         "english": "For initial defects, an exchange with the same product is possible even for tax-free purchases. However, if the same product is out of stock, we'd process a refund and you'd need to redo the tax-free procedure.",
         "chinese": "初始不良的情況下，即使是免稅購買也可以換同一商品。但是，如果同一商品沒有庫存，就需要辦退款，免稅手續也需要重新辦理。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "在庫があれば交換でお願いします。", "reading": "ざいこがあればこうかんでおねがいします。", "romaji": "zaiko ga areba koukan de onegaishimasu." },
+        "japanese": {
+          "text": "在庫があれば交換でお願いします。",
+          "reading": "ざいこがあればこうかんでおねがいします。",
+          "romaji": "zaiko ga areba koukan de onegaishimasu."
+        },
         "english": "If it's in stock, please exchange it.",
         "chinese": "如果有庫存的話就麻煩換貨。"
       }
@@ -1001,37 +1529,61 @@
     "phrases": [
       {
         "speaker": "you",
-        "japanese": { "text": "このクーポンとポイントは一緒に使えますか？あと、免税も適用できますか？", "reading": "このくーぽんとぽいんとはいっしょにつかえますか？あと、めんぜいもてきようできますか？", "romaji": "kono kuupon to pointo wa issho ni tsukaemasu ka? ato, menzei mo tekiyou dekimasu ka?" },
+        "japanese": {
+          "text": "このクーポンとポイントは一緒に使えますか？あと、免税も適用できますか？",
+          "reading": "このくーぽんとぽいんとはいっしょにつかえますか？あと、めんぜいもてきようできますか？",
+          "romaji": "kono kuupon to pointo wa issho ni tsukaemasu ka? ato, menzei mo tekiyou dekimasu ka?"
+        },
         "english": "Can I use this coupon and points together? Also, can I get tax-free as well?",
         "chinese": "這張優惠券和點數可以一起使用嗎？另外，也可以免稅嗎？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "クーポンとポイントの併用は可能です。ただし、免税はクーポン割引後の金額で計算されます。クーポン使用後に5,000円以上であれば免税対象になります。", "reading": "くーぽんとぽいんとのへいようはかのうです。ただし、めんぜいはくーぽんわりびきごのきんがくでけいさんされます。くーぽんしようごにごせんえんいじょうであればめんぜいたいしょうになります。", "romaji": "kuupon to pointo no heiyou wa kanou desu. tadashi, menzei wa kuupon waribiki go no kingaku de keisan saremasu. kuupon shiyou go ni gosen en ijou de areba menzei taishou ni narimasu." },
+        "japanese": {
+          "text": "クーポンとポイントの併用は可能です。ただし、免税はクーポン割引後の金額で計算されます。クーポン使用後に5,000円以上であれば免税対象になります。",
+          "reading": "くーぽんとぽいんとのへいようはかのうです。ただし、めんぜいはくーぽんわりびきごのきんがくでけいさんされます。くーぽんしようごにごせんえんいじょうであればめんぜいたいしょうになります。",
+          "romaji": "kuupon to pointo no heiyou wa kanou desu. tadashi, menzei wa kuupon waribiki go no kingaku de keisan saremasu. kuupon shiyou go ni gosen en ijou de areba menzei taishou ni narimasu."
+        },
         "english": "Using the coupon and points together is possible. However, tax-free is calculated on the amount after the coupon discount. If it's still 5,000 yen or more after the coupon, it qualifies for tax-free.",
         "chinese": "優惠券和點數可以併用。不過，免稅是以優惠券折扣後的金額來計算。使用優惠券後如果還有5,000日圓以上就符合免稅資格。"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "今の合計はいくらになりますか？クーポン適用後で。", "reading": "いまのごうけいはいくらになりますか？くーぽんてきようごで。", "romaji": "ima no goukei wa ikura ni narimasu ka? kuupon tekiyou go de." },
+        "japanese": {
+          "text": "今の合計はいくらになりますか？クーポン適用後で。",
+          "reading": "いまのごうけいはいくらになりますか？くーぽんてきようごで。",
+          "romaji": "ima no goukei wa ikura ni narimasu ka? kuupon tekiyou go de."
+        },
         "english": "What's the current total after applying the coupon?",
         "chinese": "用了優惠券之後現在的總金額是多少？"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "クーポンで1,000円引きになりまして、合計が7,800円です。免税対象ですので、消費税を引くと7,091円になります。さらにポイントを使いますか？", "reading": "くーぽんでせんえんびきになりまして、ごうけいがななせんはっぴゃくえんです。めんぜいたいしょうですので、しょうひぜいをひくとななせんきゅうじゅういちえんになります。さらにぽいんとをつかいますか？", "romaji": "kuupon de sen en biki ni narimashite, goukei ga nanasen happyaku en desu. menzei taishou desu node, shouhizei wo hiku to nanasen kyuujuu ichi en ni narimasu. sara ni pointo wo tsukaimasu ka?" },
+        "japanese": {
+          "text": "クーポンで1,000円引きになりまして、合計が7,800円です。免税対象ですので、消費税を引くと7,091円になります。さらにポイントを使いますか？",
+          "reading": "くーぽんでせんえんびきになりまして、ごうけいがななせんはっぴゃくえんです。めんぜいたいしょうですので、しょうひぜいをひくとななせんきゅうじゅういちえんになります。さらにぽいんとをつかいますか？",
+          "romaji": "kuupon de sen en biki ni narimashite, goukei ga nanasen happyaku en desu. menzei taishou desu node, shouhizei wo hiku to nanasen kyuujuu ichi en ni narimasu. sara ni pointo wo tsukaimasu ka?"
+        },
         "english": "With the 1,000 yen coupon discount, the total is 7,800 yen. Since it qualifies for tax-free, minus consumption tax it's 7,091 yen. Would you also like to use points?",
         "chinese": "用優惠券折了1,000日圓後，合計是7,800日圓。符合免稅資格，扣掉消費稅是7,091日圓。還要使用點數嗎？"
       },
       {
         "speaker": "you",
-        "japanese": { "text": "はい、ポイント全部使ってください。", "reading": "はい、ぽいんとぜんぶつかってください。", "romaji": "hai, pointo zenbu tsukatte kudasai." },
+        "japanese": {
+          "text": "はい、ポイント全部使ってください。",
+          "reading": "はい、ぽいんとぜんぶつかってください。",
+          "romaji": "hai, pointo zenbu tsukatte kudasai."
+        },
         "english": "Yes, please use all my points.",
         "chinese": "好的，請把點數全部用掉。"
       },
       {
         "speaker": "staff",
-        "japanese": { "text": "500ポイントお使いで、お支払いは6,591円になります。", "reading": "ごひゃくぽいんとおつかいで、おしはらいはろくせんごひゃくきゅうじゅういちえんになります。", "romaji": "gohyaku pointo otsukai de, oshiharai wa rokusen gohyaku kyuujuu ichi en ni narimasu." },
+        "japanese": {
+          "text": "500ポイントお使いで、お支払いは6,591円になります。",
+          "reading": "ごひゃくぽいんとおつかいで、おしはらいはろくせんごひゃくきゅうじゅういちえんになります。",
+          "romaji": "gohyaku pointo otsukai de, oshiharai wa rokusen gohyaku kyuujuu ichi en ni narimasu."
+        },
         "english": "Using 500 points, your payment will be 6,591 yen.",
         "chinese": "使用500點，您需要支付6,591日圓。"
       }

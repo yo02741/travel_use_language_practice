@@ -81,7 +81,8 @@ function selectAnswer(romaji: string) {
 }
 
 function optionClass(romaji: string): string {
-  if (!selected.value) return "bg-(--color-card) border border-(--color-border)";
+  if (!selected.value)
+    return "bg-(--color-card) border border-(--color-border)";
   if (romaji === current.value.romaji)
     return "bg-(--color-success)/10 border border-(--color-success) text-(--color-success)";
   if (romaji === selected.value)
@@ -93,7 +94,12 @@ function optionClass(romaji: string): string {
 <template>
   <div>
     <div class="flex items-center gap-2 mb-4">
-      <button class="text-(--color-text-secondary)" @click="router.push('/kana')">← 返回</button>
+      <button
+        class="text-(--color-text-secondary)"
+        @click="router.push('/kana')"
+      >
+        ← 返回
+      </button>
       <span class="text-sm text-(--color-text-secondary)">隨機測驗</span>
     </div>
 
@@ -103,7 +109,9 @@ function optionClass(romaji: string): string {
         {{ currentIdx + 1 }} / {{ TOTAL_QUESTIONS }}
       </div>
 
-      <div class="rounded-2xl bg-(--color-card) border border-(--color-border) shadow-sm p-8 text-center mb-6">
+      <div
+        class="rounded-2xl bg-(--color-card) border border-(--color-border) shadow-sm p-8 text-center mb-6"
+      >
         <div class="text-7xl font-(--font-jp)">{{ current.kana }}</div>
       </div>
 
@@ -115,19 +123,24 @@ function optionClass(romaji: string): string {
           :class="optionClass(opt)"
           :disabled="!!selected"
           @click="selectAnswer(opt)"
-        >{{ opt }}</button>
+        >
+          {{ opt }}
+        </button>
       </div>
     </template>
 
     <!-- Results -->
     <template v-if="isFinished">
-      <div class="rounded-2xl bg-(--color-card) border border-(--color-border) shadow-sm p-6 text-center">
+      <div
+        class="rounded-2xl bg-(--color-card) border border-(--color-border) shadow-sm p-6 text-center"
+      >
         <div class="text-3xl mb-2">🎯</div>
         <div class="text-2xl font-bold mb-1">
           {{ correctCount }} / {{ TOTAL_QUESTIONS }}
         </div>
         <div class="text-sm text-(--color-text-secondary) mb-4">
-          正確率 {{ Math.round((correctCount / TOTAL_QUESTIONS) * 100) }}% · 用時 {{ elapsedSeconds }} 秒
+          正確率 {{ Math.round((correctCount / TOTAL_QUESTIONS) * 100) }}% ·
+          用時 {{ elapsedSeconds }} 秒
         </div>
 
         <div v-if="wrongKana.length > 0" class="mb-4">
@@ -137,7 +150,8 @@ function optionClass(romaji: string): string {
               v-for="k in wrongKana"
               :key="k"
               class="inline-block px-3 py-1 rounded-lg bg-red-50 text-red-600 font-(--font-jp) text-lg"
-            >{{ k }}</span>
+              >{{ k }}</span
+            >
           </div>
         </div>
 
@@ -145,11 +159,15 @@ function optionClass(romaji: string): string {
           <button
             class="px-4 py-2 rounded-lg text-sm border border-(--color-border)"
             @click="router.push('/kana')"
-          >回到五十音</button>
+          >
+            回到五十音
+          </button>
           <button
             class="px-4 py-2 rounded-lg text-sm bg-(--color-kana) text-white"
             @click="startQuiz"
-          >再測一次</button>
+          >
+            再測一次
+          </button>
         </div>
       </div>
     </template>

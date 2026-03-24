@@ -15,7 +15,9 @@ const { conversations, load } = useScenarioData();
 
 const scenarioId = computed(() => route.params.id as ScenarioId);
 const convIndex = computed(() => Number(route.params.n));
-const scenario = computed(() => SCENARIOS.find((s) => s.id === scenarioId.value));
+const scenario = computed(() =>
+  SCENARIOS.find((s) => s.id === scenarioId.value),
+);
 
 const currentPhraseIdx = ref(0);
 const touchStartX = ref(0);
@@ -23,7 +25,9 @@ const touchStartX = ref(0);
 onMounted(() => load(scenarioId.value));
 
 const conversation = computed(() => conversations.value[convIndex.value]);
-const currentPhrase = computed(() => conversation.value?.phrases[currentPhraseIdx.value]);
+const currentPhrase = computed(
+  () => conversation.value?.phrases[currentPhraseIdx.value],
+);
 const totalPhrases = computed(() => conversation.value?.phrases.length ?? 0);
 
 const { selections, select, reset, displayPhrase } = useSlotReplace(
@@ -53,7 +57,9 @@ function next() {
   }
 }
 
-const isLastPhrase = computed(() => currentPhraseIdx.value === totalPhrases.value - 1);
+const isLastPhrase = computed(
+  () => currentPhraseIdx.value === totalPhrases.value - 1,
+);
 
 function finish() {
   if (conversation.value) {
@@ -80,9 +86,15 @@ function goBack() {
 </script>
 
 <template>
-  <div v-if="conversation && displayPhrase" class="flex flex-col" style="min-height: calc(100dvh - 120px)">
+  <div
+    v-if="conversation && displayPhrase"
+    class="flex flex-col"
+    style="min-height: calc(100dvh - 120px)"
+  >
     <div class="flex items-center gap-2 mb-4">
-      <button class="text-(--color-text-secondary)" @click="goBack">← 返回</button>
+      <button class="text-(--color-text-secondary)" @click="goBack">
+        ← 返回
+      </button>
       <span class="text-sm text-(--color-text-secondary)">
         {{ scenario?.icon }} {{ conversation.title }}
       </span>
@@ -102,9 +114,11 @@ function goBack() {
       <div class="text-center mb-4">
         <span
           class="inline-block text-xs px-3 py-1 rounded-full font-medium"
-          :class="displayPhrase.speaker === 'you'
-            ? 'bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300'
-            : 'bg-orange-50 text-orange-700 dark:bg-orange-900/40 dark:text-orange-300'"
+          :class="
+            displayPhrase.speaker === 'you'
+              ? 'bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300'
+              : 'bg-orange-50 text-orange-700 dark:bg-orange-900/40 dark:text-orange-300'
+          "
         >
           {{ displayPhrase.speaker === "you" ? "🙋 你" : "🧑‍💼 店員" }}
         </span>
@@ -137,7 +151,10 @@ function goBack() {
       </div>
 
       <!-- Slot Picker -->
-      <div v-if="currentPhrase?.slots?.length" class="mt-5 pt-4 border-t border-(--color-border)">
+      <div
+        v-if="currentPhrase?.slots?.length"
+        class="mt-5 pt-4 border-t border-(--color-border)"
+      >
         <p class="text-xs text-(--color-text-secondary) mb-2">🔄 替換詞彙</p>
         <SlotPicker
           :slots="currentPhrase.slots"
@@ -150,12 +167,18 @@ function goBack() {
       <div class="text-center mt-5">
         <button
           class="text-xs px-4 py-1.5 rounded-full border transition-colors"
-          :class="progress.isPhraseFamiliar(scenarioId, phraseKey)
-            ? 'bg-(--color-success)/10 border-(--color-success)/30 text-(--color-success)'
-            : 'border-(--color-border) text-(--color-text-secondary)'"
+          :class="
+            progress.isPhraseFamiliar(scenarioId, phraseKey)
+              ? 'bg-(--color-success)/10 border-(--color-success)/30 text-(--color-success)'
+              : 'border-(--color-border) text-(--color-text-secondary)'
+          "
           @click="progress.togglePhraseFamiliar(scenarioId, phraseKey)"
         >
-          {{ progress.isPhraseFamiliar(scenarioId, phraseKey) ? "✓ 已熟悉" : "標記為已熟悉" }}
+          {{
+            progress.isPhraseFamiliar(scenarioId, phraseKey)
+              ? "✓ 已熟悉"
+              : "標記為已熟悉"
+          }}
         </button>
       </div>
     </div>
@@ -167,19 +190,27 @@ function goBack() {
           class="px-4 py-2 rounded-lg text-sm border border-(--color-border) disabled:opacity-30"
           :disabled="currentPhraseIdx === 0"
           @click="prev"
-        >← 上一句</button>
+        >
+          ← 上一句
+        </button>
         <button
           v-if="!isLastPhrase"
           class="px-4 py-2 rounded-lg text-sm border border-(--color-border)"
           @click="next"
-        >下一句 →</button>
+        >
+          下一句 →
+        </button>
         <button
           v-else
           class="px-4 py-2 rounded-lg text-sm bg-(--color-success) text-white"
           @click="finish"
-        >完成 ✓</button>
+        >
+          完成 ✓
+        </button>
       </div>
-      <p class="text-center text-xs text-(--color-text-secondary) mt-2">← 左右滑動切換 →</p>
+      <p class="text-center text-xs text-(--color-text-secondary) mt-2">
+        ← 左右滑動切換 →
+      </p>
     </div>
   </div>
 </template>
