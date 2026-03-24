@@ -22,6 +22,10 @@
 - **WHEN** 卡片翻轉後 romaji 淡入
 - **THEN** 操作按鈕同步以 opacity 過渡顯示
 
+#### Scenario: 換題時序
+- **WHEN** 使用者點擊「需加強」或「已熟悉」
+- **THEN** 系統等待翻轉動畫完成後才更新題目內容，翻轉過程中不顯示下一題答案
+
 ## ADDED Requirements
 
 ### Requirement: 場景角色名稱

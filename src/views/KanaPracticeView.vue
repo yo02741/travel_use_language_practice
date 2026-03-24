@@ -49,14 +49,15 @@ function markAndNext(level: "mastered" | "needs_work") {
   }
   showDetail.value = false;
   flipped.value = false;
-  nextTick(() => {
+  // Wait for flip animation (0.6s) to finish before changing content
+  setTimeout(() => {
     if (currentIdx.value < entries.value.length - 1) {
       currentIdx.value++;
     } else {
       currentIdx.value = 0;
       entries.value = sortByProficiency(entries.value);
     }
-  });
+  }, 620);
 }
 </script>
 
@@ -94,16 +95,17 @@ function markAndNext(level: "mastered" | "needs_work") {
         <!-- Back face -->
         <div class="kana-card__face kana-card__back glass rounded-2xl p-8 flex flex-col items-center justify-center">
           <div class="text-5xl font-(--font-jp) mb-3">{{ current.kana }}</div>
-          <Transition name="detail-fade">
-            <div v-if="showDetail" class="text-center">
-              <div class="text-3xl font-bold text-(--color-kana) mb-1">
-                {{ current.romaji }}
-              </div>
-              <div class="text-sm text-(--color-text-secondary)">
-                {{ current.row }}
-              </div>
+          <div
+            class="text-center transition-opacity duration-300"
+            :class="showDetail ? 'opacity-100' : 'opacity-0'"
+          >
+            <div class="text-3xl font-bold text-(--color-kana) mb-1">
+              {{ current.romaji }}
             </div>
-          </Transition>
+            <div class="text-sm text-(--color-text-secondary)">
+              {{ current.row }}
+            </div>
+          </div>
         </div>
       </button>
     </div>
@@ -155,19 +157,4 @@ function markAndNext(level: "mastered" | "needs_work") {
   transform: rotateY(180deg);
 }
 
-.detail-fade-enter-active {
-  transition: opacity 0.4s ease;
-}
-
-.detail-fade-leave-active {
-  transition: opacity 0.15s ease;
-}
-
-.detail-fade-enter-from {
-  opacity: 0;
-}
-
-.detail-fade-leave-to {
-  opacity: 0;
-}
 </style>
