@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "transportation-01",
+    "title": "購買地鐵車票",
+    "difficulty": 1,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "すみません、新宿までの切符はいくらですか？", "reading": "すみません、しんじゅくまでのきっぷはいくらですか？", "romaji": "sumimasen, shinjuku made no kippu wa ikura desu ka?" },
+        "english": "Excuse me, how much is a ticket to Shinjuku?",
+        "chinese": "不好意思，到新宿的車票多少錢？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "新宿までは200円です。", "reading": "しんじゅくまではにひゃくえんです。", "romaji": "shinjuku made wa nihyaku en desu." },
+        "english": "It's 200 yen to Shinjuku.",
+        "chinese": "到新宿是200日圓。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "一枚ください。", "reading": "いちまいください。", "romaji": "ichimai kudasai." },
+        "english": "One ticket, please.",
+        "chinese": "請給我一張。"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "はい、200円です。ありがとうございます。", "reading": "はい、にひゃくえんです。ありがとうございます。", "romaji": "hai, nihyaku en desu. arigatou gozaimasu." },
+        "english": "That'll be 200 yen. Thank you.",
+        "chinese": "好的，200日圓。謝謝。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-02",
+    "title": "詢問月台在哪裡",
+    "difficulty": 1,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "すみません、山手線のホームは何番ですか？", "reading": "すみません、やまのてせんのほーむはなんばんですか？", "romaji": "sumimasen, yamanote sen no hoomu wa nanban desu ka?" },
+        "english": "Excuse me, which platform is the Yamanote Line?",
+        "chinese": "不好意思，山手線的月台是幾號？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "山手線は3番ホームです。階段を上がって右です。", "reading": "やまのてせんはさんばんほーむです。かいだんをあがってみぎです。", "romaji": "yamanote sen wa sanban hoomu desu. kaidan wo agatte migi desu." },
+        "english": "The Yamanote Line is platform 3. Go up the stairs and turn right.",
+        "chinese": "山手線在3號月台。上樓梯後右轉。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "ありがとうございます！", "reading": "ありがとうございます！", "romaji": "arigatou gozaimasu!" },
+        "english": "Thank you!",
+        "chinese": "謝謝！"
+      }
+    ]
+  },
+  {
+    "id": "transportation-03",
+    "title": "在車站問路",
+    "difficulty": 1,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "すみません、渋谷に行きたいんですが。", "reading": "すみません、しぶやにいきたいんですが。", "romaji": "sumimasen, shibuya ni ikitain desu ga." },
+        "english": "Excuse me, I'd like to go to Shibuya.",
+        "chinese": "不好意思，我想去澀谷。"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "渋谷なら、この電車で大丈夫ですよ。3つ目の駅です。", "reading": "しぶやなら、このでんしゃでだいじょうぶですよ。みっつめのえきです。", "romaji": "shibuya nara, kono densha de daijoubu desu yo. mittsu me no eki desu." },
+        "english": "For Shibuya, this train is fine. It's the third stop.",
+        "chinese": "去澀谷的話，搭這班電車就可以了。是第三站。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "何分ぐらいかかりますか？", "reading": "なんぷんぐらいかかりますか？", "romaji": "nanpun gurai kakarimasu ka?" },
+        "english": "About how many minutes does it take?",
+        "chinese": "大概要幾分鐘？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "5分ぐらいです。", "reading": "ごふんぐらいです。", "romaji": "gofun gurai desu." },
+        "english": "About 5 minutes.",
+        "chinese": "大約5分鐘。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-04",
+    "title": "搭計程車去飯店",
+    "difficulty": 1,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "このホテルまでお願いします。", "reading": "このほてるまでおねがいします。", "romaji": "kono hoteru made onegai shimasu." },
+        "english": "Please take me to this hotel.",
+        "chinese": "請載我到這間飯店。"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "はい、分かりました。20分ぐらいかかりますが、よろしいですか？", "reading": "はい、わかりました。にじゅっぷんぐらいかかりますが、よろしいですか？", "romaji": "hai, wakarimashita. nijuppun gurai kakarimasu ga, yoroshii desu ka?" },
+        "english": "Sure. It'll take about 20 minutes, is that okay?",
+        "chinese": "好的，我知道了。大約要20分鐘，可以嗎？"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "はい、大丈夫です。", "reading": "はい、だいじょうぶです。", "romaji": "hai, daijoubu desu." },
+        "english": "Yes, that's fine.",
+        "chinese": "好的，沒問題。"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "着きました。2,400円になります。", "reading": "つきました。にせんよんひゃくえんになります。", "romaji": "tsukimashita. nisen yonhyaku en ni narimasu." },
+        "english": "We've arrived. That'll be 2,400 yen.",
+        "chinese": "到了。一共是2,400日圓。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "カードで払えますか？", "reading": "かーどではらえますか？", "romaji": "kaado de haraemasu ka?" },
+        "english": "Can I pay by card?",
+        "chinese": "可以刷卡嗎？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "はい、大丈夫です。こちらにどうぞ。", "reading": "はい、だいじょうぶです。こちらにどうぞ。", "romaji": "hai, daijoubu desu. kochira ni douzo." },
+        "english": "Yes, no problem. Please tap here.",
+        "chinese": "好的，沒問題。請放在這裡。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-05",
+    "title": "ICカードの購入",
+    "difficulty": 1,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "すみません、Suicaはどこで買えますか？", "reading": "すみません、すいかはどこでかえますか？", "romaji": "sumimasen, suika wa doko de kaemasu ka?" },
+        "english": "Excuse me, where can I buy a Suica card?",
+        "chinese": "不好意思，Suica卡在哪裡可以買？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "あちらの券売機で買えますよ。", "reading": "あちらのけんばいきでかえますよ。", "romaji": "achira no kenbaiki de kaemasu yo." },
+        "english": "You can buy one at the ticket machine over there.",
+        "chinese": "可以在那邊的售票機購買。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "チャージもできますか？", "reading": "ちゃーじもできますか？", "romaji": "chaaji mo dekimasu ka?" },
+        "english": "Can I also add money to it there?",
+        "chinese": "也可以在那裡儲值嗎？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "はい、できます。1,000円からチャージできますよ。", "reading": "はい、できます。せんえんからちゃーじできますよ。", "romaji": "hai, dekimasu. sen en kara chaaji dekimasu yo." },
+        "english": "Yes, you can. You can charge from 1,000 yen.",
+        "chinese": "可以的。可以從1,000日圓開始儲值。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-06",
+    "title": "確認電車方向",
+    "difficulty": 1,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "すみません、この電車は東京駅に行きますか？", "reading": "すみません、このでんしゃはとうきょうえきにいきますか？", "romaji": "sumimasen, kono densha wa toukyou eki ni ikimasu ka?" },
+        "english": "Excuse me, does this train go to Tokyo Station?",
+        "chinese": "不好意思，這班電車有到東京車站嗎？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "いいえ、逆方向ですよ。向かいのホームに行ってください。", "reading": "いいえ、ぎゃくほうこうですよ。むかいのほーむにいってください。", "romaji": "iie, gyaku houkou desu yo. mukai no hoomu ni itte kudasai." },
+        "english": "No, that's the opposite direction. Please go to the platform across.",
+        "chinese": "不是，方向反了。請到對面月台。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "あ、そうですか。ありがとうございます。", "reading": "あ、そうですか。ありがとうございます。", "romaji": "a, sou desu ka. arigatou gozaimasu." },
+        "english": "Oh, I see. Thank you.",
+        "chinese": "啊，這樣啊。謝謝。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-07",
+    "title": "路上問路到車站",
+    "difficulty": 1,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "すみません、一番近い駅はどこですか？", "reading": "すみません、いちばんちかいえきはどこですか？", "romaji": "sumimasen, ichiban chikai eki wa doko desu ka?" },
+        "english": "Excuse me, where is the nearest station?",
+        "chinese": "不好意思，最近的車站在哪裡？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "この道をまっすぐ行って、二つ目の信号を左に曲がってください。", "reading": "このみちをまっすぐいって、ふたつめのしんごうをひだりにまがってください。", "romaji": "kono michi wo massugu itte, futatsu me no shingou wo hidari ni magatte kudasai." },
+        "english": "Go straight down this road and turn left at the second traffic light.",
+        "chinese": "沿著這條路直走，在第二個紅綠燈左轉。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "歩いてどのぐらいかかりますか？", "reading": "あるいてどのぐらいかかりますか？", "romaji": "aruite dono gurai kakarimasu ka?" },
+        "english": "How long does it take on foot?",
+        "chinese": "走路大約要多久？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "5分ぐらいですよ。", "reading": "ごふんぐらいですよ。", "romaji": "gofun gurai desu yo." },
+        "english": "About 5 minutes.",
+        "chinese": "大約5分鐘。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-08",
+    "title": "搭公車詢問站牌",
+    "difficulty": 1,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "すみません、このバスは金閣寺に行きますか？", "reading": "すみません、このばすはきんかくじにいきますか？", "romaji": "sumimasen, kono basu wa kinkakuji ni ikimasu ka?" },
+        "english": "Excuse me, does this bus go to Kinkakuji?",
+        "chinese": "不好意思，這班公車有到金閣寺嗎？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "はい、行きますよ。金閣寺道で降りてください。", "reading": "はい、いきますよ。きんかくじみちでおりてください。", "romaji": "hai, ikimasu yo. kinkakuji michi de orite kudasai." },
+        "english": "Yes, it does. Please get off at Kinkakuji-michi.",
+        "chinese": "有的。請在金閣寺道下車。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "いくらですか？", "reading": "いくらですか？", "romaji": "ikura desu ka?" },
+        "english": "How much is it?",
+        "chinese": "多少錢？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "230円です。降りるときに払ってください。", "reading": "にひゃくさんじゅうえんです。おりるときにはらってください。", "romaji": "nihyaku sanjuu en desu. oriru toki ni haratte kudasai." },
+        "english": "230 yen. Please pay when you get off.",
+        "chinese": "230日圓。下車時付款。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-09",
+    "title": "詢問末班車時間",
+    "difficulty": 1,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "すみません、新宿行きの終電は何時ですか？", "reading": "すみません、しんじゅくいきのしゅうでんはなんじですか？", "romaji": "sumimasen, shinjuku iki no shuuden wa nanji desu ka?" },
+        "english": "Excuse me, what time is the last train to Shinjuku?",
+        "chinese": "不好意思，往新宿的末班車是幾點？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "終電は11時50分です。", "reading": "しゅうでんはじゅういちじごじゅっぷんです。", "romaji": "shuuden wa juuichi ji gojuppun desu." },
+        "english": "The last train is at 11:50.",
+        "chinese": "末班車是11點50分。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "まだ間に合いますか？", "reading": "まだまにあいますか？", "romaji": "mada ma ni aimasu ka?" },
+        "english": "Can I still make it?",
+        "chinese": "還來得及嗎？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "はい、大丈夫ですよ。あと15分あります。", "reading": "はい、だいじょうぶですよ。あとじゅうごふんあります。", "romaji": "hai, daijoubu desu yo. ato juugofun arimasu." },
+        "english": "Yes, you're fine. You have 15 minutes left.",
+        "chinese": "沒問題，還有15分鐘。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-10",
+    "title": "找不到出口",
+    "difficulty": 1,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "すみません、東口はどこですか？", "reading": "すみません、ひがしぐちはどこですか？", "romaji": "sumimasen, higashi guchi wa doko desu ka?" },
+        "english": "Excuse me, where is the East Exit?",
+        "chinese": "不好意思，東口在哪裡？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "ここをまっすぐ行って、突き当たりを右に曲がってください。", "reading": "ここをまっすぐいって、つきあたりをみぎにまがってください。", "romaji": "koko wo massugu itte, tsukiatari wo migi ni magatte kudasai." },
+        "english": "Go straight ahead and turn right at the end.",
+        "chinese": "從這裡直走，到底右轉。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "遠いですか？", "reading": "とおいですか？", "romaji": "tooi desu ka?" },
+        "english": "Is it far?",
+        "chinese": "很遠嗎？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "いいえ、すぐそこですよ。2分ぐらいです。", "reading": "いいえ、すぐそこですよ。にふんぐらいです。", "romaji": "iie, sugu soko desu yo. nifun gurai desu." },
+        "english": "No, it's right there. About 2 minutes.",
+        "chinese": "不會，就在那裡。大約2分鐘。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-11",
+    "title": "購買計程車到機場",
+    "difficulty": 1,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "成田空港までお願いします。", "reading": "なりたくうこうまでおねがいします。", "romaji": "narita kuukou made onegai shimasu." },
+        "english": "To Narita Airport, please.",
+        "chinese": "請到成田機場。"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "成田ですね。高速を使いますが、よろしいですか？", "reading": "なりたですね。こうそくをつかいますが、よろしいですか？", "romaji": "narita desu ne. kousoku wo tsukaimasu ga, yoroshii desu ka?" },
+        "english": "Narita, right. I'll take the expressway, is that okay?",
+        "chinese": "成田對吧。我會走高速公路，可以嗎？"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "はい、お願いします。だいたいいくらぐらいですか？", "reading": "はい、おねがいします。だいたいいくらぐらいですか？", "romaji": "hai, onegai shimasu. daitai ikura gurai desu ka?" },
+        "english": "Yes, please. About how much will it cost?",
+        "chinese": "好的，麻煩了。大概多少錢？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "2万円前後になると思います。", "reading": "にまんえんぜんごになるとおもいます。", "romaji": "niman en zengo ni naru to omoimasu." },
+        "english": "I think it'll be around 20,000 yen.",
+        "chinese": "我想大概2萬日圓左右。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-12",
+    "title": "ICカードで乘車",
+    "difficulty": 1,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "すみません、Suicaの残高が足りないみたいです。", "reading": "すみません、すいかのざんだかがたりないみたいです。", "romaji": "sumimasen, suika no zandaka ga tarinai mitai desu." },
+        "english": "Excuse me, it seems like my Suica doesn't have enough balance.",
+        "chinese": "不好意思，我的Suica好像餘額不足。"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "あちらの精算機でチャージできますよ。", "reading": "あちらのせいさんきでちゃーじできますよ。", "romaji": "achira no seisanki de chaaji dekimasu yo." },
+        "english": "You can add money at the fare adjustment machine over there.",
+        "chinese": "可以在那邊的精算機儲值。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "千円札しかないんですが、大丈夫ですか？", "reading": "せんえんさつしかないんですが、だいじょうぶですか？", "romaji": "sen en satsu shika nain desu ga, daijoubu desu ka?" },
+        "english": "I only have a 1,000-yen bill, is that okay?",
+        "chinese": "我只有千元紙鈔，可以嗎？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "はい、お札も使えますよ。", "reading": "はい、おさつもつかえますよ。", "romaji": "hai, osatsu mo tsukaemasu yo." },
+        "english": "Yes, bills are accepted too.",
+        "chinese": "可以的，紙鈔也可以用。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-13",
+    "title": "購買新幹線指定席",
+    "difficulty": 2,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "京都までの新幹線の指定席をお願いします。", "reading": "きょうとまでのしんかんせんのしていせきをおねがいします。", "romaji": "kyouto made no shinkansen no shiteiseki wo onegai shimasu." },
+        "english": "I'd like a reserved seat on the Shinkansen to Kyoto, please.",
+        "chinese": "我要一張到京都的新幹線指定席。"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "何時頃のご希望ですか？", "reading": "なんじごろのごきぼうですか？", "romaji": "nanji goro no go kibou desu ka?" },
+        "english": "What time would you prefer?",
+        "chinese": "您希望幾點左右的？"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "午前10時頃のがありますか？", "reading": "ごぜんじゅうじごろのがありますか？", "romaji": "gozen juuji goro no ga arimasu ka?" },
+        "english": "Is there one around 10 AM?",
+        "chinese": "有上午10點左右的嗎？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "10時15分ののぞみがあります。窓側と通路側、どちらがよろしいですか？", "reading": "じゅうじじゅうごふんののぞみがあります。まどがわとつうろがわ、どちらがよろしいですか？", "romaji": "juuji juugofun no nozomi ga arimasu. madogawa to tsuurogawa, dochira ga yoroshii desu ka?" },
+        "english": "There's a Nozomi at 10:15. Would you like a window seat or aisle seat?",
+        "chinese": "有10點15分的希望號。您要靠窗還是靠走道？"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "窓側をお願いします。", "reading": "まどがわをおねがいします。", "romaji": "madogawa wo onegai shimasu." },
+        "english": "Window seat, please.",
+        "chinese": "請給我靠窗的。"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "はい、10時15分発ののぞみ、窓側で13,320円になります。", "reading": "はい、じゅうじじゅうごふんはつののぞみ、まどがわでいちまんさんぜんさんびゃくにじゅうえんになります。", "romaji": "hai, juuji juugofun hatsu no nozomi, madogawa de ichiman sanzen sanbyaku nijuu en ni narimasu." },
+        "english": "Okay, the 10:15 Nozomi, window seat, that'll be 13,320 yen.",
+        "chinese": "好的，10點15分出發的希望號靠窗座位，一共13,320日圓。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-14",
+    "title": "自由席還是指定席",
+    "difficulty": 2,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "自由席と指定席はどう違いますか？", "reading": "じゆうせきとしていせきはどうちがいますか？", "romaji": "jiyuuseki to shiteiseki wa dou chigaimasu ka?" },
+        "english": "What's the difference between non-reserved and reserved seats?",
+        "chinese": "自由席和指定席有什麼不同？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "自由席は安いですが、席が決まっていません。混んでいると立つこともあります。", "reading": "じゆうせきはやすいですが、せきがきまっていません。こんでいるとたつこともあります。", "romaji": "jiyuuseki wa yasui desu ga, seki ga kimatteimаsen. kondeiru to tatsu koto mo arimasu." },
+        "english": "Non-reserved is cheaper, but you don't have an assigned seat. If it's crowded, you might have to stand.",
+        "chinese": "自由席比較便宜，但沒有固定座位。如果很擠的話可能要站著。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "今日は混んでいますか？", "reading": "きょうはこんでいますか？", "romaji": "kyou wa kondeimasu ka?" },
+        "english": "Is it crowded today?",
+        "chinese": "今天會很擠嗎？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "週末なので、指定席のほうがいいと思いますよ。", "reading": "しゅうまつなので、していせきのほうがいいとおもいますよ。", "romaji": "shuumatsu na node, shiteiseki no hou ga ii to omoimasu yo." },
+        "english": "It's the weekend, so I'd recommend reserved seats.",
+        "chinese": "因為是週末，我建議買指定席比較好。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "じゃ、指定席でお願いします。", "reading": "じゃ、していせきでおねがいします。", "romaji": "ja, shiteiseki de onegai shimasu." },
+        "english": "Then reserved seats, please.",
+        "chinese": "那就指定席，麻煩了。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-15",
+    "title": "轉乘資訊",
+    "difficulty": 2,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "浅草に行きたいんですが、乗り換えはありますか？", "reading": "あさくさにいきたいんですが、のりかえはありますか？", "romaji": "asakusa ni ikitain desu ga, norikae wa arimasu ka?" },
+        "english": "I want to go to Asakusa. Do I need to transfer?",
+        "chinese": "我想去淺草，需要轉車嗎？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "はい、上野で銀座線に乗り換えてください。", "reading": "はい、うえのでぎんざせんにのりかえてください。", "romaji": "hai, ueno de ginza sen ni norikae te kudasai." },
+        "english": "Yes, please transfer to the Ginza Line at Ueno.",
+        "chinese": "是的，請在上野換搭銀座線。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "乗り換えは分かりやすいですか？", "reading": "のりかえはわかりやすいですか？", "romaji": "norikae wa wakariyasui desu ka?" },
+        "english": "Is the transfer easy to find?",
+        "chinese": "轉乘容易找嗎？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "はい、案内の看板がありますから、それに従ってください。オレンジ色の看板です。", "reading": "はい、あんないのかんばんがありますから、それにしたがってください。おれんじいろのかんばんです。", "romaji": "hai, annai no kanban ga arimasu kara, sore ni shitagatte kudasai. orenji iro no kanban desu." },
+        "english": "Yes, there are guide signs, just follow them. They're the orange signs.",
+        "chinese": "有指示牌，跟著走就好了。是橘色的標誌。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-16",
+    "title": "購買Skyliner車票",
+    "difficulty": 2,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "スカイライナーの切符を2枚お願いします。上野まで。", "reading": "すかいらいなーのきっぷをにまいおねがいします。うえのまで。", "romaji": "sukairainaa no kippu wo nimai onegai shimasu. ueno made." },
+        "english": "Two Skyliner tickets to Ueno, please.",
+        "chinese": "請給我兩張到上野的Skyliner車票。"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "次の発車は14時20分です。お席はお隣同士がよろしいですか？", "reading": "つぎのはっしゃはじゅうよじにじゅっぷんです。おせきはおとなりどうしがよろしいですか？", "romaji": "tsugi no hassha wa juuyoji nijuppun desu. oseki wa otonari doushi ga yoroshii desu ka?" },
+        "english": "The next departure is at 2:20 PM. Would you like seats next to each other?",
+        "chinese": "下一班是14點20分。需要相鄰的座位嗎？"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "はい、隣同士でお願いします。", "reading": "はい、となりどうしでおねがいします。", "romaji": "hai, tonari doushi de onegai shimasu." },
+        "english": "Yes, next to each other, please.",
+        "chinese": "好的，請給我相鄰的。"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "2枚で5,040円になります。ホームは1番です。", "reading": "にまいでごせんよんじゅうえんになります。ほーむはいちばんです。", "romaji": "nimai de gosen yonjuu en ni narimasu. hoomu wa ichiban desu." },
+        "english": "That'll be 5,040 yen for two. The platform is number 1.",
+        "chinese": "兩張共5,040日圓。月台是1號。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-17",
+    "title": "公車路線詢問",
+    "difficulty": 2,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "すみません、清水寺に行くバスは何番ですか？", "reading": "すみません、きよみずでらにいくばすはなんばんですか？", "romaji": "sumimasen, kiyomizudera ni iku basu wa nanban desu ka?" },
+        "english": "Excuse me, which bus number goes to Kiyomizu Temple?",
+        "chinese": "不好意思，去清水寺是搭幾號公車？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "100番か206番のバスに乗ってください。「五条坂」で降りてください。", "reading": "ひゃくばんかにひゃくろくばんのばすにのってください。「ごじょうざか」でおりてください。", "romaji": "hyakuban ka nihyaku rokuban no basu ni notte kudasai. 'gojouzaka' de orite kudasai." },
+        "english": "Please take bus 100 or 206. Get off at 'Gojozaka'.",
+        "chinese": "請搭100號或206號公車。在「五条坂」下車。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "一日乗車券は使えますか？", "reading": "いちにちじょうしゃけんはつかえますか？", "romaji": "ichinichi jousha ken wa tsukaemasu ka?" },
+        "english": "Can I use a one-day bus pass?",
+        "chinese": "可以用一日乘車券嗎？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "はい、使えますよ。降りるときに運転手に見せてください。", "reading": "はい、つかえますよ。おりるときにうんてんしゅにみせてください。", "romaji": "hai, tsukaemasu yo. oriru toki ni untenshu ni misete kudasai." },
+        "english": "Yes, you can. Please show it to the driver when you get off.",
+        "chinese": "可以的。下車時請出示給司機看。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-18",
+    "title": "成田特快車票",
+    "difficulty": 2,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "成田エクスプレスの切符はここで買えますか？", "reading": "なりたえくすぷれすのきっぷはここでかえますか？", "romaji": "narita ekusupuresu no kippu wa koko de kaemasu ka?" },
+        "english": "Can I buy Narita Express tickets here?",
+        "chinese": "成田特快的票可以在這裡買嗎？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "はい。外国人向けの割引きっぷもありますよ。パスポートはお持ちですか？", "reading": "はい。がいこくじんむけのわりびききっぷもありますよ。ぱすぽーとはおもちですか？", "romaji": "hai. gaikokujin muke no waribiki kippu mo arimasu yo. pasupooto wa omochi desu ka?" },
+        "english": "Yes. We also have discount tickets for foreign visitors. Do you have your passport?",
+        "chinese": "可以的。也有外國人優惠票。您有帶護照嗎？"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "はい、あります。いくらですか？", "reading": "はい、あります。いくらですか？", "romaji": "hai, arimasu. ikura desu ka?" },
+        "english": "Yes, I have it. How much is it?",
+        "chinese": "有的。多少錢？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "往復で4,070円です。通常の片道とほぼ同じ値段でお得ですよ。", "reading": "おうふくでよんせんななじゅうえんです。つうじょうのかたみちとほぼおなじねだんでおとくですよ。", "romaji": "oufuku de yonsen nanajuu en desu. tsuujou no katamichi to hobo onaji nedan de otoku desu yo." },
+        "english": "It's 4,070 yen for a round trip. That's almost the same as a regular one-way fare, so it's a great deal.",
+        "chinese": "來回4,070日圓。跟普通單程差不多的價格，很划算。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "じゃ、往復でお願いします。", "reading": "じゃ、おうふくでおねがいします。", "romaji": "ja, oufuku de onegai shimasu." },
+        "english": "Then a round trip, please.",
+        "chinese": "那就買來回票，麻煩了。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-19",
+    "title": "新幹線車上補票",
+    "difficulty": 2,
+    "phrases": [
+      {
+        "speaker": "staff",
+        "japanese": { "text": "切符を拝見します。", "reading": "きっぷをはいけんします。", "romaji": "kippu wo haiken shimasu." },
+        "english": "May I see your ticket, please?",
+        "chinese": "讓我看一下您的車票。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "あ、すみません。自由席の切符なんですが、間違えて指定席に座ってしまいました。", "reading": "あ、すみません。じゆうせきのきっぷなんですが、まちがえてしていせきにすわってしまいました。", "romaji": "a, sumimasen. jiyuuseki no kippu nan desu ga, machigaete shiteiseki ni suwatte shimaimashita." },
+        "english": "Oh, sorry. I have a non-reserved ticket, but I accidentally sat in the reserved section.",
+        "chinese": "啊，不好意思。我買的是自由席的票，但不小心坐到指定席了。"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "指定席の差額をお支払いいただければ、このままお座りいただけますが。", "reading": "していせきのさがくをおしはらいいただければ、このままおすわりいただけますが。", "romaji": "shiteiseki no sagaku wo oshiharai itadakereba, kono mama osuwari itadakemasu ga." },
+        "english": "If you pay the difference for the reserved seat, you can stay here.",
+        "chinese": "如果您補指定席的差額，就可以繼續坐在這裡。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "いくら払えばいいですか？", "reading": "いくらはらえばいいですか？", "romaji": "ikura haraeba ii desu ka?" },
+        "english": "How much do I need to pay?",
+        "chinese": "需要補多少錢？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "530円になります。", "reading": "ごひゃくさんじゅうえんになります。", "romaji": "gohyaku sanjuu en ni narimasu." },
+        "english": "That'll be 530 yen.",
+        "chinese": "530日圓。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-20",
+    "title": "搭錯車詢問回程",
+    "difficulty": 2,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "すみません、間違えて反対方向に乗ってしまったんですが…", "reading": "すみません、まちがえてはんたいほうこうにのってしまったんですが…", "romaji": "sumimasen, machigaete hantai houkou ni notte shimattan desu ga..." },
+        "english": "Excuse me, I accidentally got on the wrong direction...",
+        "chinese": "不好意思，我搭錯方向了…"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "大丈夫ですよ。次の駅で降りて、反対側のホームに行ってください。", "reading": "だいじょうぶですよ。つぎのえきでおりて、はんたいがわのほーむにいってください。", "romaji": "daijoubu desu yo. tsugi no eki de orite, hantaigawa no hoomu ni itte kudasai." },
+        "english": "No worries. Get off at the next station and go to the opposite platform.",
+        "chinese": "沒關係。在下一站下車，去對面月台就好了。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "改札を出なくても大丈夫ですか？", "reading": "かいさつをでなくてもだいじょうぶですか？", "romaji": "kaisatsu wo denakutemo daijoubu desu ka?" },
+        "english": "I don't need to go through the ticket gates, right?",
+        "chinese": "不用出閘門也可以嗎？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "はい、改札を出ないでそのままホームに行けますよ。", "reading": "はい、かいさつをでないでそのままほーむにいけますよ。", "romaji": "hai, kaisatsu wo denaide sono mama hoomu ni ikemasu yo." },
+        "english": "Right, you can go directly to the platform without leaving the gates.",
+        "chinese": "對，不用出閘門直接去月台就可以了。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-21",
+    "title": "地鐵一日券",
+    "difficulty": 2,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "東京メトロの一日券はありますか？", "reading": "とうきょうめとろのいちにちけんはありますか？", "romaji": "toukyou metoro no ichinichi ken wa arimasu ka?" },
+        "english": "Do you have a Tokyo Metro one-day pass?",
+        "chinese": "有東京Metro的一日券嗎？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "はい、東京メトロだけの24時間券と、都営地下鉄も使える共通券がありますが。", "reading": "はい、とうきょうめとろだけのにじゅうよじかんけんと、とえいちかてつもつかえるきょうつうけんがありますが。", "romaji": "hai, toukyou metoro dake no nijuuyo jikan ken to, toei chikatetsu mo tsukaeru kyoutsuu ken ga arimasu ga." },
+        "english": "Yes, we have a 24-hour ticket for Tokyo Metro only, and a combined ticket that also works on Toei Subway.",
+        "chinese": "有的，有只能搭東京Metro的24小時券，還有也能搭都營地下鐵的共通券。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "共通券はいくらですか？", "reading": "きょうつうけんはいくらですか？", "romaji": "kyoutsuu ken wa ikura desu ka?" },
+        "english": "How much is the combined ticket?",
+        "chinese": "共通券多少錢？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "900円です。たくさん乗るなら、こちらがお得ですよ。", "reading": "きゅうひゃくえんです。たくさんのるなら、こちらがおとくですよ。", "romaji": "kyuuhyaku en desu. takusan noru nara, kochira ga otoku desu yo." },
+        "english": "It's 900 yen. If you're riding a lot, this one is a better deal.",
+        "chinese": "900日圓。如果搭很多次的話，這個比較划算。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-22",
+    "title": "ICカード餘額查詢",
+    "difficulty": 2,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "すみません、ICカードの残高の確認はどこでできますか？", "reading": "すみません、あいしーかーどのざんだかのかくにんはどこでできますか？", "romaji": "sumimasen, aishii kaado no zandaka no kakunin wa doko de dekimasu ka?" },
+        "english": "Excuse me, where can I check my IC card balance?",
+        "chinese": "不好意思，在哪裡可以查IC卡的餘額？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "券売機で確認できますよ。カードを入れれば残高が表示されます。", "reading": "けんばいきでかくにんできますよ。かーどをいれればざんだかがひょうじされます。", "romaji": "kenbaiki de kakunin dekimasu yo. kaado wo irereba zandaka ga hyouji saremasu." },
+        "english": "You can check at the ticket machine. Just insert your card and the balance will be shown.",
+        "chinese": "可以在售票機確認。放入卡片就會顯示餘額。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "ちなみに、改札でタッチしたときにも表示されますか？", "reading": "ちなみに、かいさつでたっちしたときにもひょうじされますか？", "romaji": "chinamini, kaisatsu de tacchi shita toki ni mo hyouji saremasu ka?" },
+        "english": "By the way, does it also show when I tap at the gate?",
+        "chinese": "順便問一下，過閘門刷卡的時候也會顯示嗎？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "はい、改札機の画面に残高が出ますよ。", "reading": "はい、かいさつきのがめんにざんだかがでますよ。", "romaji": "hai, kaisatsuki no gamen ni zandaka ga demasu yo." },
+        "english": "Yes, the balance appears on the gate's display.",
+        "chinese": "會的，閘門的螢幕上會顯示餘額。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-23",
+    "title": "ICカード優先票問題",
+    "difficulty": 2,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "すみません、PASMOとSuica両方持っているんですが、改札でどっちが反応するか分からなくて…", "reading": "すみません、ぱすもとすいかりょうほうもっているんですが、かいさつでどっちがはんのうするかわからなくて…", "romaji": "sumimasen, pasumo to suika ryouhou motteiru n desu ga, kaisatsu de docchi ga hannou suru ka wakaranakute..." },
+        "english": "Excuse me, I have both a PASMO and Suica, and I'm not sure which one will be read at the gate...",
+        "chinese": "不好意思，我同時有PASMO和Suica，不知道過閘門時哪張會被感應到…"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "2枚一緒にタッチするとエラーになりますので、使いたいカードだけをかざしてください。", "reading": "にまいいっしょにたっちするとえらーになりますので、つかいたいかーどだけをかざしてください。", "romaji": "nimai issho ni tacchi suru to eraa ni narimasu node, tsukaitai kaado dake wo kazashite kudasai." },
+        "english": "If you tap both at the same time, it'll cause an error. Please hold only the card you want to use.",
+        "chinese": "如果兩張一起感應會出錯，請只拿出您要用的那張卡。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "パスケースから出したほうがいいですか？", "reading": "ぱすけーすからだしたほうがいいですか？", "romaji": "pasu keesu kara dashita hou ga ii desu ka?" },
+        "english": "Should I take it out of my card holder?",
+        "chinese": "需要從卡套裡拿出來嗎？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "はい、そのほうが確実ですね。", "reading": "はい、そのほうがかくじつですね。", "romaji": "hai, sono hou ga kakujitsu desu ne." },
+        "english": "Yes, that would be safer.",
+        "chinese": "是的，那樣比較保險。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-24",
+    "title": "計程車中途更改目的地",
+    "difficulty": 2,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "すみません、やっぱり行き先を変えてもいいですか？", "reading": "すみません、やっぱりいきさきをかえてもいいですか？", "romaji": "sumimasen, yappari ikisaki wo kaetemo ii desu ka?" },
+        "english": "Sorry, could I change the destination?",
+        "chinese": "不好意思，可以改目的地嗎？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "はい、どちらに変更しますか？", "reading": "はい、どちらにへんこうしますか？", "romaji": "hai, dochira ni henkou shimasu ka?" },
+        "english": "Sure, where would you like to go instead?",
+        "chinese": "好的，要改去哪裡？"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "六本木じゃなくて、東京タワーにお願いします。", "reading": "ろっぽんぎじゃなくて、とうきょうたわーにおねがいします。", "romaji": "roppongi ja nakute, toukyou tawaa ni onegai shimasu." },
+        "english": "Not Roppongi, but Tokyo Tower, please.",
+        "chinese": "不去六本木了，改去東京鐵塔，麻煩了。"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "東京タワーですね。分かりました。近いので、すぐ着きますよ。", "reading": "とうきょうたわーですね。わかりました。ちかいので、すぐつきますよ。", "romaji": "toukyou tawaa desu ne. wakarimashita. chikai node, sugu tsukimasu yo." },
+        "english": "Tokyo Tower, got it. It's nearby, so we'll be there soon.",
+        "chinese": "東京鐵塔對吧。我知道了。很近，馬上就到。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-25",
+    "title": "刷錯IC卡無法出站",
+    "difficulty": 3,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "すみません、改札が開かなくて…出られないんです。", "reading": "すみません、かいさつがあかなくて…でられないんです。", "romaji": "sumimasen, kaisatsu ga akanakute... derarenain desu." },
+        "english": "Excuse me, the gate won't open... I can't get out.",
+        "chinese": "不好意思，閘門打不開…我出不去。"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "どうされましたか？切符かICカードを見せていただけますか？", "reading": "どうされましたか？きっぷかあいしーかーどをみせていただけますか？", "romaji": "dou saremashita ka? kippu ka aishii kaado wo misete itadakemasu ka?" },
+        "english": "What happened? Could you show me your ticket or IC card?",
+        "chinese": "怎麼了？可以讓我看一下您的車票或IC卡嗎？"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "あの…入るときに間違えてJRのSuicaをタッチしちゃったんですけど、本当はスカイライナーの切符で乗りたくて…This is my Skyliner ticket.", "reading": "あの…はいるときにまちがえてじぇいあーるのすいかをたっちしちゃったんですけど、ほんとうはすかいらいなーのきっぷでのりたくて…This is my Skyliner ticket.", "romaji": "ano... hairu toki ni machigaete jeiiaaru no suika wo tacchi shichattan desu kedo, hontou wa sukairainaa no kippu de noritakute... This is my Skyliner ticket." },
+        "english": "Um... when I entered, I accidentally tapped my JR Suica, but I actually wanted to ride with this Skyliner ticket... This is my Skyliner ticket.",
+        "chinese": "那個…進站的時候不小心刷了JR的Suica，但其實我是要用Skyliner的票搭車…This is my Skyliner ticket."
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "なるほど、Suicaで入場記録がついてしまったんですね。Suicaを見せてください。取り消し処理をしますので。", "reading": "なるほど、すいかでにゅうじょうきろくがついてしまったんですね。すいかをみせてください。とりけししょりをしますので。", "romaji": "naruhodo, suika de nyuujou kiroku ga tsuite shimattan desu ne. suika wo misete kudasai. torikeshi shori wo shimasu node." },
+        "english": "I see, so an entry record was made on your Suica. Please show me your Suica. I'll cancel the entry.",
+        "chinese": "原來如此，Suica上留下了進站記錄。請讓我看一下您的Suica。我幫您取消處理。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "ありがとうございます。Sorry, 日本語があまり上手じゃなくて…", "reading": "ありがとうございます。Sorry、にほんごがあまりじょうずじゃなくて…", "romaji": "arigatou gozaimasu. Sorry, nihongo ga amari jouzu ja nakute..." },
+        "english": "Thank you. Sorry, my Japanese isn't very good...",
+        "chinese": "謝謝。Sorry，我日文不太好…"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "大丈夫ですよ。はい、取り消しました。こちらのスカイライナーの切符で出られますので、どうぞ。", "reading": "だいじょうぶですよ。はい、とりけししました。こちらのすかいらいなーのきっぷででられますので、どうぞ。", "romaji": "daijoubu desu yo. hai, torikeshi shimashita. kochira no sukairainaa no kippu de deraremasu node, douzo." },
+        "english": "No problem at all. There, I've cancelled it. You can exit with your Skyliner ticket now. Go ahead.",
+        "chinese": "沒關係。好了，已經取消了。用這張Skyliner車票就可以出站了，請。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-26",
+    "title": "電車上遺失物品",
+    "difficulty": 3,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "すみません、電車の中にカバンを忘れてしまいました！", "reading": "すみません、でんしゃのなかにかばんをわすれてしまいました！", "romaji": "sumimasen, densha no naka ni kaban wo wasurete shimaimashita!" },
+        "english": "Excuse me, I left my bag on the train!",
+        "chinese": "不好意思，我把包包忘在電車上了！"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "何線の何時頃の電車か分かりますか？", "reading": "なにせんのなんじごろのでんしゃかわかりますか？", "romaji": "nani sen no nanji goro no densha ka wakarimasu ka?" },
+        "english": "Do you know which line and approximately what time?",
+        "chinese": "知道是哪條線、大約幾點的電車嗎？"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "中央線の…3時ぐらいの電車です。黒いリュックサックで、パスポートも入っています。I'm really worried because my passport is inside.", "reading": "ちゅうおうせんの…さんじぐらいのでんしゃです。くろいりゅっくさっくで、ぱすぽーともはいっています。I'm really worried because my passport is inside.", "romaji": "chuuou sen no... sanji gurai no densha desu. kuroi ryukkusakku de, pasupooto mo haitteimasu. I'm really worried because my passport is inside." },
+        "english": "The Chuo Line... around 3 o'clock. It's a black backpack, and my passport is inside too. I'm really worried because my passport is inside.",
+        "chinese": "中央線的…大約3點的電車。是黑色的背包，裡面還有護照。I'm really worried because my passport is inside."
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "分かりました。お調べしますので、少々お待ちください。こちらの忘れ物届にご記入お願いします。", "reading": "わかりました。おしらべしますので、しょうしょうおまちください。こちらのわすれものとどけにごきにゅうおねがいします。", "romaji": "wakarimashita. oshirabe shimasu node, shoushou omachi kudasai. kochira no wasuremono todoke ni go kinyuu onegai shimasu." },
+        "english": "Understood. Let me look into it, please wait a moment. Could you please fill out this lost item report?",
+        "chinese": "我知道了。我查一下，請稍等。請填寫這張失物申報單。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "はい。あの、見つかる可能性はありますか？", "reading": "はい。あの、みつかるかのうせいはありますか？", "romaji": "hai. ano, mitsukaru kanousei wa arimasu ka?" },
+        "english": "Okay. Um, is there a chance it'll be found?",
+        "chinese": "好的。那個，有可能找到嗎？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "日本では忘れ物が届けられることが多いので、見つかる可能性は高いですよ。お電話番号を教えてください。見つかり次第ご連絡します。", "reading": "にほんではわすれものがとどけられることがおおいので、みつかるかのうせいはたかいですよ。おでんわばんごうをおしえてください。みつかりしだいごれんらくします。", "romaji": "nihon de wa wasuremono ga todokerareru koto ga ooi node, mitsukaru kanousei wa takai desu yo. odenwa bangou wo oshiete kudasai. mitsukari shidai go renraku shimasu." },
+        "english": "In Japan, lost items are often turned in, so there's a good chance it'll be found. Please give me your phone number. We'll contact you as soon as we find it.",
+        "chinese": "在日本遺失物很常被送回來，所以找到的可能性很高。請給我您的電話號碼，找到後會馬上聯絡您。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-27",
+    "title": "錯過末班車",
+    "difficulty": 3,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "あの、すみません…終電、もう行っちゃいましたか？", "reading": "あの、すみません…しゅうでん、もういっちゃいましたか？", "romaji": "ano, sumimasen... shuuden, mou icchaimashita ka?" },
+        "english": "Um, excuse me... has the last train already left?",
+        "chinese": "那個，不好意思…末班車已經走了嗎？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "はい、残念ですが、10分前に出発しました。", "reading": "はい、ざんねんですが、じゅっぷんまえにしゅっぱつしました。", "romaji": "hai, zannen desu ga, juppun mae ni shuppatsu shimashita." },
+        "english": "Yes, unfortunately it left 10 minutes ago.",
+        "chinese": "是的，很可惜，10分鐘前已經開走了。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "ホテルまで帰れないです…どうしたらいいですか？Is there any night bus or something?", "reading": "ほてるまでかえれないです…どうしたらいいですか？Is there any night bus or something?", "romaji": "hoteru made kaerenai desu... doushitara ii desu ka? Is there any night bus or something?" },
+        "english": "I can't get back to my hotel... What should I do? Is there any night bus or something?",
+        "chinese": "回不了飯店了…該怎麼辦？Is there any night bus or something?"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "深夜バスはないですが、タクシーかネットカフェという方法がありますよ。タクシー乗り場はあちらです。", "reading": "しんやばすはないですが、たくしーかねっとかふぇというほうほうがありますよ。たくしーのりばはあちらです。", "romaji": "shinya basu wa nai desu ga, takushii ka netto kafe to iu houhou ga arimasu yo. takushii noriba wa achira desu." },
+        "english": "There's no night bus, but you could take a taxi or go to an internet cafe. The taxi stand is over there.",
+        "chinese": "沒有深夜巴士，但可以搭計程車或去網咖。計程車乘車處在那邊。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "タクシーで池袋までだいたいいくらですか？", "reading": "たくしーでいけぶくろまでだいたいいくらですか？", "romaji": "takushii de ikebukuro made daitai ikura desu ka?" },
+        "english": "About how much would a taxi to Ikebukuro cost?",
+        "chinese": "搭計程車到池袋大概多少錢？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "深夜料金で5,000円から6,000円ぐらいだと思います。始発は5時頃なので、それまで待つ方法もありますよ。", "reading": "しんやりょうきんでごせんえんからろくせんえんぐらいだとおもいます。しはつはごじごろなので、それまでまつほうほうもありますよ。", "romaji": "shinya ryoukin de gosen en kara rokusen en gurai da to omoimasu. shihatsu wa goji goro na node, sore made matsu houhou mo arimasu yo." },
+        "english": "With the late-night surcharge, I'd say around 5,000 to 6,000 yen. The first train is around 5 AM, so you could also wait until then.",
+        "chinese": "加上深夜加價大概5,000到6,000日圓左右。首班車大約5點，也可以等到那時候。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-28",
+    "title": "新幹線行李太大放不下",
+    "difficulty": 3,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "すみません、スーツケースが大きくて荷物棚に入らないんですが…", "reading": "すみません、すーつけーすがおおきくてにもつだなにはいらないんですが…", "romaji": "sumimasen, suutsukeesu ga ookikute nimotsu dana ni hairanain desu ga..." },
+        "english": "Excuse me, my suitcase is too big to fit in the overhead rack...",
+        "chinese": "不好意思，我的行李箱太大放不進行李架…"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "大型荷物は事前に特大荷物スペースの予約が必要なんです。予約はされていますか？", "reading": "おおがたにもつはじぜんにとくだいにもつすぺーすのよやくがひつようなんです。よやくはされていますか？", "romaji": "oogata nimotsu wa jizen ni tokudai nimotsu supeesu no yoyaku ga hitsuyou nan desu. yoyaku wa sareteimasu ka?" },
+        "english": "For large luggage, you need to reserve the oversized baggage space in advance. Did you make a reservation?",
+        "chinese": "大型行李需要事先預約特大行李空間。您有預約嗎？"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "えっ、知らなかったです…I didn't know about that rule. どうしたらいいですか？", "reading": "えっ、しらなかったです…I didn't know about that rule. どうしたらいいですか？", "romaji": "e, shiranakatta desu... I didn't know about that rule. doushitara ii desu ka?" },
+        "english": "What? I didn't know that... I didn't know about that rule. What should I do?",
+        "chinese": "咦，我不知道…I didn't know about that rule. 該怎麼辦？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "今回は空きがありますので、最後尾の座席の後ろのスペースをお使いください。次回からはご予約をお願いしますね。", "reading": "こんかいはあきがありますので、さいこうびのざせきのうしろのすぺーすをおつかいください。じかいからはごよやくをおねがいしますね。", "romaji": "konkai wa aki ga arimasu node, saikoubi no zaseki no ushiro no supeesu wo otsukai kudasai. jikai kara wa go yoyaku wo onegai shimasu ne." },
+        "english": "This time there's space available, so please use the area behind the last row of seats. Please make a reservation next time.",
+        "chinese": "這次剛好有空位，請使用最後一排座位後方的空間。下次請記得預約。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "すみません、ありがとうございます。次から気をつけます。", "reading": "すみません、ありがとうございます。つぎからきをつけます。", "romaji": "sumimasen, arigatou gozaimasu. tsugi kara ki wo tsukemasu." },
+        "english": "I'm sorry, and thank you. I'll be careful next time.",
+        "chinese": "不好意思，謝謝。下次我會注意的。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-29",
+    "title": "電車延誤要遲到了",
+    "difficulty": 3,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "すみません、電車が遅れているみたいなんですが、何があったんですか？", "reading": "すみません、でんしゃがおくれているみたいなんですが、なにがあったんですか？", "romaji": "sumimasen, densha ga okureteiru mitai nan desu ga, nani ga attan desu ka?" },
+        "english": "Excuse me, the train seems to be delayed. What happened?",
+        "chinese": "不好意思，電車好像誤點了，發生什麼事了？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "人身事故の影響で、現在15分ほど遅れが出ています。", "reading": "じんしんじこのえいきょうで、げんざいじゅうごふんほどおくれがでています。", "romaji": "jinshin jiko no eikyou de, genzai juugofun hodo okure ga deteimasu." },
+        "english": "Due to a personal injury accident, there's currently about a 15-minute delay.",
+        "chinese": "因為人身事故的影響，目前大約延誤15分鐘。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "飛行機に乗らなきゃいけないんですが、他のルートはありますか？I have a flight to catch...", "reading": "ひこうきにのらなきゃいけないんですが、ほかのるーとはありますか？I have a flight to catch...", "romaji": "hikouki ni noranakya ikenain desu ga, hoka no ruuto wa arimasu ka? I have a flight to catch..." },
+        "english": "I need to catch a flight. Is there another route? I have a flight to catch...",
+        "chinese": "我必須趕飛機，有其他路線嗎？I have a flight to catch..."
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "それでしたら、地下鉄の丸ノ内線で東京駅まで行って、そこから成田エクスプレスに乗り換えるのが一番早いと思います。", "reading": "それでしたら、ちかてつのまるのうちせんでとうきょうえきまでいって、そこからなりたえくすぷれすにのりかえるのがいちばんはやいとおもいます。", "romaji": "sore deshitara, chikatetsu no marunouchi sen de toukyou eki made itte, soko kara narita ekusupuresu ni norikaeru no ga ichiban hayai to omoimasu." },
+        "english": "In that case, I think the fastest way would be to take the Marunouchi subway line to Tokyo Station and transfer to the Narita Express there.",
+        "chinese": "那樣的話，我覺得最快的方式是搭地下鐵丸之內線到東京車站，再轉搭成田特快。"
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "遅延証明書はもらえますか？", "reading": "ちえんしょうめいしょはもらえますか？", "romaji": "chien shoumeisho wa moraemasu ka?" },
+        "english": "Can I get a delay certificate?",
+        "chinese": "可以拿到延誤證明嗎？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "はい、改札のところで配っていますので、お取りください。", "reading": "はい、かいさつのところでくばっていますので、おとりください。", "romaji": "hai, kaisatsu no tokoro de kubatteimasu node, otori kudasai." },
+        "english": "Yes, they're being distributed at the ticket gates. Please pick one up.",
+        "chinese": "有的，在閘門那邊有發放，請去拿。"
+      }
+    ]
+  },
+  {
+    "id": "transportation-30",
+    "title": "用日英混合解釋複雜狀況",
+    "difficulty": 3,
+    "phrases": [
+      {
+        "speaker": "you",
+        "japanese": { "text": "Excuse me, すみません。えーと、I bought this ticket, but I think I got on the wrong train. これは特急券なんですけど…間違えて普通電車に乗っちゃって…", "reading": "Excuse me、すみません。えーと、I bought this ticket, but I think I got on the wrong train. これはとっきゅうけんなんですけど…まちがえてふつうでんしゃにのっちゃって…", "romaji": "Excuse me, sumimasen. eeto, I bought this ticket, but I think I got on the wrong train. kore wa tokkyuuken nan desu kedo... machigaete futsuu densha ni nocchatte..." },
+        "english": "Excuse me, sorry. Um, I bought this ticket, but I think I got on the wrong train. This is a limited express ticket, but I accidentally got on a local train...",
+        "chinese": "Excuse me，不好意思。嗯…I bought this ticket, but I think I got on the wrong train. 這是特急券，但我不小心搭到普通電車了…"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "大丈夫ですよ。特急券をお持ちなら、次の駅で特急に乗り換えられます。Let me check the next express train for you.", "reading": "だいじょうぶですよ。とっきゅうけんをおもちなら、つぎのえきでとっきゅうにのりかえられます。Let me check the next express train for you.", "romaji": "daijoubu desu yo. tokkyuuken wo omochi nara, tsugi no eki de tokkyuu ni norikaerаremasu. Let me check the next express train for you." },
+        "english": "No worries. If you have the express ticket, you can transfer to the express at the next station. Let me check the next express train for you.",
+        "chinese": "沒關係。如果您有特急券的話，在下一站可以換搭特急。Let me check the next express train for you."
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "本当ですか？Thank you so much! 次の特急は何時ですか？", "reading": "ほんとうですか？Thank you so much! つぎのとっきゅうはなんじですか？", "romaji": "hontou desu ka? Thank you so much! tsugi no tokkyuu wa nanji desu ka?" },
+        "english": "Really? Thank you so much! What time is the next express?",
+        "chinese": "真的嗎？Thank you so much! 下一班特急是幾點？"
+      },
+      {
+        "speaker": "staff",
+        "japanese": { "text": "15分後に来ますよ。3番ホームです。Don't worry, you'll be fine.", "reading": "じゅうごふんごにきますよ。さんばんほーむです。Don't worry, you'll be fine.", "romaji": "juugofun go ni kimasu yo. sanban hoomu desu. Don't worry, you'll be fine." },
+        "english": "It'll come in 15 minutes. Platform 3. Don't worry, you'll be fine.",
+        "chinese": "15分鐘後就來了。在3號月台。Don't worry, you'll be fine."
+      },
+      {
+        "speaker": "you",
+        "japanese": { "text": "助かりました！ありがとうございます！", "reading": "たすかりました！ありがとうございます！", "romaji": "tasukаrimashita! arigatou gozaimasu!" },
+        "english": "You've been a great help! Thank you!",
+        "chinese": "幫了大忙了！謝謝！"
+      }
+    ]
+  }
+]
