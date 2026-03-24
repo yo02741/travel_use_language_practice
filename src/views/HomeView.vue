@@ -33,7 +33,7 @@ function resetAll() {
         <button
           v-for="s in SCENARIOS"
           :key="s.id"
-          class="rounded-2xl p-4 text-left transition-transform active:scale-95 bg-(--color-card) border border-(--color-border) shadow-sm"
+          class="rounded-2xl p-4 text-left transition-all active:scale-95 glass cursor-pointer hover:bg-(--color-card-hover)"
           @click="goScenario(s.id)"
         >
           <div class="text-3xl mb-2">{{ s.icon }}</div>
@@ -58,7 +58,7 @@ function resetAll() {
 
     <section>
       <button
-        class="w-full rounded-2xl p-4 text-left bg-(--color-card) border border-(--color-border) shadow-sm transition-transform active:scale-95"
+        class="w-full rounded-2xl p-4 text-left glass transition-all active:scale-95 cursor-pointer hover:bg-(--color-card-hover)"
         @click="goKana"
       >
         <div class="flex items-center gap-3">
@@ -75,7 +75,7 @@ function resetAll() {
 
     <section class="text-center pt-2">
       <button
-        class="text-xs text-(--color-text-secondary) underline"
+        class="text-xs text-(--color-text-secondary) underline cursor-pointer"
         @click="resetAll"
       >
         重置全部進度

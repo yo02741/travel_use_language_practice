@@ -82,12 +82,12 @@ function selectAnswer(romaji: string) {
 
 function optionClass(romaji: string): string {
   if (!selected.value)
-    return "bg-(--color-card) border border-(--color-border)";
+    return "glass cursor-pointer";
   if (romaji === current.value!.romaji)
     return "bg-(--color-success)/10 border border-(--color-success) text-(--color-success)";
   if (romaji === selected.value)
     return "bg-red-50 border border-red-300 text-red-600";
-  return "bg-(--color-card) border border-(--color-border) opacity-40";
+  return "glass opacity-40";
 }
 </script>
 
@@ -95,7 +95,7 @@ function optionClass(romaji: string): string {
   <div>
     <div class="flex items-center gap-2 mb-4">
       <button
-        class="text-(--color-text-secondary)"
+        class="text-(--color-text-secondary) cursor-pointer"
         @click="router.push('/kana')"
       >
         ← 返回
@@ -110,7 +110,7 @@ function optionClass(romaji: string): string {
       </div>
 
       <div
-        class="rounded-2xl bg-(--color-card) border border-(--color-border) shadow-sm p-8 text-center mb-6"
+        class="rounded-2xl glass p-8 text-center mb-6"
       >
         <div class="text-7xl font-(--font-jp)">{{ current.kana }}</div>
       </div>
@@ -132,7 +132,7 @@ function optionClass(romaji: string): string {
     <!-- Results -->
     <template v-if="isFinished">
       <div
-        class="rounded-2xl bg-(--color-card) border border-(--color-border) shadow-sm p-6 text-center"
+        class="rounded-2xl glass p-6 text-center"
       >
         <div class="text-3xl mb-2">🎯</div>
         <div class="text-2xl font-bold mb-1">
@@ -157,13 +157,13 @@ function optionClass(romaji: string): string {
 
         <div class="flex gap-3 justify-center">
           <button
-            class="px-4 py-2 rounded-lg text-sm border border-(--color-border)"
+            class="px-4 py-2 rounded-lg text-sm border border-(--color-border) cursor-pointer"
             @click="router.push('/kana')"
           >
             回到五十音
           </button>
           <button
-            class="px-4 py-2 rounded-lg text-sm bg-(--color-kana) text-white"
+            class="px-4 py-2 rounded-lg text-sm bg-(--color-kana) text-white cursor-pointer"
             @click="startQuiz"
           >
             再測一次

@@ -9,7 +9,7 @@ const progress = useProgressStore();
 <template>
   <div>
     <div class="flex items-center gap-2 mb-4">
-      <button class="text-(--color-text-secondary)" @click="router.push('/')">
+      <button class="text-(--color-text-secondary) cursor-pointer" @click="router.push('/')">
         ← 返回
       </button>
     </div>
@@ -22,7 +22,7 @@ const progress = useProgressStore();
     <div class="space-y-3">
       <!-- Flashcard practice -->
       <button
-        class="w-full rounded-2xl bg-(--color-card) border border-(--color-border) shadow-sm p-4 text-left transition-transform active:scale-95"
+        class="w-full rounded-2xl glass p-4 text-left transition-all active:scale-95 cursor-pointer hover:bg-(--color-card-hover)"
         @click="router.push('/kana/hiragana')"
       >
         <div class="flex items-center gap-3">
@@ -37,7 +37,7 @@ const progress = useProgressStore();
       </button>
 
       <button
-        class="w-full rounded-2xl bg-(--color-card) border border-(--color-border) shadow-sm p-4 text-left transition-transform active:scale-95"
+        class="w-full rounded-2xl glass p-4 text-left transition-all active:scale-95 cursor-pointer hover:bg-(--color-card-hover)"
         @click="router.push('/kana/katakana')"
       >
         <div class="flex items-center gap-3">
@@ -53,7 +53,7 @@ const progress = useProgressStore();
 
       <!-- Chart -->
       <button
-        class="w-full rounded-2xl bg-(--color-card) border border-(--color-border) shadow-sm p-4 text-left transition-transform active:scale-95"
+        class="w-full rounded-2xl glass p-4 text-left transition-all active:scale-95 cursor-pointer hover:bg-(--color-card-hover)"
         @click="router.push('/kana/chart')"
       >
         <div class="flex items-center gap-3">
@@ -69,7 +69,7 @@ const progress = useProgressStore();
 
       <!-- Quiz -->
       <button
-        class="w-full rounded-2xl bg-(--color-card) border border-(--color-border) shadow-sm p-4 text-left transition-transform active:scale-95"
+        class="w-full rounded-2xl glass p-4 text-left transition-all active:scale-95 cursor-pointer hover:bg-(--color-card-hover)"
         @click="router.push('/kana/quiz')"
       >
         <div class="flex items-center gap-3">

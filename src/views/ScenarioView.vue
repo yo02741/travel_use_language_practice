@@ -40,7 +40,7 @@ function resetProgress() {
 <template>
   <div v-if="scenario">
     <div class="flex items-center gap-2 mb-4">
-      <button class="text-(--color-text-secondary)" @click="router.push('/')">
+      <button class="text-(--color-text-secondary) cursor-pointer" @click="router.push('/')">
         ← 返回
       </button>
     </div>
@@ -60,7 +60,7 @@ function resetProgress() {
 
     <div class="mb-4">
       <button
-        class="text-xs text-(--color-text-secondary) underline"
+        class="text-xs text-(--color-text-secondary) underline cursor-pointer"
         @click="resetProgress"
       >
         重置此場景進度
@@ -75,7 +75,7 @@ function resetProgress() {
       <div
         v-for="(conv, idx) in conversations"
         :key="conv.id"
-        class="rounded-xl bg-(--color-card) border border-(--color-border) p-3 shadow-sm"
+        class="rounded-xl glass p-3"
       >
         <div class="flex items-start justify-between mb-2">
           <div class="flex-1">
@@ -101,13 +101,13 @@ function resetProgress() {
 
         <div class="flex gap-2">
           <button
-            class="flex-1 text-xs py-1.5 rounded-lg border border-(--color-border) transition-colors hover:bg-gray-50 active:bg-gray-100"
+            class="flex-1 text-xs py-1.5 rounded-lg border border-(--color-border) transition-colors cursor-pointer hover:bg-(--color-card-hover)"
             @click="goPhrase(idx)"
           >
             📖 跟讀
           </button>
           <button
-            class="flex-1 text-xs py-1.5 rounded-lg border border-(--color-border) transition-colors hover:bg-gray-50 active:bg-gray-100"
+            class="flex-1 text-xs py-1.5 rounded-lg border border-(--color-border) transition-colors cursor-pointer hover:bg-(--color-card-hover)"
             @click="goDialog(idx)"
           >
             💬 模擬對話

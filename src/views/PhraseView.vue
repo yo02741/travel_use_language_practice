@@ -92,7 +92,7 @@ function goBack() {
     style="min-height: calc(100dvh - 120px)"
   >
     <div class="flex items-center gap-2 mb-4">
-      <button class="text-(--color-text-secondary)" @click="goBack">
+      <button class="text-(--color-text-secondary) cursor-pointer" @click="goBack">
         ← 返回
       </button>
       <span class="text-sm text-(--color-text-secondary)">
@@ -106,7 +106,7 @@ function goBack() {
 
     <!-- Card area: fills remaining space -->
     <div
-      class="flex-1 rounded-2xl bg-(--color-card) border border-(--color-border) shadow-sm p-5 flex flex-col justify-center"
+      class="flex-1 rounded-2xl glass p-5 flex flex-col justify-center"
       @touchstart="onTouchStart"
       @touchend="onTouchEnd"
     >
@@ -120,7 +120,7 @@ function goBack() {
               : 'bg-orange-50 text-orange-700 dark:bg-orange-900/40 dark:text-orange-300'
           "
         >
-          {{ displayPhrase.speaker === "you" ? "🙋 你" : "🧑‍💼 店員" }}
+          {{ displayPhrase.speaker === "you" ? "🙋 你" : `${scenario?.staffIcon} ${scenario?.staffLabel}` }}
         </span>
       </div>
 
@@ -166,7 +166,7 @@ function goBack() {
       <!-- Familiar toggle -->
       <div class="text-center mt-5">
         <button
-          class="text-xs px-4 py-1.5 rounded-full border transition-colors"
+          class="text-xs px-4 py-1.5 rounded-full border transition-colors cursor-pointer"
           :class="
             progress.isPhraseFamiliar(scenarioId, phraseKey)
               ? 'bg-(--color-success)/10 border-(--color-success)/30 text-(--color-success)'
@@ -187,7 +187,7 @@ function goBack() {
     <div class="mt-auto pt-4 pb-2">
       <div class="flex justify-between items-center">
         <button
-          class="px-4 py-2 rounded-lg text-sm border border-(--color-border) disabled:opacity-30"
+          class="px-4 py-2 rounded-lg text-sm border border-(--color-border) disabled:opacity-30 cursor-pointer"
           :disabled="currentPhraseIdx === 0"
           @click="prev"
         >
@@ -195,14 +195,14 @@ function goBack() {
         </button>
         <button
           v-if="!isLastPhrase"
-          class="px-4 py-2 rounded-lg text-sm border border-(--color-border)"
+          class="px-4 py-2 rounded-lg text-sm border border-(--color-border) cursor-pointer"
           @click="next"
         >
           下一句 →
         </button>
         <button
           v-else
-          class="px-4 py-2 rounded-lg text-sm bg-(--color-success) text-white"
+          class="px-4 py-2 rounded-lg text-sm bg-(--color-success) text-white cursor-pointer"
           @click="finish"
         >
           完成 ✓

@@ -7,10 +7,12 @@
   --font-jp: "Noto Sans JP", "Noto Sans TC", sans-serif;
 
   --color-bg: #fafaf8;
+  --color-bg-end: #f0efe8;
   --color-text: #2c2c2c;
   --color-text-secondary: #6b6b6b;
-  --color-border: #e8e8e4;
-  --color-card: #ffffff;
+  --color-border: rgba(0, 0, 0, 0.08);
+  --color-card: rgba(255, 255, 255, 0.6);
+  --color-card-hover: rgba(255, 255, 255, 0.85);
 
   /* 場景主題色 */
   --color-dining: #e87461;
@@ -26,11 +28,13 @@
 
 /* Dark mode overrides */
 .dark {
-  --color-bg: #2a2a2e;
+  --color-bg: #1a1a2e;
+  --color-bg-end: #16213e;
   --color-text: #ededee;
   --color-text-secondary: #a0a0a6;
-  --color-border: #3e3e44;
-  --color-card: #35353a;
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-card: rgba(255, 255, 255, 0.07);
+  --color-card-hover: rgba(255, 255, 255, 0.13);
 
   --color-dining: #f08979;
   --color-accommodation: #82a8ba;
@@ -44,13 +48,65 @@
 
 body {
   font-family: var(--font-sans);
-  background-color: var(--color-bg);
+  font-size: 1.2em;
+  background: linear-gradient(135deg, var(--color-bg) 0%, var(--color-bg-end) 100%);
+  background-attachment: fixed;
   color: var(--color-text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition:
-    background-color 0.2s ease,
-    color 0.2s ease;
+    background 0.3s ease,
+    color 0.3s ease;
+}
+
+/* Glassmorphism base */
+.glass {
+  background: var(--color-card);
+  backdrop-filter: blur(16px) saturate(1.8);
+  -webkit-backdrop-filter: blur(16px) saturate(1.8);
+  border: 1px solid var(--color-border);
+  box-shadow:
+    0 2px 16px rgba(0, 0, 0, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.dark .glass {
+  box-shadow:
+    0 2px 20px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+/* Background decorative blobs */
+.bg-decor::before,
+.bg-decor::after {
+  content: "";
+  position: fixed;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.35;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.bg-decor::before {
+  width: 400px;
+  height: 400px;
+  top: -80px;
+  right: -100px;
+  background: var(--color-kana);
+}
+
+.bg-decor::after {
+  width: 350px;
+  height: 350px;
+  bottom: -60px;
+  left: -80px;
+  background: var(--color-transportation);
+}
+
+.dark .bg-decor::before,
+.dark .bg-decor::after {
+  opacity: 0.15;
 }
 
 /* Safe area for iPhone notch/dynamic island */

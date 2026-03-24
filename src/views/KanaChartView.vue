@@ -69,7 +69,7 @@ function proficiencyClass(kana: string): string {
   if (p === "mastered") return "bg-(--color-success)/15 text-(--color-success)";
   if (p === "needs_work")
     return "bg-(--color-warning)/15 text-(--color-warning)";
-  return "bg-gray-50 text-(--color-text)";
+  return "glass text-(--color-text)";
 }
 </script>
 
@@ -77,7 +77,7 @@ function proficiencyClass(kana: string): string {
   <div>
     <div class="flex items-center gap-2 mb-4">
       <button
-        class="text-(--color-text-secondary)"
+        class="text-(--color-text-secondary) cursor-pointer"
         @click="router.push('/kana')"
       >
         ← 返回
@@ -88,22 +88,22 @@ function proficiencyClass(kana: string): string {
     <!-- Toggle -->
     <div class="flex gap-2 mb-4">
       <button
-        class="flex-1 py-2 rounded-lg text-sm font-medium transition-colors"
+        class="flex-1 py-2 rounded-lg text-sm font-medium transition-colors cursor-pointer"
         :class="
           showType === 'hiragana'
             ? 'bg-(--color-kana) text-white'
-            : 'bg-gray-100'
+            : 'glass'
         "
         @click="showType = 'hiragana'"
       >
         平假名
       </button>
       <button
-        class="flex-1 py-2 rounded-lg text-sm font-medium transition-colors"
+        class="flex-1 py-2 rounded-lg text-sm font-medium transition-colors cursor-pointer"
         :class="
           showType === 'katakana'
             ? 'bg-(--color-kana) text-white'
-            : 'bg-gray-100'
+            : 'glass'
         "
         @click="showType = 'katakana'"
       >

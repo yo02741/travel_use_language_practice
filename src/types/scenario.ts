@@ -43,26 +43,34 @@ export interface ScenarioMeta {
   name: string;
   icon: string;
   color: string;
+  staffLabel: string;
+  staffIcon: string;
 }
 
 export const SCENARIOS: ScenarioMeta[] = [
-  { id: "dining", name: "點餐", icon: "🍜", color: "var(--color-dining)" },
+  { id: "dining", name: "點餐", icon: "🍜", color: "var(--color-dining)", staffLabel: "店員", staffIcon: "🧑‍💼" },
   {
     id: "accommodation",
     name: "住宿",
     icon: "🏨",
     color: "var(--color-accommodation)",
+    staffLabel: "櫃檯人員",
+    staffIcon: "🛎️",
   },
   {
     id: "shopping",
     name: "購物",
     icon: "🛍️",
     color: "var(--color-shopping)",
+    staffLabel: "店員",
+    staffIcon: "🧑‍💼",
   },
   {
     id: "transportation",
     name: "交通",
     icon: "🚃",
     color: "var(--color-transportation)",
+    staffLabel: "站務員",
+    staffIcon: "🧑‍✈️",
   },
 ];

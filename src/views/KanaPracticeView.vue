@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from "vue";
+import { ref, computed, onMounted, nextTick } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import { useProgressStore } from "@/stores/progress";
 import type { KanaEntry, KanaType } from "@/types/kana";
@@ -12,13 +12,13 @@ const kanaType = computed(() => route.params.type as KanaType);
 const entries = ref<KanaEntry[]>([]);
 const currentIdx = ref(0);
 const flipped = ref(false);
+const showDetail = ref(false);
 
 onMounted(async () => {
   const mod =
     kanaType.value === "hiragana"
       ? await import("@/data/kana/hiragana.json")
       : await import("@/data/kana/katakana.json");
-  // Prioritize "needs_work" entries, then "unlearned", then "mastered"
   entries.value = sortByProficiency(mod.default as KanaEntry[]);
 });
 
@@ -34,20 +34,29 @@ function sortByProficiency(list: KanaEntry[]): KanaEntry[] {
 const current = computed(() => entries.value[currentIdx.value]);
 
 function flip() {
-  flipped.value = !flipped.value;
+  if (flipped.value) return;
+  flipped.value = true;
+  showDetail.value = false;
+  // Wait for flip animation midpoint, then show detail
+  setTimeout(() => {
+    showDetail.value = true;
+  }, 350);
 }
 
 function markAndNext(level: "mastered" | "needs_work") {
   if (current.value) {
     progress.setKanaProficiency(current.value.kana, level);
   }
+  showDetail.value = false;
   flipped.value = false;
-  if (currentIdx.value < entries.value.length - 1) {
-    currentIdx.value++;
-  } else {
-    currentIdx.value = 0;
-    entries.value = sortByProficiency(entries.value);
-  }
+  nextTick(() => {
+    if (currentIdx.value < entries.value.length - 1) {
+      currentIdx.value++;
+    } else {
+      currentIdx.value = 0;
+      entries.value = sortByProficiency(entries.value);
+    }
+  });
 }
 </script>
 
@@ -55,7 +64,7 @@ function markAndNext(level: "mastered" | "needs_work") {
   <div>
     <div class="flex items-center gap-2 mb-4">
       <button
-        class="text-(--color-text-secondary)"
+        class="text-(--color-text-secondary) cursor-pointer"
         @click="router.push('/kana')"
       >
         ← 返回
@@ -69,40 +78,49 @@ function markAndNext(level: "mastered" | "needs_work") {
       {{ currentIdx + 1 }} / {{ entries.length }}
     </div>
 
-    <div v-if="current">
+    <div v-if="current" class="kana-card-scene">
+      <!-- Card with 3D flip -->
       <button
-        class="w-full rounded-2xl bg-(--color-card) border border-(--color-border) shadow-sm p-8 min-h-[280px] flex flex-col items-center justify-center transition-all duration-200 active:scale-95"
+        class="kana-card w-full rounded-2xl min-h-[280px] cursor-pointer active:scale-[0.97] transition-transform"
+        :class="{ 'is-flipped': flipped }"
         @click="flip"
       >
-        <!-- Front -->
-        <div v-if="!flipped" class="text-center">
+        <!-- Front face -->
+        <div class="kana-card__face kana-card__front glass rounded-2xl p-8 flex flex-col items-center justify-center">
           <div class="text-7xl font-(--font-jp) mb-4">{{ current.kana }}</div>
           <p class="text-sm text-(--color-text-secondary)">點擊翻轉查看答案</p>
         </div>
 
-        <!-- Back -->
-        <div v-else class="text-center">
-          <div class="text-5xl font-(--font-jp) mb-2">{{ current.kana }}</div>
-          <div class="text-3xl font-bold text-(--color-kana) mb-2">
-            {{ current.romaji }}
-          </div>
-          <div class="text-sm text-(--color-text-secondary)">
-            {{ current.row }}
-          </div>
+        <!-- Back face -->
+        <div class="kana-card__face kana-card__back glass rounded-2xl p-8 flex flex-col items-center justify-center">
+          <div class="text-5xl font-(--font-jp) mb-3">{{ current.kana }}</div>
+          <Transition name="detail-fade">
+            <div v-if="showDetail" class="text-center">
+              <div class="text-3xl font-bold text-(--color-kana) mb-1">
+                {{ current.romaji }}
+              </div>
+              <div class="text-sm text-(--color-text-secondary)">
+                {{ current.row }}
+              </div>
+            </div>
+          </Transition>
         </div>
       </button>
     </div>
 
-    <!-- Action buttons (show when flipped) -->
-    <div v-if="flipped" class="flex gap-3 mt-4">
+    <!-- Action buttons (always occupy space, fade in/out) -->
+    <div
+      class="flex gap-3 mt-4 transition-opacity duration-300"
+      :class="showDetail ? 'opacity-100' : 'opacity-0 pointer-events-none'"
+    >
       <button
-        class="flex-1 py-3 rounded-xl text-sm font-medium bg-(--color-warning)/10 text-(--color-warning) border border-(--color-warning)/20 active:scale-95 transition-transform"
+        class="flex-1 py-3 rounded-xl text-sm font-medium bg-(--color-warning)/10 text-(--color-warning) border border-(--color-warning)/20 active:scale-95 transition-transform cursor-pointer"
         @click="markAndNext('needs_work')"
       >
         😅 需加強
       </button>
       <button
-        class="flex-1 py-3 rounded-xl text-sm font-medium bg-(--color-success)/10 text-(--color-success) border border-(--color-success)/20 active:scale-95 transition-transform"
+        class="flex-1 py-3 rounded-xl text-sm font-medium bg-(--color-success)/10 text-(--color-success) border border-(--color-success)/20 active:scale-95 transition-transform cursor-pointer"
         @click="markAndNext('mastered')"
       >
         ✓ 已熟悉
@@ -110,3 +128,46 @@ function markAndNext(level: "mastered" | "needs_work") {
     </div>
   </div>
 </template>
+
+<style scoped>
+.kana-card-scene {
+  perspective: 800px;
+}
+
+.kana-card {
+  position: relative;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+}
+
+.kana-card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.kana-card__face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.kana-card__back {
+  transform: rotateY(180deg);
+}
+
+.detail-fade-enter-active {
+  transition: opacity 0.4s ease;
+}
+
+.detail-fade-leave-active {
+  transition: opacity 0.15s ease;
+}
+
+.detail-fade-enter-from {
+  opacity: 0;
+}
+
+.detail-fade-leave-to {
+  opacity: 0;
+}
+</style>

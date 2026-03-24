@@ -28,7 +28,7 @@ function pick(label: string, index: number) {
     <div v-for="slot in props.slots" :key="slot.label" class="relative">
       <!-- Slot label + current selection -->
       <button
-        class="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full border transition-colors"
+        class="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full border transition-colors cursor-pointer"
         :class="
           expandedSlot === slot.label
             ? 'border-blue-300 bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300 dark:border-blue-700'
@@ -48,12 +48,12 @@ function pick(label: string, index: number) {
       <!-- Options dropdown (absolute overlay) -->
       <div
         v-if="expandedSlot === slot.label"
-        class="absolute left-0 bottom-full mb-1.5 z-20 w-64 max-h-60 overflow-y-auto rounded-xl border border-(--color-border) bg-(--color-card) shadow-lg"
+        class="absolute left-0 bottom-full mb-1.5 z-20 w-64 max-h-60 overflow-y-auto rounded-xl border border-(--color-border) shadow-lg backdrop-blur-xl bg-white/95 dark:bg-gray-900/95"
       >
         <button
           v-for="(opt, idx) in slot.options"
           :key="idx"
-          class="w-full text-left px-3 py-2.5 border-b border-(--color-border) last:border-b-0 transition-colors"
+          class="w-full text-left px-3 py-2.5 border-b border-(--color-border) last:border-b-0 transition-colors cursor-pointer"
           :class="
             (props.selections[slot.label] ?? 0) === idx
               ? 'bg-blue-50 dark:bg-blue-900/30'

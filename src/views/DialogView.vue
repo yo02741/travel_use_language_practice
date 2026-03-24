@@ -59,7 +59,7 @@ function goNext() {
 <template>
   <div v-if="conversation">
     <div class="flex items-center gap-2 mb-4">
-      <button class="text-(--color-text-secondary)" @click="goBack">
+      <button class="text-(--color-text-secondary) cursor-pointer" @click="goBack">
         ← 返回
       </button>
       <span class="text-sm text-(--color-text-secondary)">
@@ -84,7 +84,7 @@ function goNext() {
         >
           <!-- Speaker label -->
           <div class="text-xs mb-1 opacity-60">
-            {{ phrase.speaker === "you" ? "🙋 你" : "🧑‍💼 店員" }}
+            {{ phrase.speaker === "you" ? "🙋 你" : `${scenario?.staffIcon} ${scenario?.staffLabel}` }}
           </div>
 
           <!-- Staff phrases always visible -->
@@ -117,7 +117,7 @@ function goNext() {
             </div>
             <button
               v-else
-              class="w-full text-center py-3 text-sm text-blue-500 font-medium"
+              class="w-full text-center py-3 text-sm text-blue-500 font-medium cursor-pointer"
               @click="reveal(idx)"
             >
               👆 點擊查看你的回答
@@ -130,7 +130,7 @@ function goNext() {
     <!-- Completion -->
     <div
       v-if="completed"
-      class="rounded-2xl bg-(--color-success)/5 border border-(--color-success)/20 p-5 text-center"
+      class="rounded-2xl glass p-5 text-center border border-(--color-success)/20"
     >
       <div class="text-2xl mb-2">🎉</div>
       <div class="font-bold text-lg mb-1">完成！</div>
@@ -139,14 +139,14 @@ function goNext() {
       </p>
       <div class="flex gap-3 justify-center">
         <button
-          class="px-4 py-2 rounded-lg text-sm border border-(--color-border)"
+          class="px-4 py-2 rounded-lg text-sm border border-(--color-border) cursor-pointer"
           @click="goBack"
         >
           回到列表
         </button>
         <button
           v-if="convIndex < conversations.length - 1"
-          class="px-4 py-2 rounded-lg text-sm bg-(--color-success) text-white"
+          class="px-4 py-2 rounded-lg text-sm bg-(--color-success) text-white cursor-pointer"
           @click="goNext"
         >
           下一組 →
